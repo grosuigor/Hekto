@@ -2,18 +2,18 @@
 
 ## Type
 
-- [ ] `feat` — новая функциональность
-- [ ] `fix` — исправление бага
-- [ ] `refactor` — рефакторинг
-- [ ] `chore` — инфраструктура / зависимости
-- [ ] `docs` — документация
+- [ ] `feat` — new feature
+- [ ] `fix` — bugfix
+- [ ] `refactor` — refactoring
+- [ ] `chore` — infrastructure / dependencies
+- [ ] `docs` — documentation
 
 ## Scope
 
 - [ ] Frontend
 - [ ] Backend
 - [ ] CI / GitHub
-- [ ] Другое: 
+- [ ] Other: 
 
 ## Screenshots / recordings
 

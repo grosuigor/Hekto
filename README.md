@@ -65,7 +65,7 @@ Hekto/
 
 ## Git workflow
 
-### Ветки
+### Branches
 
 | Prefix       | Meaning.                            | Example                   |
 |--------------|-------------------------------------|---------------------------|
@@ -107,7 +107,7 @@ docs: add repository readme and pr template
 
 ### Folders
 
-| Область        | Style          | Example                         |
+| Domain         | Style          | Example                         |
 |----------------|----------------|---------------------------------|
 | Pages.         | `camelCase`    | `productList/`, `notFound/`     |
 | Page sections  | `camelCase`    | `uniqueFeatures/`, `latest/`    |
