@@ -1,0 +1,4498 @@
+{
+	"filters": [
+		{
+			"name": "brand",
+			"type": "multi-select",
+			"label": "Product Brand",
+			"values": [
+				"Apple",
+				"Samsung",
+				"Sony",
+				"Bose",
+				"HP",
+				"Dell",
+				"Nest",
+				"Ring",
+				"Fitbit",
+				"Garmin",
+				"Canon",
+				"Nikon",
+				"IKEA",
+				"West Elm",
+				"Crate & Barrel",
+				"Herman Miller",
+				"Ashley Furniture"
+			]
+		},
+		{
+			"name": "discountPercentage",
+			"type": "range",
+			"label": "Discount Offer",
+			"values": {
+				"min": 0,
+				"max": 50
+			}
+		},
+		{
+			"name": "rating",
+			"type": "range",
+			"label": "Rating",
+			"values": {
+				"min": 0,
+				"max": 5
+			}
+		},
+		{
+			"name": "category",
+			"type": "multi-select",
+			"label": "Categories",
+			"values": [
+				"Smart Home Devices",
+				"Mobile Phones",
+				"Wearable Technology",
+				"Tablets",
+				"Audio Equipment",
+				"Gaming Consoles",
+				"Laptops",
+				"Home Security Systems",
+				"Electronic Personal Care Devices",
+				"Cameras and Photography Equipment",
+				"Living Room Furniture",
+				"Bedroom Furniture",
+				"Storage Solutions",
+				"Kitchen and Bar Furniture",
+				"Outdoor Furniture",
+				"Dining Room Furniture",
+				"Home Office Furniture",
+				"Accent Furniture",
+				"Kids' Furniture"
+			]
+		},
+		{
+			"name": "price",
+			"type": "range",
+			"label": "Price",
+			"values": {
+				"min": 0,
+				"max": 6500
+			}
+		},
+		{
+			"name": "colors",
+			"type": "multi-select",
+			"label": "Colors",
+			"values": [
+				"red",
+				"orange",
+				"yellow",
+				"green",
+				"blue",
+				"purple",
+				"pink",
+				"brown",
+				"black",
+				"white",
+				"gray",
+				"silver",
+				"gold",
+				"teal",
+				"coral",
+				"salmon",
+				"hotpink",
+				"lime",
+				"indigo",
+				"tomato",
+				"orangered",
+				"palevioletred",
+				"seagreen",
+				"wheat",
+				"aqua",
+				"dodgerblue",
+				"deeppink",
+				"chartreuse",
+				"fuchsia",
+				"darkorange",
+				"lemonchiffon",
+				"paleturquoise",
+				"mediumorchid",
+				"papayawhip",
+				"palegreen",
+				"fuchsia",
+				"mediumvioletred",
+				"plum",
+				"darkorange",
+				"mediumspringgreen",
+				"maroon",
+				"greenyellow"
+			]
+		}
+	],
+	"products": [
+		{
+			"id": "339336d2-0b5c-490b-9014-c9f3c52e6d6f",
+			"name": "Smart Speaker",
+			"brand": "Apple",
+			"category": "Smart Home Devices",
+			"price": 199.99,
+			"wasPrice": 249.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 20,
+			"description": "aliquip excepteur non minim adipisicing fugiat qui ullamco",
+			"rating": {
+				"value": 3.38,
+				"votedCount": 729
+			},
+			"createdAt": "2023-05-22T06:23:24.082Z",
+			"specialOffer": null,
+			"colors": ["salmon", "white", "brown", "aqua"],
+			"soldTimes": 1984,
+			"code": "0B5C-490B",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Speaker",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Speaker 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Speaker 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Speaker 3"
+			]
+		},
+		{
+			"id": "c242a4b3-b21d-48f6-b2f6-ffe156b0f107",
+			"name": "iPhone 12",
+			"brand": "Apple",
+			"category": "Mobile Phones",
+			"price": 899.99,
+			"wasPrice": 999.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 10,
+			"description": "dolore magna labore exercitation Lorem qui officia pariatur velit ullamco eiusmod labore",
+			"rating": {
+				"value": 3.21,
+				"votedCount": 756
+			},
+			"createdAt": "2023-01-13T06:36:21.973Z",
+			"specialOffer": {
+				"startDate": "2023-01-09T06:47:50.730Z",
+				"endDate": "2023-05-07T03:24:25.926Z",
+				"price": 826.99
+			},
+			"colors": ["mediumvioletred", "salmon", "orange"],
+			"soldTimes": 354,
+			"code": "B21D-48F6",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 12",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 12 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 12 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 12 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 12 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 12 5"
+			]
+		},
+		{
+			"id": "90680563-0ed2-4dca-a10f-4cd20a34bb18",
+			"name": "Apple Watch Series 6",
+			"brand": "Apple",
+			"category": "Wearable Technology",
+			"price": 349.99,
+			"wasPrice": 399.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 12.5,
+			"description": "id excepteur mollit do aute eu ex eu pariatur et velit culpa in commodo in aliquip qui",
+			"rating": {
+				"value": 3.51,
+				"votedCount": 534
+			},
+			"createdAt": "2023-01-29T16:28:11.466Z",
+			"specialOffer": {
+				"startDate": "2023-01-26T22:04:55.982Z",
+				"endDate": "2023-03-19T10:28:19.285Z",
+				"price": 252.99
+			},
+			"colors": ["orangered", "aqua", "mediumvioletred", "white"],
+			"soldTimes": 1379,
+			"code": "0ED2-4DCA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Apple Watch Series 6",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Apple Watch Series 6 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Apple Watch Series 6 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Apple Watch Series 6 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Apple Watch Series 6 4"
+			]
+		},
+		{
+			"id": "ba1a2872-a9da-4379-8b4b-d5d537c514e3",
+			"name": "iPad Pro",
+			"brand": "Apple",
+			"category": "Tablets",
+			"price": 799.99,
+			"wasPrice": 849.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 5.88,
+			"description": "tempor do amet officia enim amet esse ullamco eu",
+			"rating": {
+				"value": 3.56,
+				"votedCount": 1347
+			},
+			"createdAt": "2023-05-30T01:55:51.964Z",
+			"specialOffer": null,
+			"colors": ["black", "palegreen", "aqua"],
+			"soldTimes": 269,
+			"code": "A9DA-4379",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Pro",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Pro 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Pro 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Pro 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Pro 4"
+			]
+		},
+		{
+			"id": "811d5222-c6e9-40d8-a7bf-eb05f1dcbc50",
+			"name": "HomePod Mini",
+			"brand": "Apple",
+			"category": "Smart Home Devices",
+			"price": 99.99,
+			"wasPrice": 129.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 23.08,
+			"description": "ullamco eu quis ad sunt id nisi veniam nisi",
+			"rating": {
+				"value": 4.43,
+				"votedCount": 1696
+			},
+			"createdAt": "2023-02-17T08:27:45.705Z",
+			"specialOffer": null,
+			"colors": ["brown", "teal", "mediumspringgreen"],
+			"soldTimes": 1162,
+			"code": "C6E9-40D8",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HomePod Mini",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HomePod Mini 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HomePod Mini 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HomePod Mini 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HomePod Mini 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HomePod Mini 5"
+			]
+		},
+		{
+			"id": "8d734401-cdcb-4011-b3d5-2b8590fe55d5",
+			"name": "iPhone SE",
+			"brand": "Apple",
+			"category": "Mobile Phones",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 6.67,
+			"description": "fugiat sint ut commodo consequat cupidatat sint eu quis nostrud esse Lorem",
+			"rating": {
+				"value": 2.81,
+				"votedCount": 944
+			},
+			"createdAt": "2023-02-01T05:35:43.527Z",
+			"specialOffer": null,
+			"colors": ["coral", "gray", "pink"],
+			"soldTimes": 1966,
+			"code": "CDCB-4011",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone SE",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone SE 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone SE 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone SE 3"
+			]
+		},
+		{
+			"id": "77546592-6fea-409a-85ed-9c0e8542f316",
+			"name": "AirPods Pro",
+			"brand": "Apple",
+			"category": "Wearable Technology",
+			"price": 249.99,
+			"wasPrice": 279.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 10.71,
+			"description": "amet et elit ut dolor cupidatat laborum proident",
+			"rating": {
+				"value": 1.86,
+				"votedCount": 21
+			},
+			"createdAt": "2023-04-05T06:56:17.507Z",
+			"specialOffer": {
+				"startDate": "2023-02-22T17:30:05.488Z",
+				"endDate": "2023-04-17T21:08:34.339Z",
+				"price": 172.99
+			},
+			"colors": ["mediumorchid", "indigo", "gold", "coral"],
+			"soldTimes": 1644,
+			"code": "6FEA-409A",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=AirPods Pro",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=AirPods Pro 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=AirPods Pro 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=AirPods Pro 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=AirPods Pro 4"
+			]
+		},
+		{
+			"id": "852d8a00-ca62-49bc-8bec-fcebb85be282",
+			"name": "iPad Air",
+			"brand": "Apple",
+			"category": "Tablets",
+			"price": 599.99,
+			"wasPrice": 649.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 7.69,
+			"description": "commodo sunt enim adipisicing sint veniam nisi culpa minim duis minim culpa fugiat minim nostrud",
+			"rating": {
+				"value": 1.72,
+				"votedCount": 1775
+			},
+			"createdAt": "2023-03-11T05:17:29.112Z",
+			"specialOffer": null,
+			"colors": ["darkorange", "red", "yellow"],
+			"soldTimes": 1406,
+			"code": "CA62-49BC",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Air",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Air 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Air 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Air 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPad Air 4"
+			]
+		},
+		{
+			"id": "e80b22ad-8099-402d-a263-cfbf45c1c98f",
+			"name": "Smart Light Bulb",
+			"brand": "Apple",
+			"category": "Smart Home Devices",
+			"price": 49.99,
+			"wasPrice": 59.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "cupidatat cillum occaecat in elit enim laboris incididunt amet do minim ullamco",
+			"rating": {
+				"value": 3.55,
+				"votedCount": 21
+			},
+			"createdAt": "2023-03-26T19:13:12.778Z",
+			"specialOffer": null,
+			"colors": ["darkorange", "hotpink", "teal"],
+			"soldTimes": 430,
+			"code": "8099-402D",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Light Bulb",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Light Bulb 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Light Bulb 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Light Bulb 3"
+			]
+		},
+		{
+			"id": "217cc600-a050-49bc-8f4c-e1045b0f8069",
+			"name": "iPhone 13 Pro",
+			"brand": "Apple",
+			"category": "Mobile Phones",
+			"price": 1099.99,
+			"wasPrice": 1199.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 8.33,
+			"description": "labore dolore adipisicing labore ad excepteur ut dolore reprehenderit excepteur eiusmod eiusmod",
+			"rating": {
+				"value": 2.89,
+				"votedCount": 1623
+			},
+			"createdAt": "2023-04-20T23:07:30.583Z",
+			"specialOffer": null,
+			"colors": ["chartreuse", "gray", "paleturquoise", "darkorange"],
+			"soldTimes": 1240,
+			"code": "A050-49BC",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 13 Pro",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 13 Pro 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 13 Pro 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 13 Pro 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=iPhone 13 Pro 4"
+			]
+		},
+		{
+			"id": "013e9fd9-998f-46bc-a172-80c20c9b1579",
+			"name": "Galaxy S21",
+			"brand": "Samsung",
+			"category": "Mobile Phones",
+			"price": 799.99,
+			"wasPrice": 899.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "voluptate nulla cillum consectetur incididunt deserunt excepteur dolor officia velit in aute culpa aliqua exercitation",
+			"rating": {
+				"value": 1.15,
+				"votedCount": 469
+			},
+			"createdAt": "2023-01-06T01:39:22.852Z",
+			"specialOffer": {
+				"startDate": "2023-02-19T15:50:34.373Z",
+				"endDate": "2023-05-23T09:44:08.909Z",
+				"price": 706.99
+			},
+			"colors": ["purple", "salmon", "papayawhip"],
+			"soldTimes": 1170,
+			"code": "998F-46BC",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S21",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S21 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S21 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S21 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S21 4"
+			]
+		},
+		{
+			"id": "53b48e88-fab8-454a-a354-4dffeaf74c4e",
+			"name": "Smart Refrigerator",
+			"brand": "Samsung",
+			"category": "Smart Home Devices",
+			"price": 1999.99,
+			"wasPrice": 2199.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 9.09,
+			"description": "sint dolor incididunt quis excepteur proident occaecat commodo Lorem quis laborum cillum",
+			"rating": {
+				"value": 4.76,
+				"votedCount": 100
+			},
+			"createdAt": "2023-05-21T11:35:14.396Z",
+			"specialOffer": null,
+			"colors": ["chartreuse", "fuchsia", "gray"],
+			"soldTimes": 478,
+			"code": "FAB8-454A",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Refrigerator",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Refrigerator 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Refrigerator 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Refrigerator 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Refrigerator 4"
+			]
+		},
+		{
+			"id": "8d57a8fa-b148-4f95-84d0-6e0769484c82",
+			"name": "Galaxy Tab S7",
+			"brand": "Samsung",
+			"category": "Tablets",
+			"price": 649.99,
+			"wasPrice": 699.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 7.14,
+			"description": "nulla ullamco ad sit commodo sint fugiat occaecat do",
+			"rating": {
+				"value": 1.76,
+				"votedCount": 200
+			},
+			"createdAt": "2023-05-19T10:17:26.503Z",
+			"specialOffer": {
+				"startDate": "2023-02-02T00:08:42.396Z",
+				"endDate": "2023-03-09T08:40:42.957Z",
+				"price": 556.99
+			},
+			"colors": ["mediumvioletred", "paleturquoise", "mediumspringgreen"],
+			"soldTimes": 538,
+			"code": "B148-4F95",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S7",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S7 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S7 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S7 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S7 4"
+			]
+		},
+		{
+			"id": "b60cfe70-09c7-4842-b79a-a0bf8a8f5e39",
+			"name": "Galaxy Note 20",
+			"brand": "Samsung",
+			"category": "Mobile Phones",
+			"price": 899.99,
+			"wasPrice": 999.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 10,
+			"description": "eiusmod et ut sunt reprehenderit labore quis laborum mollit",
+			"rating": {
+				"value": 3.84,
+				"votedCount": 1636
+			},
+			"createdAt": "2023-02-08T07:39:19.809Z",
+			"specialOffer": {
+				"startDate": "2023-02-15T15:46:34.080Z",
+				"endDate": "2023-04-29T16:59:12.041Z",
+				"price": 810.99
+			},
+			"colors": ["salmon", "greenyellow", "tomato"],
+			"soldTimes": 25,
+			"code": "09C7-4842",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Note 20",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Note 20 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Note 20 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Note 20 3"
+			]
+		},
+		{
+			"id": "e6d7adf4-667c-441d-a620-26a250ef36cb",
+			"name": "Smart Washing Machine",
+			"brand": "Samsung",
+			"category": "Smart Home Devices",
+			"price": 1299.99,
+			"wasPrice": 1499.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 13.33,
+			"description": "sit voluptate laborum ipsum tempor do ea cillum consectetur",
+			"rating": {
+				"value": 3.18,
+				"votedCount": 1617
+			},
+			"createdAt": "2023-01-21T13:13:09.185Z",
+			"specialOffer": null,
+			"colors": ["green", "salmon", "white"],
+			"soldTimes": 1312,
+			"code": "667C-441D",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Washing Machine",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Washing Machine 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Washing Machine 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Washing Machine 3"
+			]
+		},
+		{
+			"id": "e287c31a-b2ef-494e-b032-c1a2bd0dab09",
+			"name": "Galaxy Tab A7",
+			"brand": "Samsung",
+			"category": "Tablets",
+			"price": 249.99,
+			"wasPrice": 279.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 10.71,
+			"description": "ex aliquip labore commodo irure est incididunt exercitation ea labore occaecat laborum dolore ut adipisicing dolor cillum",
+			"rating": {
+				"value": 2.54,
+				"votedCount": 858
+			},
+			"createdAt": "2023-04-14T10:39:33.007Z",
+			"specialOffer": {
+				"startDate": "2023-01-27T01:35:05.214Z",
+				"endDate": "2023-05-26T08:08:00.541Z",
+				"price": 170.99
+			},
+			"colors": ["darkorange", "pink", "mediumorchid"],
+			"soldTimes": 233,
+			"code": "B2EF-494E",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab A7",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab A7 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab A7 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab A7 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab A7 4"
+			]
+		},
+		{
+			"id": "44b7bd77-fa8e-4631-913f-2955791bbda5",
+			"name": "Galaxy S20 FE",
+			"brand": "Samsung",
+			"category": "Mobile Phones",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 6.67,
+			"description": "anim amet magna amet et mollit esse esse",
+			"rating": {
+				"value": 3.52,
+				"votedCount": 1929
+			},
+			"createdAt": "2023-01-20T07:25:48.405Z",
+			"specialOffer": null,
+			"colors": ["darkorange", "red", "hotpink", "white"],
+			"soldTimes": 224,
+			"code": "FA8E-4631",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S20 FE",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S20 FE 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S20 FE 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S20 FE 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy S20 FE 4"
+			]
+		},
+		{
+			"id": "74f6d832-aec5-4da8-a98c-73ee652452e9",
+			"name": "Smart Vacuum Cleaner",
+			"brand": "Samsung",
+			"category": "Smart Home Devices",
+			"price": 349.99,
+			"wasPrice": 399.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 12.5,
+			"description": "velit aute sunt deserunt consectetur est eu magna magna Lorem nisi ullamco id nisi ea",
+			"rating": {
+				"value": 3.17,
+				"votedCount": 925
+			},
+			"createdAt": "2023-03-23T08:11:46.062Z",
+			"specialOffer": {
+				"startDate": "2023-01-13T10:47:58.281Z",
+				"endDate": "2023-03-12T22:11:59.776Z",
+				"price": 270.99
+			},
+			"colors": ["mediumspringgreen", "plum", "hotpink"],
+			"soldTimes": 1421,
+			"code": "AEC5-4DA8",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Vacuum Cleaner",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Vacuum Cleaner 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Vacuum Cleaner 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Vacuum Cleaner 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Vacuum Cleaner 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Smart Vacuum Cleaner 5"
+			]
+		},
+		{
+			"id": "6e3c9bf7-d024-4dd7-a41a-2b796288e27c",
+			"name": "Galaxy Tab S6",
+			"brand": "Samsung",
+			"category": "Tablets",
+			"price": 549.99,
+			"wasPrice": 599.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 8.33,
+			"description": "dolor irure esse sunt sunt anim qui velit sunt est duis laborum labore aute ea laboris ullamco",
+			"rating": {
+				"value": 1.87,
+				"votedCount": 278
+			},
+			"createdAt": "2023-02-05T22:21:30.886Z",
+			"specialOffer": null,
+			"colors": ["seagreen", "greenyellow", "palegreen"],
+			"soldTimes": 1411,
+			"code": "D024-4DD7",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S6",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S6 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S6 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S6 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S6 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Tab S6 5"
+			]
+		},
+		{
+			"id": "fcab517c-2160-4782-9371-1828c9c43137",
+			"name": "Galaxy Z Flip",
+			"brand": "Samsung",
+			"category": "Mobile Phones",
+			"price": 1099.99,
+			"wasPrice": 1199.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 8.33,
+			"description": "ad et do mollit excepteur do dolore proident quis",
+			"rating": {
+				"value": 1.63,
+				"votedCount": 1130
+			},
+			"createdAt": "2023-01-31T11:48:13.237Z",
+			"specialOffer": {
+				"startDate": "2023-02-14T23:50:37.452Z",
+				"endDate": "2023-05-18T14:55:09.857Z",
+				"price": 1005.99
+			},
+			"colors": ["chartreuse", "plum", "tomato"],
+			"soldTimes": 1255,
+			"code": "2160-4782",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Z Flip",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Z Flip 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Z Flip 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Z Flip 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Z Flip 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Galaxy Z Flip 5"
+			]
+		},
+		{
+			"id": "3fbf174f-0241-4e57-a4d8-65f4338b376f",
+			"name": "Wireless Noise-Canceling Headphones",
+			"brand": "Sony",
+			"category": "Audio Equipment",
+			"price": 299.99,
+			"wasPrice": 349.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 14.29,
+			"description": "laborum velit duis aliquip aute exercitation ea mollit",
+			"rating": {
+				"value": 3.53,
+				"votedCount": 894
+			},
+			"createdAt": "2023-05-17T09:35:02.628Z",
+			"specialOffer": null,
+			"colors": ["mediumspringgreen", "silver", "deeppink"],
+			"soldTimes": 1573,
+			"code": "0241-4E57",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Wireless Noise-Canceling Headphones",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Wireless Noise-Canceling Headphones 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Wireless Noise-Canceling Headphones 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Wireless Noise-Canceling Headphones 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Wireless Noise-Canceling Headphones 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Wireless Noise-Canceling Headphones 5"
+			]
+		},
+		{
+			"id": "09f1d445-bb6d-49f1-8d85-78ec83dcd5fa",
+			"name": "XB900N Wireless Extra Bass Headphones",
+			"brand": "Sony",
+			"category": "Audio Equipment",
+			"price": 199.99,
+			"wasPrice": 229.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 13.04,
+			"description": "irure excepteur do cillum non Lorem laboris ullamco labore veniam fugiat fugiat velit minim culpa nulla exercitation",
+			"rating": {
+				"value": 1.84,
+				"votedCount": 971
+			},
+			"createdAt": "2023-04-14T11:42:10.091Z",
+			"specialOffer": {
+				"startDate": "2023-02-27T19:27:21.255Z",
+				"endDate": "2023-05-19T02:57:52.866Z",
+				"price": 135.99
+			},
+			"colors": ["deeppink", "paleturquoise", "gold"],
+			"soldTimes": 522,
+			"code": "BB6D-49F1",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=XB900N Wireless Extra Bass Headphones",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=XB900N Wireless Extra Bass Headphones 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=XB900N Wireless Extra Bass Headphones 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=XB900N Wireless Extra Bass Headphones 3"
+			]
+		},
+		{
+			"id": "8cce691b-b621-4dc7-9247-576e5b1e1ac5",
+			"name": "WH-1000XM4 Wireless Noise-Canceling Headphones",
+			"brand": "Sony",
+			"category": "Audio Equipment",
+			"price": 349.99,
+			"wasPrice": 399.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 12.5,
+			"description": "ex id magna aliquip aliquip voluptate mollit enim",
+			"rating": {
+				"value": 4.39,
+				"votedCount": 1351
+			},
+			"createdAt": "2023-03-17T03:22:50.323Z",
+			"specialOffer": {
+				"startDate": "2023-02-23T01:44:45.072Z",
+				"endDate": "2023-03-31T06:56:55.843Z",
+				"price": 252.99
+			},
+			"colors": ["indigo", "paleturquoise", "fuchsia", "maroon"],
+			"soldTimes": 1726,
+			"code": "B621-4DC7",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-1000XM4 Wireless Noise-Canceling Headphones",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-1000XM4 Wireless Noise-Canceling Headphones 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-1000XM4 Wireless Noise-Canceling Headphones 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-1000XM4 Wireless Noise-Canceling Headphones 3"
+			]
+		},
+		{
+			"id": "0d4f8145-2f24-407c-bb48-f391fe1e7851",
+			"name": "PlayStation 5",
+			"brand": "Sony",
+			"category": "Gaming Consoles",
+			"price": 499.99,
+			"wasPrice": 549.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "et exercitation qui proident Lorem est consequat elit nulla pariatur labore nostrud minim elit consectetur deserunt quis",
+			"rating": {
+				"value": 4.24,
+				"votedCount": 1828
+			},
+			"createdAt": "2023-04-28T10:28:02.965Z",
+			"specialOffer": {
+				"startDate": "2023-01-07T22:22:26.011Z",
+				"endDate": "2023-05-08T16:55:55.318Z",
+				"price": 431.99
+			},
+			"colors": ["mediumvioletred", "hotpink", "gold", "greenyellow"],
+			"soldTimes": 980,
+			"code": "2F24-407C",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 5"
+			]
+		},
+		{
+			"id": "4bff5339-e396-4b01-bd0b-c112a1e1abde",
+			"name": "PlayStation 4 Pro",
+			"brand": "Sony",
+			"category": "Gaming Consoles",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "dolor deserunt consectetur nisi quis laborum magna aute",
+			"rating": {
+				"value": 1.53,
+				"votedCount": 1166
+			},
+			"createdAt": "2023-01-11T23:07:43.062Z",
+			"specialOffer": null,
+			"colors": ["yellow", "seagreen", "orangered"],
+			"soldTimes": 1654,
+			"code": "E396-4B01",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Pro",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Pro 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Pro 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Pro 3"
+			]
+		},
+		{
+			"id": "89d0c86e-52a6-4061-9626-e4a3b7596f6e",
+			"name": "WH-CH710N Wireless Noise-Canceling Headphones",
+			"brand": "Sony",
+			"category": "Audio Equipment",
+			"price": 149.99,
+			"wasPrice": 179.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "proident officia culpa pariatur pariatur esse sit eu officia commodo",
+			"rating": {
+				"value": 4.75,
+				"votedCount": 1586
+			},
+			"createdAt": "2023-05-15T05:44:48.114Z",
+			"specialOffer": {
+				"startDate": "2023-02-09T02:32:05.700Z",
+				"endDate": "2023-03-20T08:16:22.587Z",
+				"price": 64.99
+			},
+			"colors": ["mediumvioletred", "papayawhip", "coral"],
+			"soldTimes": 1205,
+			"code": "52A6-4061",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-CH710N Wireless Noise-Canceling Headphones",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-CH710N Wireless Noise-Canceling Headphones 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-CH710N Wireless Noise-Canceling Headphones 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-CH710N Wireless Noise-Canceling Headphones 3"
+			]
+		},
+		{
+			"id": "8ad7a20f-8a0e-4333-bbbf-68f212edd361",
+			"name": "WH-XB900N Wireless Extra Bass Headphones",
+			"brand": "Sony",
+			"category": "Audio Equipment",
+			"price": 229.99,
+			"wasPrice": 279.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 17.86,
+			"description": "sint aute esse sunt deserunt reprehenderit incididunt qui est ea consectetur amet aliquip Lorem elit",
+			"rating": {
+				"value": 4.99,
+				"votedCount": 1531
+			},
+			"createdAt": "2023-02-25T02:44:05.969Z",
+			"specialOffer": null,
+			"colors": ["black", "red", "paleturquoise"],
+			"soldTimes": 278,
+			"code": "8A0E-4333",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-XB900N Wireless Extra Bass Headphones",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-XB900N Wireless Extra Bass Headphones 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-XB900N Wireless Extra Bass Headphones 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-XB900N Wireless Extra Bass Headphones 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=WH-XB900N Wireless Extra Bass Headphones 4"
+			]
+		},
+		{
+			"id": "c13528da-0370-43b2-b650-e7cee200de51",
+			"name": "PlayStation 5 Digital Edition",
+			"brand": "Sony",
+			"category": "Gaming Consoles",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 11.11,
+			"description": "ad ut ea esse adipisicing est ullamco nisi reprehenderit est amet incididunt",
+			"rating": {
+				"value": 2.12,
+				"votedCount": 18
+			},
+			"createdAt": "2023-03-16T00:16:35.376Z",
+			"specialOffer": {
+				"startDate": "2023-02-13T17:50:03.648Z",
+				"endDate": "2023-03-18T18:45:58.419Z",
+				"price": 300.99
+			},
+			"colors": ["dodgerblue", "maroon", "red"],
+			"soldTimes": 1943,
+			"code": "0370-43B2",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 Digital Edition",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 Digital Edition 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 Digital Edition 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 Digital Edition 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 5 Digital Edition 4"
+			]
+		},
+		{
+			"id": "a1431056-8eec-4299-84af-f0502f8b662b",
+			"name": "SRS-XB43 Portable Bluetooth Speaker",
+			"brand": "Sony",
+			"category": "Audio Equipment",
+			"price": 249.99,
+			"wasPrice": 299.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "est ad non ullamco do labore minim ex consequat nostrud pariatur pariatur aute aliquip nulla",
+			"rating": {
+				"value": 2.41,
+				"votedCount": 438
+			},
+			"createdAt": "2023-05-17T20:16:54.090Z",
+			"specialOffer": null,
+			"colors": ["deeppink", "mediumorchid", "greenyellow", "silver"],
+			"soldTimes": 1086,
+			"code": "8EEC-4299",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=SRS-XB43 Portable Bluetooth Speaker",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=SRS-XB43 Portable Bluetooth Speaker 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=SRS-XB43 Portable Bluetooth Speaker 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=SRS-XB43 Portable Bluetooth Speaker 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=SRS-XB43 Portable Bluetooth Speaker 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=SRS-XB43 Portable Bluetooth Speaker 5"
+			]
+		},
+		{
+			"id": "c157d985-b8cb-4477-b85b-a46ce0ea58fb",
+			"name": "PlayStation 4 Slim",
+			"brand": "Sony",
+			"category": "Gaming Consoles",
+			"price": 299.99,
+			"wasPrice": 349.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 14.29,
+			"description": "minim qui tempor qui consequat labore consequat nisi",
+			"rating": {
+				"value": 2.28,
+				"votedCount": 411
+			},
+			"createdAt": "2023-03-19T03:41:31.437Z",
+			"specialOffer": {
+				"startDate": "2023-01-11T20:46:17.084Z",
+				"endDate": "2023-04-14T15:20:41.253Z",
+				"price": 213.99
+			},
+			"colors": ["yellow", "indigo", "purple"],
+			"soldTimes": 1483,
+			"code": "B8CB-4477",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Slim",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Slim 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Slim 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Slim 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Slim 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=PlayStation 4 Slim 5"
+			]
+		},
+		{
+			"id": "422bf5ac-b5e0-4a6f-880d-12427c6c2a4e",
+			"name": "Bose SoundLink Revolve+",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 249.99,
+			"wasPrice": 299.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "fugiat et ad magna ea voluptate id anim enim aute Lorem id consequat minim proident fugiat deserunt",
+			"rating": {
+				"value": 1.81,
+				"votedCount": 1083
+			},
+			"createdAt": "2023-01-01T11:30:36.634Z",
+			"specialOffer": {
+				"startDate": "2023-02-13T11:17:24.461Z",
+				"endDate": "2023-04-20T00:27:07.666Z",
+				"price": 163.99
+			},
+			"colors": ["black", "mediumspringgreen", "lemonchiffon"],
+			"soldTimes": 1141,
+			"code": "B5E0-4A6F",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Revolve+",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Revolve+ 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Revolve+ 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Revolve+ 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Revolve+ 4"
+			]
+		},
+		{
+			"id": "7064d320-e3a4-4d39-92b1-3362c4ed6bfb",
+			"name": "Bose QuietComfort 35 II",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 329.99,
+			"wasPrice": 349.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 5.71,
+			"description": "eu do nulla aliqua ut esse ipsum sint ullamco ut deserunt enim labore cillum est",
+			"rating": {
+				"value": 4.41,
+				"votedCount": 1077
+			},
+			"createdAt": "2023-05-10T03:18:26.460Z",
+			"specialOffer": null,
+			"colors": ["lemonchiffon", "lime", "teal"],
+			"soldTimes": 602,
+			"code": "E3A4-4D39",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietComfort 35 II",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietComfort 35 II 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietComfort 35 II 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietComfort 35 II 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietComfort 35 II 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietComfort 35 II 5"
+			]
+		},
+		{
+			"id": "3a968847-de40-41f8-8156-25a62f516faa",
+			"name": "Bose SoundSport Free",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 199.99,
+			"wasPrice": 219.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "labore magna exercitation commodo cupidatat veniam id ut esse consequat",
+			"rating": {
+				"value": 2.04,
+				"votedCount": 1318
+			},
+			"createdAt": "2023-04-19T07:03:29.111Z",
+			"specialOffer": {
+				"startDate": "2023-01-31T06:14:31.824Z",
+				"endDate": "2023-03-13T05:56:36.074Z",
+				"price": 116.99
+			},
+			"colors": ["lemonchiffon", "indigo"],
+			"soldTimes": 382,
+			"code": "DE40-41F8",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundSport Free",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundSport Free 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundSport Free 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundSport Free 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundSport Free 4"
+			]
+		},
+		{
+			"id": "d845e38f-0984-4c14-809c-2e1c47d00642",
+			"name": "Bose Home Speaker 500",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "nostrud quis aliqua consequat esse in officia anim proident magna velit proident",
+			"rating": {
+				"value": 2.19,
+				"votedCount": 34
+			},
+			"createdAt": "2023-05-18T09:36:23.643Z",
+			"specialOffer": null,
+			"colors": ["aqua", "seagreen"],
+			"soldTimes": 1858,
+			"code": "0984-4C14",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Home Speaker 500",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Home Speaker 500 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Home Speaker 500 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Home Speaker 500 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Home Speaker 500 4"
+			]
+		},
+		{
+			"id": "b8791b8c-26d1-49b0-a082-5593c10995d0",
+			"name": "Bose Solo 5 TV Sound System",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 199.99,
+			"wasPrice": 249.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 20,
+			"description": "quis dolor veniam sunt amet magna non minim",
+			"rating": {
+				"value": 1.41,
+				"votedCount": 1297
+			},
+			"createdAt": "2023-05-25T07:58:20.654Z",
+			"specialOffer": null,
+			"colors": ["green", "seagreen", "purple", "salmon"],
+			"soldTimes": 369,
+			"code": "26D1-49B0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Solo 5 TV Sound System",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Solo 5 TV Sound System 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Solo 5 TV Sound System 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Solo 5 TV Sound System 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Solo 5 TV Sound System 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Solo 5 TV Sound System 5"
+			]
+		},
+		{
+			"id": "3d733113-e7a4-4898-b662-476d63a258dc",
+			"name": "Bose SoundLink Micro",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 99.99,
+			"wasPrice": 119.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "ut do dolor minim enim voluptate deserunt veniam",
+			"rating": {
+				"value": 2.54,
+				"votedCount": 1399
+			},
+			"createdAt": "2023-04-09T07:03:49.208Z",
+			"specialOffer": null,
+			"colors": ["brown", "seagreen", "purple", "fuchsia"],
+			"soldTimes": 452,
+			"code": "E7A4-4898",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Micro",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Micro 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Micro 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Micro 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Micro 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Micro 5"
+			]
+		},
+		{
+			"id": "e9ec5a29-e791-4117-b14a-3907375b8f64",
+			"name": "Bose SoundTouch 20 Series III",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 349.99,
+			"wasPrice": 399.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 12.5,
+			"description": "eu amet ullamco veniam eiusmod do qui reprehenderit est id",
+			"rating": {
+				"value": 1.36,
+				"votedCount": 1846
+			},
+			"createdAt": "2023-01-04T07:00:51.248Z",
+			"specialOffer": null,
+			"colors": ["mediumvioletred", "orange", "blue"],
+			"soldTimes": 935,
+			"code": "E791-4117",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundTouch 20 Series III",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundTouch 20 Series III 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundTouch 20 Series III 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundTouch 20 Series III 3"
+			]
+		},
+		{
+			"id": "23b238bd-e63d-4fea-a8a0-b240ae3c5a5e",
+			"name": "Bose Frames Alto",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 199.99,
+			"wasPrice": 229.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 13.04,
+			"description": "dolor in quis ut enim consectetur aliqua ipsum excepteur non eiusmod voluptate labore ut in consequat eu",
+			"rating": {
+				"value": 2.24,
+				"votedCount": 1579
+			},
+			"createdAt": "2023-03-09T01:18:37.594Z",
+			"specialOffer": {
+				"startDate": "2023-02-20T21:50:15.198Z",
+				"endDate": "2023-05-21T16:10:57.827Z",
+				"price": 116.99
+			},
+			"colors": ["hotpink", "black", "palevioletred"],
+			"soldTimes": 730,
+			"code": "E63D-4FEA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Frames Alto",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Frames Alto 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Frames Alto 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose Frames Alto 3"
+			]
+		},
+		{
+			"id": "9db73253-5f8a-4a04-bb4a-47077b4a7bad",
+			"name": "Bose QuietControl 30",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 299.99,
+			"wasPrice": 329.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "amet eu Lorem ea consequat eu cupidatat nostrud",
+			"rating": {
+				"value": 2.37,
+				"votedCount": 1328
+			},
+			"createdAt": "2023-03-18T02:02:31.315Z",
+			"specialOffer": {
+				"startDate": "2023-02-03T20:32:19.604Z",
+				"endDate": "2023-03-14T06:56:58.826Z",
+				"price": 209.99
+			},
+			"colors": ["white", "black", "fuchsia"],
+			"soldTimes": 691,
+			"code": "5F8A-4A04",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietControl 30",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietControl 30 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietControl 30 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietControl 30 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietControl 30 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose QuietControl 30 5"
+			]
+		},
+		{
+			"id": "57d7d92b-e6f1-4be0-ae10-6825f910a869",
+			"name": "Bose SoundLink Color II",
+			"brand": "Bose",
+			"category": "Audio Equipment",
+			"price": 129.99,
+			"wasPrice": 149.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 13.33,
+			"description": "voluptate fugiat magna commodo adipisicing minim nisi pariatur tempor dolor",
+			"rating": {
+				"value": 1.16,
+				"votedCount": 701
+			},
+			"createdAt": "2023-03-01T17:57:42.318Z",
+			"specialOffer": {
+				"startDate": "2023-01-08T04:00:44.616Z",
+				"endDate": "2023-04-26T10:27:30.748Z",
+				"price": 79.99
+			},
+			"colors": ["gold", "teal", "yellow"],
+			"soldTimes": 354,
+			"code": "E6F1-4BE0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Color II",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Color II 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Color II 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Bose SoundLink Color II 3"
+			]
+		},
+		{
+			"id": "92dfea80-b6b6-4d30-be28-389aa3048f51",
+			"name": "HP Spectre x360",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 1399.99,
+			"wasPrice": 1499.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 6.67,
+			"description": "fugiat deserunt sint est eu ex amet deserunt",
+			"rating": {
+				"value": 3.23,
+				"votedCount": 1058
+			},
+			"createdAt": "2023-05-12T05:04:35.803Z",
+			"specialOffer": {
+				"startDate": "2023-02-05T22:18:47.185Z",
+				"endDate": "2023-05-10T16:25:56.984Z",
+				"price": 1306.99
+			},
+			"colors": ["papayawhip", "tomato", "greenyellow"],
+			"soldTimes": 1068,
+			"code": "B6B6-4D30",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Spectre x360",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Spectre x360 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Spectre x360 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Spectre x360 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Spectre x360 4"
+			]
+		},
+		{
+			"id": "9a8d05ed-ce5f-4e92-8eb9-db4dbe6205bc",
+			"name": "HP Pavilion 15",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 799.99,
+			"wasPrice": 899.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 11.11,
+			"description": "adipisicing adipisicing sit elit cupidatat officia eu et excepteur consectetur excepteur ea eu est nisi anim elit",
+			"rating": {
+				"value": 3.47,
+				"votedCount": 1015
+			},
+			"createdAt": "2023-05-27T01:27:38.980Z",
+			"specialOffer": {
+				"startDate": "2023-01-15T14:54:44.417Z",
+				"endDate": "2023-03-24T01:57:08.369Z",
+				"price": 736.99
+			},
+			"colors": ["darkorange", "purple", "silver", "deeppink"],
+			"soldTimes": 717,
+			"code": "CE5F-4E92",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion 15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion 15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion 15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion 15 3"
+			]
+		},
+		{
+			"id": "f3f922de-17f1-41ba-9dc7-6f2a2fce8760",
+			"name": "HP ENVY x360",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 1099.99,
+			"wasPrice": 1199.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 8.33,
+			"description": "excepteur laboris cupidatat eiusmod consequat excepteur ullamco in et nostrud ipsum eu cillum ex esse veniam cillum",
+			"rating": {
+				"value": 1.16,
+				"votedCount": 722
+			},
+			"createdAt": "2023-03-10T07:03:33.558Z",
+			"specialOffer": null,
+			"colors": ["aqua", "orangered", "papayawhip", "gold"],
+			"soldTimes": 1035,
+			"code": "17F1-41BA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ENVY x360",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ENVY x360 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ENVY x360 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ENVY x360 3"
+			]
+		},
+		{
+			"id": "63e85377-44a6-4b80-9137-818295a5f545",
+			"name": "HP Omen 15",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 1299.99,
+			"wasPrice": 1399.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 7.14,
+			"description": "ut incididunt duis elit excepteur minim do pariatur sint tempor laboris eiusmod proident mollit enim culpa fugiat",
+			"rating": {
+				"value": 2.08,
+				"votedCount": 1622
+			},
+			"createdAt": "2023-01-22T05:45:15.243Z",
+			"specialOffer": null,
+			"colors": ["blue", "dodgerblue", "red", "greenyellow"],
+			"soldTimes": 193,
+			"code": "44A6-4B80",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Omen 15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Omen 15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Omen 15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Omen 15 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Omen 15 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Omen 15 5"
+			]
+		},
+		{
+			"id": "8a248cdd-e090-4aa2-80f4-155961eee512",
+			"name": "HP EliteBook 840",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 1299.99,
+			"wasPrice": 1399.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 7.14,
+			"description": "aliqua eiusmod consectetur consectetur cillum do irure incididunt reprehenderit in laborum ullamco irure aute consequat reprehenderit proident",
+			"rating": {
+				"value": 2.72,
+				"votedCount": 1577
+			},
+			"createdAt": "2023-04-19T14:31:30.261Z",
+			"specialOffer": {
+				"startDate": "2023-02-15T07:54:09.793Z",
+				"endDate": "2023-03-17T15:11:32.458Z",
+				"price": 1221.99
+			},
+			"colors": ["red", "tomato", "fuchsia"],
+			"soldTimes": 586,
+			"code": "E090-4AA2",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP EliteBook 840",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP EliteBook 840 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP EliteBook 840 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP EliteBook 840 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP EliteBook 840 4"
+			]
+		},
+		{
+			"id": "d238cb1a-9e68-4a58-93a2-8ebf5e265903",
+			"name": "HP ZBook Studio G7",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 1999.99,
+			"wasPrice": 2199.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "aute nostrud cupidatat dolore aute exercitation dolore irure pariatur officia ad exercitation veniam et nostrud voluptate ad",
+			"rating": {
+				"value": 2.18,
+				"votedCount": 926
+			},
+			"createdAt": "2023-01-09T12:03:26.634Z",
+			"specialOffer": {
+				"startDate": "2023-02-20T12:27:24.372Z",
+				"endDate": "2023-03-12T05:21:05.522Z",
+				"price": 1942.99
+			},
+			"colors": ["tomato", "papayawhip", "paleturquoise", "coral"],
+			"soldTimes": 618,
+			"code": "9E68-4A58",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ZBook Studio G7",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ZBook Studio G7 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ZBook Studio G7 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ZBook Studio G7 3"
+			]
+		},
+		{
+			"id": "d9ce4e7c-aa52-4a24-b229-b0b7d1cd9a74",
+			"name": "HP ProBook 450 G8",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 899.99,
+			"wasPrice": 999.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 10,
+			"description": "dolore proident in do irure magna sunt consectetur elit",
+			"rating": {
+				"value": 1.62,
+				"votedCount": 1348
+			},
+			"createdAt": "2023-05-13T12:53:27.493Z",
+			"specialOffer": null,
+			"colors": ["gray", "yellow", "fuchsia", "darkorange"],
+			"soldTimes": 666,
+			"code": "AA52-4A24",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ProBook 450 G8",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ProBook 450 G8 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ProBook 450 G8 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP ProBook 450 G8 3"
+			]
+		},
+		{
+			"id": "91a6a91b-84e1-41dc-9fab-47a2de47460e",
+			"name": "HP Pavilion Gaming 15",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 999.99,
+			"wasPrice": 1099.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 9.09,
+			"description": "enim ut labore elit nulla Lorem esse laborum exercitation qui",
+			"rating": {
+				"value": 4.02,
+				"votedCount": 645
+			},
+			"createdAt": "2023-04-26T20:17:02.460Z",
+			"specialOffer": null,
+			"colors": ["dodgerblue", "green", "pink", "palevioletred"],
+			"soldTimes": 1157,
+			"code": "84E1-41DC",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion Gaming 15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion Gaming 15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion Gaming 15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion Gaming 15 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Pavilion Gaming 15 4"
+			]
+		},
+		{
+			"id": "472e1203-fb68-4bb2-bf89-e767a6dfa4d6",
+			"name": "HP Chromebook 14",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 349.99,
+			"wasPrice": 399.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 12.5,
+			"description": "excepteur pariatur do labore consequat nulla sit ullamco non adipisicing pariatur elit est proident nisi et veniam",
+			"rating": {
+				"value": 1.96,
+				"votedCount": 1522
+			},
+			"createdAt": "2023-01-01T00:16:47.934Z",
+			"specialOffer": null,
+			"colors": ["orangered", "green", "brown", "wheat"],
+			"soldTimes": 1336,
+			"code": "FB68-4BB2",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Chromebook 14",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Chromebook 14 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Chromebook 14 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Chromebook 14 3"
+			]
+		},
+		{
+			"id": "4ff9e69d-f03e-4fb9-95ba-3d288a03d058",
+			"name": "HP Envy 13",
+			"brand": "HP",
+			"category": "Laptops",
+			"price": 1199.99,
+			"wasPrice": 1299.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 7.69,
+			"description": "laborum minim veniam nulla aliqua quis anim in exercitation laborum",
+			"rating": {
+				"value": 2.79,
+				"votedCount": 648
+			},
+			"createdAt": "2023-03-27T02:35:39.910Z",
+			"specialOffer": {
+				"startDate": "2023-02-25T20:39:16.867Z",
+				"endDate": "2023-05-11T05:54:24.065Z",
+				"price": 1102.99
+			},
+			"colors": ["paleturquoise", "orangered", "green", "greenyellow"],
+			"soldTimes": 892,
+			"code": "F03E-4FB9",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Envy 13",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Envy 13 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Envy 13 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Envy 13 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Envy 13 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=HP Envy 13 5"
+			]
+		},
+		{
+			"id": "86c24064-c2e8-441f-87aa-0a8c80cd6762",
+			"name": "Dell XPS 13",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 1299.99,
+			"wasPrice": 1399.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 7.14,
+			"description": "pariatur occaecat non sit minim ex nulla amet velit cillum",
+			"rating": {
+				"value": 4.55,
+				"votedCount": 1971
+			},
+			"createdAt": "2023-01-12T21:48:10.535Z",
+			"specialOffer": {
+				"startDate": "2023-02-16T04:48:22.839Z",
+				"endDate": "2023-04-28T12:26:14.739Z",
+				"price": 1223.99
+			},
+			"colors": ["gold", "paleturquoise", "greenyellow"],
+			"soldTimes": 367,
+			"code": "C2E8-441F",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 13",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 13 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 13 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 13 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 13 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 13 5"
+			]
+		},
+		{
+			"id": "5fba2a03-87bd-493b-85fb-f5ce3c51309b",
+			"name": "Dell Inspiron 15",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 699.99,
+			"wasPrice": 799.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 12.5,
+			"description": "reprehenderit enim pariatur voluptate magna magna in eiusmod",
+			"rating": {
+				"value": 1.35,
+				"votedCount": 32
+			},
+			"createdAt": "2023-03-02T16:38:09.920Z",
+			"specialOffer": null,
+			"colors": ["palevioletred", "paleturquoise", "hotpink"],
+			"soldTimes": 471,
+			"code": "87BD-493B",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Inspiron 15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Inspiron 15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Inspiron 15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Inspiron 15 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Inspiron 15 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Inspiron 15 5"
+			]
+		},
+		{
+			"id": "4d05cc3a-6837-4995-aebc-3613573be70c",
+			"name": "Dell Latitude 7410",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 1499.99,
+			"wasPrice": 1599.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 6.25,
+			"description": "consectetur sint nulla id velit do nisi nostrud elit cillum",
+			"rating": {
+				"value": 2.02,
+				"votedCount": 470
+			},
+			"createdAt": "2023-04-11T09:24:36.556Z",
+			"specialOffer": null,
+			"colors": ["lemonchiffon", "seagreen", "plum", "green"],
+			"soldTimes": 794,
+			"code": "6837-4995",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Latitude 7410",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Latitude 7410 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Latitude 7410 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Latitude 7410 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Latitude 7410 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Latitude 7410 5"
+			]
+		},
+		{
+			"id": "2b37848b-085f-4bb9-aced-dc0ee4f36b5a",
+			"name": "Dell Alienware M15",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 1799.99,
+			"wasPrice": 1899.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 5.26,
+			"description": "non occaecat magna commodo sunt excepteur ea commodo excepteur exercitation qui laborum Lorem amet consequat",
+			"rating": {
+				"value": 2.24,
+				"votedCount": 1490
+			},
+			"createdAt": "2023-05-30T06:28:41.377Z",
+			"specialOffer": null,
+			"colors": ["white", "blue", "fuchsia", "dodgerblue"],
+			"soldTimes": 278,
+			"code": "085F-4BB9",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Alienware M15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Alienware M15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Alienware M15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Alienware M15 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Alienware M15 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Alienware M15 5"
+			]
+		},
+		{
+			"id": "1644b50c-1d17-428a-b795-db9447596468",
+			"name": "Dell Precision 5550",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 2199.99,
+			"wasPrice": 2299.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 4.35,
+			"description": "aute culpa aute qui ullamco sint non officia cupidatat sunt irure incididunt laboris dolor dolor magna minim",
+			"rating": {
+				"value": 4.02,
+				"votedCount": 756
+			},
+			"createdAt": "2023-04-01T05:34:47.771Z",
+			"specialOffer": {
+				"startDate": "2023-02-08T22:24:35.788Z",
+				"endDate": "2023-04-26T13:58:41.025Z",
+				"price": 2126.99
+			},
+			"colors": ["wheat", "orangered", "lemonchiffon"],
+			"soldTimes": 1102,
+			"code": "1D17-428A",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 5550",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 5550 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 5550 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 5550 3"
+			]
+		},
+		{
+			"id": "fa0673b9-4cea-4df0-a38c-1fa6a13053c6",
+			"name": "Dell Vostro 15",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 899.99,
+			"wasPrice": 999.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 10,
+			"description": "aute veniam est cupidatat do laboris nostrud nisi velit velit do voluptate irure nostrud reprehenderit anim do",
+			"rating": {
+				"value": 4.73,
+				"votedCount": 1201
+			},
+			"createdAt": "2023-02-11T04:13:18.823Z",
+			"specialOffer": null,
+			"colors": ["gray", "teal", "plum", "deeppink"],
+			"soldTimes": 904,
+			"code": "4CEA-4DF0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Vostro 15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Vostro 15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Vostro 15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Vostro 15 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Vostro 15 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Vostro 15 5"
+			]
+		},
+		{
+			"id": "3ac513b3-4821-40f0-9c62-f81e9493da6e",
+			"name": "Dell G5 15",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 1099.99,
+			"wasPrice": 1199.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 8.33,
+			"description": "culpa tempor magna consequat labore consequat voluptate elit",
+			"rating": {
+				"value": 1.33,
+				"votedCount": 763
+			},
+			"createdAt": "2023-03-31T08:57:17.495Z",
+			"specialOffer": {
+				"startDate": "2023-01-19T14:40:42.449Z",
+				"endDate": "2023-05-04T11:03:08.426Z",
+				"price": 1042.99
+			},
+			"colors": ["darkorange", "palegreen", "indigo", "maroon"],
+			"soldTimes": 229,
+			"code": "4821-40F0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell G5 15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell G5 15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell G5 15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell G5 15 3"
+			]
+		},
+		{
+			"id": "77b8ba2a-7b6e-4a95-82ff-1d0d49601981",
+			"name": "Dell Chromebook 14",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "qui irure fugiat irure aute quis minim adipisicing mollit magna",
+			"rating": {
+				"value": 4.07,
+				"votedCount": 1928
+			},
+			"createdAt": "2023-03-03T00:53:08.482Z",
+			"specialOffer": null,
+			"colors": ["red", "hotpink", "maroon"],
+			"soldTimes": 156,
+			"code": "7B6E-4A95",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Chromebook 14",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Chromebook 14 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Chromebook 14 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Chromebook 14 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Chromebook 14 4"
+			]
+		},
+		{
+			"id": "b267c62d-eae2-44d0-b002-b682e9e66c9f",
+			"name": "Dell XPS 15",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 1599.99,
+			"wasPrice": 1699.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 5.88,
+			"description": "magna nisi consequat laboris mollit excepteur excepteur occaecat",
+			"rating": {
+				"value": 4.41,
+				"votedCount": 448
+			},
+			"createdAt": "2023-05-18T16:39:13.587Z",
+			"specialOffer": null,
+			"colors": ["fuchsia", "chartreuse", "maroon"],
+			"soldTimes": 1112,
+			"code": "EAE2-44D0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 15",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 15 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 15 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell XPS 15 3"
+			]
+		},
+		{
+			"id": "a267ea6c-6c7c-4b6b-b373-d9eb6231b6b2",
+			"name": "Dell Precision 7550",
+			"brand": "Dell",
+			"category": "Laptops",
+			"price": 2499.99,
+			"wasPrice": 2599.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 3.85,
+			"description": "sunt cupidatat labore amet nisi eu aliqua amet ad",
+			"rating": {
+				"value": 3.01,
+				"votedCount": 783
+			},
+			"createdAt": "2023-03-12T10:17:49.555Z",
+			"specialOffer": {
+				"startDate": "2023-01-04T09:15:21.354Z",
+				"endDate": "2023-04-18T20:50:52.552Z",
+				"price": 2402.99
+			},
+			"colors": ["purple", "gold", "aqua"],
+			"soldTimes": 870,
+			"code": "6C7C-4B6B",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 7550",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 7550 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 7550 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 7550 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 7550 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Dell Precision 7550 5"
+			]
+		},
+		{
+			"id": "6cac9165-c977-4bb3-b662-f70b32d4b114",
+			"name": "Nest Learning Thermostat",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 249.99,
+			"wasPrice": 279.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 10.71,
+			"description": "Lorem tempor exercitation non velit sit proident consequat quis fugiat reprehenderit adipisicing Lorem officia tempor",
+			"rating": {
+				"value": 4.82,
+				"votedCount": 871
+			},
+			"createdAt": "2023-01-14T18:13:25.063Z",
+			"specialOffer": {
+				"startDate": "2023-01-08T11:02:21.160Z",
+				"endDate": "2023-03-17T11:16:13.291Z",
+				"price": 196.99
+			},
+			"colors": ["darkorange", "lime", "pink"],
+			"soldTimes": 1024,
+			"code": "C977-4BB3",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Learning Thermostat",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Learning Thermostat 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Learning Thermostat 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Learning Thermostat 3"
+			]
+		},
+		{
+			"id": "da2dfcc8-3e0e-49ab-87e1-aeb7caad618b",
+			"name": "Nest Hello Video Doorbell",
+			"brand": "Nest",
+			"category": "Home Security Systems",
+			"price": 229.99,
+			"wasPrice": 249.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 8,
+			"description": "sint ut reprehenderit est Lorem non fugiat amet exercitation excepteur",
+			"rating": {
+				"value": 2.09,
+				"votedCount": 24
+			},
+			"createdAt": "2023-02-13T19:02:57.840Z",
+			"specialOffer": null,
+			"colors": ["paleturquoise", "purple", "orangered", "white"],
+			"soldTimes": 1432,
+			"code": "3E0E-49AB",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Video Doorbell",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Video Doorbell 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Video Doorbell 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Video Doorbell 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Video Doorbell 4"
+			]
+		},
+		{
+			"id": "16f1dd02-a80d-4666-9d4b-04b6483fff1f",
+			"name": "Nest Cam Indoor",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 199.99,
+			"wasPrice": 219.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 9.09,
+			"description": "excepteur qui dolore adipisicing pariatur dolor laboris cillum adipisicing laboris tempor magna",
+			"rating": {
+				"value": 3.52,
+				"votedCount": 92
+			},
+			"createdAt": "2023-05-22T14:08:41.668Z",
+			"specialOffer": {
+				"startDate": "2023-01-20T21:28:38.052Z",
+				"endDate": "2023-04-23T13:23:43.023Z",
+				"price": 114.99
+			},
+			"colors": ["plum", "chartreuse", "fuchsia", "wheat"],
+			"soldTimes": 1794,
+			"code": "A80D-4666",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Indoor",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Indoor 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Indoor 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Indoor 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Indoor 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Indoor 5"
+			]
+		},
+		{
+			"id": "fae7b858-3432-4930-a56e-30f51e2ad48f",
+			"name": "Nest Secure Alarm System",
+			"brand": "Nest",
+			"category": "Home Security Systems",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "culpa adipisicing irure esse officia ut cillum non ex",
+			"rating": {
+				"value": 3.24,
+				"votedCount": 351
+			},
+			"createdAt": "2023-04-21T06:16:00.285Z",
+			"specialOffer": null,
+			"colors": ["dodgerblue", "orange", "salmon"],
+			"soldTimes": 708,
+			"code": "3432-4930",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Alarm System",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Alarm System 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Alarm System 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Alarm System 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Alarm System 4"
+			]
+		},
+		{
+			"id": "6bd8d254-d61c-45ce-9cdc-3bc9274d6d99",
+			"name": "Nest Protect Smoke & Carbon Monoxide Alarm",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 119.99,
+			"wasPrice": 139.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 14.29,
+			"description": "magna elit enim enim ex elit ad fugiat ea",
+			"rating": {
+				"value": 3.04,
+				"votedCount": 1129
+			},
+			"createdAt": "2023-01-11T18:01:18.994Z",
+			"specialOffer": {
+				"startDate": "2023-02-23T09:23:50.460Z",
+				"endDate": "2023-04-28T14:26:22.933Z",
+				"price": 23.99
+			},
+			"colors": ["indigo", "palevioletred", "wheat"],
+			"soldTimes": 1493,
+			"code": "D61C-45CE",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Protect Smoke & Carbon Monoxide Alarm",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Protect Smoke & Carbon Monoxide Alarm 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Protect Smoke & Carbon Monoxide Alarm 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Protect Smoke & Carbon Monoxide Alarm 3"
+			]
+		},
+		{
+			"id": "005ecb51-cf3e-4c63-9203-1b29fea6b3c2",
+			"name": "Nest Cam IQ Outdoor",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 379.99,
+			"wasPrice": 399.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 5,
+			"description": "dolore id nostrud ullamco sit et sit incididunt culpa",
+			"rating": {
+				"value": 1.86,
+				"votedCount": 657
+			},
+			"createdAt": "2023-04-25T22:49:09.592Z",
+			"specialOffer": null,
+			"colors": ["mediumvioletred", "palevioletred", "lemonchiffon"],
+			"soldTimes": 760,
+			"code": "CF3E-4C63",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Outdoor",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Outdoor 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Outdoor 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Outdoor 3"
+			]
+		},
+		{
+			"id": "aec3b982-829c-4022-b396-7435dc25ee62",
+			"name": "Nest Secure Tag",
+			"brand": "Nest",
+			"category": "Home Security Systems",
+			"price": 24.99,
+			"wasPrice": 29.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "do velit excepteur anim est do aliqua cupidatat dolore mollit occaecat irure aliqua commodo sunt incididunt laboris",
+			"rating": {
+				"value": 2.25,
+				"votedCount": 1678
+			},
+			"createdAt": "2023-04-13T02:33:05.476Z",
+			"specialOffer": {
+				"startDate": "2023-01-08T05:53:38.806Z",
+				"endDate": "2023-04-21T00:49:09.122Z",
+				"price": 8.01
+			},
+			"colors": ["pink", "teal", "dodgerblue", "darkorange"],
+			"soldTimes": 37,
+			"code": "829C-4022",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Tag",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Tag 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Tag 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Secure Tag 3"
+			]
+		},
+		{
+			"id": "feb15cc9-9fea-49f6-8e98-d0fcaff663f1",
+			"name": "Nest Thermostat E",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 169.99,
+			"wasPrice": 189.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 10.53,
+			"description": "culpa id aliquip anim velit nisi sit id ullamco consectetur enim id elit ad laborum veniam laboris",
+			"rating": {
+				"value": 4.29,
+				"votedCount": 1973
+			},
+			"createdAt": "2023-01-05T17:48:38.556Z",
+			"specialOffer": {
+				"startDate": "2023-02-09T20:57:24.416Z",
+				"endDate": "2023-05-23T12:39:01.964Z",
+				"price": 70.99
+			},
+			"colors": ["indigo", "red", "orange", "aqua"],
+			"soldTimes": 859,
+			"code": "9FEA-49F6",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Thermostat E",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Thermostat E 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Thermostat E 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Thermostat E 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Thermostat E 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Thermostat E 5"
+			]
+		},
+		{
+			"id": "6787a34b-797f-4926-aa71-8d5f264ac2fb",
+			"name": "Nest Hello Wall Plate",
+			"brand": "Nest",
+			"category": "Home Security Systems",
+			"price": 19.99,
+			"wasPrice": 24.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 20.01,
+			"description": "minim incididunt nulla ex ipsum exercitation nisi id in eu nisi aliquip",
+			"rating": {
+				"value": 1.42,
+				"votedCount": 1591
+			},
+			"createdAt": "2023-01-20T07:24:20.392Z",
+			"specialOffer": {
+				"startDate": "2023-02-10T04:58:18.519Z",
+				"endDate": "2023-05-05T11:10:55.299Z",
+				"price": 3.01
+			},
+			"colors": ["darkorange", "tomato", "plum"],
+			"soldTimes": 1951,
+			"code": "797F-4926",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wall Plate",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wall Plate 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wall Plate 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wall Plate 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wall Plate 4"
+			]
+		},
+		{
+			"id": "df73ce03-9980-42cb-b520-32761aaeac36",
+			"name": "Nest Cam IQ Indoor",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 299.99,
+			"wasPrice": 329.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 9.09,
+			"description": "nostrud adipisicing voluptate minim ex aliqua sunt duis ad sunt",
+			"rating": {
+				"value": 1.21,
+				"votedCount": 529
+			},
+			"createdAt": "2023-04-12T19:11:16.998Z",
+			"specialOffer": {
+				"startDate": "2023-01-14T17:26:30.165Z",
+				"endDate": "2023-03-23T02:02:50.464Z",
+				"price": 204.99
+			},
+			"colors": ["palevioletred", "greenyellow", "coral"],
+			"soldTimes": 1516,
+			"code": "9980-42CB",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Indoor",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Indoor 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Indoor 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Indoor 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Indoor 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam IQ Indoor 5"
+			]
+		},
+		{
+			"id": "85759c59-207e-475c-addc-4cc918150c58",
+			"name": "Nest × Yale Lock",
+			"brand": "Nest",
+			"category": "Home Security Systems",
+			"price": 279.99,
+			"wasPrice": 299.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 6.67,
+			"description": "enim minim fugiat eu sunt exercitation occaecat veniam dolore esse exercitation proident elit do incididunt",
+			"rating": {
+				"value": 3.71,
+				"votedCount": 895
+			},
+			"createdAt": "2023-04-28T04:07:47.910Z",
+			"specialOffer": {
+				"startDate": "2023-02-26T16:52:56.797Z",
+				"endDate": "2023-04-28T18:18:45.695Z",
+				"price": 216.99
+			},
+			"colors": ["gray", "darkorange", "brown"],
+			"soldTimes": 337,
+			"code": "207E-475C",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest × Yale Lock",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest × Yale Lock 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest × Yale Lock 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest × Yale Lock 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest × Yale Lock 4"
+			]
+		},
+		{
+			"id": "20936445-9525-4da6-b8c6-76cff8bc7c93",
+			"name": "Nest Temperature Sensor",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 39.99,
+			"wasPrice": 49.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 20,
+			"description": "minim et fugiat occaecat aliqua voluptate id nulla enim cillum esse cillum laborum duis eu",
+			"rating": {
+				"value": 2.33,
+				"votedCount": 602
+			},
+			"createdAt": "2023-05-11T01:54:52.403Z",
+			"specialOffer": null,
+			"colors": ["gray", "darkorange", "orangered"],
+			"soldTimes": 1081,
+			"code": "9525-4DA6",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Temperature Sensor",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Temperature Sensor 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Temperature Sensor 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Temperature Sensor 3"
+			]
+		},
+		{
+			"id": "1b85532b-34b9-4321-9a9b-97f30936b48a",
+			"name": "Nest Hello Wedge Kit",
+			"brand": "Nest",
+			"category": "Home Security Systems",
+			"price": 19.99,
+			"wasPrice": 24.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 20.01,
+			"description": "incididunt voluptate id cupidatat fugiat laborum officia irure aute pariatur ad nostrud aliqua do esse",
+			"rating": {
+				"value": 1.72,
+				"votedCount": 1248
+			},
+			"createdAt": "2023-01-09T01:58:50.506Z",
+			"specialOffer": {
+				"startDate": "2023-01-29T08:51:09.701Z",
+				"endDate": "2023-03-30T16:41:59.881Z",
+				"price": 9.01
+			},
+			"colors": ["mediumvioletred", "orangered", "gray"],
+			"soldTimes": 1135,
+			"code": "34B9-4321",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wedge Kit",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wedge Kit 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wedge Kit 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wedge Kit 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Hello Wedge Kit 4"
+			]
+		},
+		{
+			"id": "5bf60997-56ef-4cef-bb40-0aff627a7647",
+			"name": "Nest Cam Outdoor",
+			"brand": "Nest",
+			"category": "Smart Home Devices",
+			"price": 199.99,
+			"wasPrice": 219.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "proident enim qui elit dolore sunt exercitation in duis amet velit consequat",
+			"rating": {
+				"value": 4.61,
+				"votedCount": 190
+			},
+			"createdAt": "2023-01-21T06:07:55.312Z",
+			"specialOffer": null,
+			"colors": ["fuchsia", "darkorange", "black"],
+			"soldTimes": 1133,
+			"code": "56EF-4CEF",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Outdoor",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Outdoor 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Outdoor 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Outdoor 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Outdoor 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nest Cam Outdoor 5"
+			]
+		},
+		{
+			"id": "2eefbec9-c862-483d-ba01-2f5b448fadcc",
+			"name": "Ring Video Doorbell",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 99.99,
+			"wasPrice": 119.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "pariatur sunt aute do veniam enim in ad magna irure quis culpa anim irure ipsum sunt tempor",
+			"rating": {
+				"value": 1.24,
+				"votedCount": 1175
+			},
+			"createdAt": "2023-01-05T22:50:50.075Z",
+			"specialOffer": null,
+			"colors": ["gray", "hotpink", "white"],
+			"soldTimes": 644,
+			"code": "C862-483D",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell 5"
+			]
+		},
+		{
+			"id": "80b94a2b-2536-4431-8ee8-2c750d5368ee",
+			"name": "Ring Indoor Cam",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 59.99,
+			"wasPrice": 79.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 25,
+			"description": "aliquip qui tempor ea nostrud aliqua irure occaecat",
+			"rating": {
+				"value": 4.97,
+				"votedCount": 331
+			},
+			"createdAt": "2023-04-18T21:27:38.749Z",
+			"specialOffer": null,
+			"colors": ["plum", "dodgerblue", "lemonchiffon", "greenyellow"],
+			"soldTimes": 852,
+			"code": "2536-4431",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Indoor Cam",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Indoor Cam 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Indoor Cam 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Indoor Cam 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Indoor Cam 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Indoor Cam 5"
+			]
+		},
+		{
+			"id": "d5bd1b7e-026a-49e5-a443-fc2c897da087",
+			"name": "Ring Alarm Security Kit",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 199.99,
+			"wasPrice": 229.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 13.04,
+			"description": "ex consectetur veniam id quis do do eiusmod sunt duis Lorem mollit aliqua exercitation pariatur",
+			"rating": {
+				"value": 2.38,
+				"votedCount": 283
+			},
+			"createdAt": "2023-01-31T18:39:08.510Z",
+			"specialOffer": {
+				"startDate": "2023-02-03T15:13:56.055Z",
+				"endDate": "2023-04-21T06:24:17.962Z",
+				"price": 140.99
+			},
+			"colors": ["black", "gray", "plum"],
+			"soldTimes": 1715,
+			"code": "026A-49E5",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Security Kit",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Security Kit 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Security Kit 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Security Kit 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Security Kit 4"
+			]
+		},
+		{
+			"id": "d5a85da5-0b04-45aa-b775-c24643332572",
+			"name": "Ring Floodlight Camera",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 249.99,
+			"wasPrice": 279.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 10.71,
+			"description": "velit esse proident quis laborum voluptate aute in amet officia",
+			"rating": {
+				"value": 2.71,
+				"votedCount": 1771
+			},
+			"createdAt": "2023-05-10T23:18:11.257Z",
+			"specialOffer": null,
+			"colors": ["seagreen", "lemonchiffon"],
+			"soldTimes": 382,
+			"code": "0B04-45AA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Floodlight Camera",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Floodlight Camera 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Floodlight Camera 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Floodlight Camera 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Floodlight Camera 4"
+			]
+		},
+		{
+			"id": "5bcfcffd-e0d4-4ad7-a7b0-14b2f298c37a",
+			"name": "Ring Stick Up Cam",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 99.99,
+			"wasPrice": 119.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 16.67,
+			"description": "irure commodo ex sint mollit anim id elit officia excepteur dolor amet",
+			"rating": {
+				"value": 4.99,
+				"votedCount": 766
+			},
+			"createdAt": "2023-04-18T04:52:15.794Z",
+			"specialOffer": {
+				"startDate": "2023-01-07T21:06:00.756Z",
+				"endDate": "2023-04-15T04:25:49.474Z",
+				"price": 20.99
+			},
+			"colors": ["salmon", "palegreen", "blue", "teal"],
+			"soldTimes": 249,
+			"code": "E0D4-4AD7",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Stick Up Cam",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Stick Up Cam 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Stick Up Cam 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Stick Up Cam 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Stick Up Cam 4"
+			]
+		},
+		{
+			"id": "a25ffa04-c8ac-4d3a-81d8-9f4dcb62ab12",
+			"name": "Ring Video Doorbell Pro",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 169.99,
+			"wasPrice": 199.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 15,
+			"description": "ea veniam reprehenderit aute laborum sint aliqua fugiat aliquip",
+			"rating": {
+				"value": 1.31,
+				"votedCount": 387
+			},
+			"createdAt": "2023-03-19T15:30:45.680Z",
+			"specialOffer": null,
+			"colors": ["tomato", "greenyellow", "fuchsia", "yellow"],
+			"soldTimes": 971,
+			"code": "C8AC-4D3A",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell Pro",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell Pro 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell Pro 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell Pro 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell Pro 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Video Doorbell Pro 5"
+			]
+		},
+		{
+			"id": "4b281cec-98e5-40d6-9303-2b1ec13e424f",
+			"name": "Ring Spotlight Cam",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 199.99,
+			"wasPrice": 229.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 13.04,
+			"description": "velit ea est consequat aliqua et dolore laboris laboris excepteur ut deserunt amet laborum consectetur laborum elit",
+			"rating": {
+				"value": 2.75,
+				"votedCount": 108
+			},
+			"createdAt": "2023-02-19T00:39:01.583Z",
+			"specialOffer": {
+				"startDate": "2023-02-04T23:12:04.112Z",
+				"endDate": "2023-03-07T09:54:30.264Z",
+				"price": 116.99
+			},
+			"colors": ["fuchsia", "teal"],
+			"soldTimes": 1992,
+			"code": "98E5-40D6",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Spotlight Cam",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Spotlight Cam 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Spotlight Cam 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Spotlight Cam 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Spotlight Cam 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Spotlight Cam 5"
+			]
+		},
+		{
+			"id": "61ac3ec7-4f69-4a67-bbd1-8a9370fc1bed",
+			"name": "Ring Alarm Contact Sensor",
+			"brand": "Ring",
+			"category": "Home Security Systems",
+			"price": 19.99,
+			"wasPrice": 24.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 20.01,
+			"description": "id cillum sunt occaecat in culpa id quis minim",
+			"rating": {
+				"value": 2.22,
+				"votedCount": 1595
+			},
+			"createdAt": "2023-01-03T05:21:50.935Z",
+			"specialOffer": null,
+			"colors": ["deeppink", "fuchsia", "teal", "wheat"],
+			"soldTimes": 321,
+			"code": "4F69-4A67",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Contact Sensor",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Contact Sensor 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Contact Sensor 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ring Alarm Contact Sensor 3"
+			]
+		},
+		{
+			"id": "1ea22286-3947-475a-b105-65300af91c87",
+			"name": "Fitbit Versa 3",
+			"brand": "Fitbit",
+			"category": "Wearable Technology",
+			"price": 229.99,
+			"wasPrice": 249.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 8,
+			"description": "sint consectetur excepteur laborum sunt commodo et amet",
+			"rating": {
+				"value": 3.28,
+				"votedCount": 1172
+			},
+			"createdAt": "2023-03-17T00:04:58.303Z",
+			"specialOffer": null,
+			"colors": ["gold", "indigo", "fuchsia", "green"],
+			"soldTimes": 576,
+			"code": "3947-475A",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Versa 3",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Versa 3 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Versa 3 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Versa 3 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Versa 3 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Versa 3 5"
+			]
+		},
+		{
+			"id": "6c3aa13c-d9e4-4e85-8dfe-5acb943f82fb",
+			"name": "Fitbit Charge 4",
+			"brand": "Fitbit",
+			"category": "Wearable Technology",
+			"price": 149.99,
+			"wasPrice": 169.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 11.77,
+			"description": "velit aute irure ex quis nisi officia aute qui consectetur",
+			"rating": {
+				"value": 4.81,
+				"votedCount": 703
+			},
+			"createdAt": "2023-04-26T19:58:35.574Z",
+			"specialOffer": {
+				"startDate": "2023-01-02T08:49:25.203Z",
+				"endDate": "2023-05-06T18:29:56.732Z",
+				"price": 61.99
+			},
+			"colors": ["teal", "palevioletred", "tomato"],
+			"soldTimes": 381,
+			"code": "D9E4-4E85",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Charge 4",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Charge 4 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Charge 4 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Charge 4 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Charge 4 4"
+			]
+		},
+		{
+			"id": "077f7d48-c7fe-45ba-a229-57bf9e84f65b",
+			"name": "Fitbit Sense",
+			"brand": "Fitbit",
+			"category": "Wearable Technology",
+			"price": 299.99,
+			"wasPrice": 329.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "consectetur id velit dolor voluptate ullamco fugiat sint labore amet commodo proident Lorem do ex ut dolore",
+			"rating": {
+				"value": 2.31,
+				"votedCount": 710
+			},
+			"createdAt": "2023-02-09T16:10:42.441Z",
+			"specialOffer": {
+				"startDate": "2023-02-25T20:41:28.760Z",
+				"endDate": "2023-05-25T02:23:45.989Z",
+				"price": 220.99
+			},
+			"colors": ["papayawhip", "palevioletred", "mediumvioletred"],
+			"soldTimes": 1853,
+			"code": "C7FE-45BA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Sense",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Sense 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Sense 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Sense 3"
+			]
+		},
+		{
+			"id": "2f218926-af70-4a32-95b3-e10b940e5104",
+			"name": "Fitbit Inspire 2",
+			"brand": "Fitbit",
+			"category": "Wearable Technology",
+			"price": 99.99,
+			"wasPrice": 119.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "fugiat ullamco aute exercitation ad voluptate velit fugiat magna consectetur irure nisi",
+			"rating": {
+				"value": 3.43,
+				"votedCount": 365
+			},
+			"createdAt": "2023-04-28T14:52:53.438Z",
+			"specialOffer": null,
+			"colors": ["coral", "lemonchiffon", "teal", "plum"],
+			"soldTimes": 937,
+			"code": "AF70-4A32",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Inspire 2",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Inspire 2 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Inspire 2 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Inspire 2 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Inspire 2 4"
+			]
+		},
+		{
+			"id": "bd27aeb7-e58a-4a0d-b685-9f2455ede268",
+			"name": "Fitbit Aria Air",
+			"brand": "Fitbit",
+			"category": "Electronic Personal Care Devices",
+			"price": 49.99,
+			"wasPrice": 59.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 16.67,
+			"description": "velit nostrud elit laborum Lorem occaecat ipsum cupidatat amet do do deserunt deserunt cillum enim",
+			"rating": {
+				"value": 2.69,
+				"votedCount": 1717
+			},
+			"createdAt": "2023-04-08T06:03:48.914Z",
+			"specialOffer": null,
+			"colors": ["hotpink", "tomato", "mediumorchid"],
+			"soldTimes": 911,
+			"code": "E58A-4A0D",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Aria Air",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Aria Air 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Aria Air 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Aria Air 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Fitbit Aria Air 4"
+			]
+		},
+		{
+			"id": "a88d073d-536d-470b-b7f9-6537b94f95aa",
+			"name": "Garmin Forerunner 245",
+			"brand": "Garmin",
+			"category": "Wearable Technology",
+			"price": 299.99,
+			"wasPrice": 329.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "sint quis sunt proident deserunt adipisicing incididunt aliqua labore proident veniam ad sit eu officia",
+			"rating": {
+				"value": 4.78,
+				"votedCount": 1534
+			},
+			"createdAt": "2023-01-11T14:49:51.239Z",
+			"specialOffer": {
+				"startDate": "2023-02-15T09:26:26.736Z",
+				"endDate": "2023-03-08T09:15:27.373Z",
+				"price": 249.99
+			},
+			"colors": ["gray", "paleturquoise"],
+			"soldTimes": 669,
+			"code": "536D-470B",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 245",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 245 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 245 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 245 3"
+			]
+		},
+		{
+			"id": "9e078084-f931-4b95-8a5d-265d15f23182",
+			"name": "Garmin vívoactive 4",
+			"brand": "Garmin",
+			"category": "Wearable Technology",
+			"price": 299.99,
+			"wasPrice": 329.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "minim commodo et tempor consequat ex commodo aute mollit",
+			"rating": {
+				"value": 4.25,
+				"votedCount": 252
+			},
+			"createdAt": "2023-03-09T13:24:51.446Z",
+			"specialOffer": {
+				"startDate": "2023-02-25T18:43:23.137Z",
+				"endDate": "2023-05-10T19:32:35.805Z",
+				"price": 246.99
+			},
+			"colors": ["purple", "palegreen", "lime"],
+			"soldTimes": 690,
+			"code": "F931-4B95",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívoactive 4",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívoactive 4 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívoactive 4 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívoactive 4 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívoactive 4 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívoactive 4 5"
+			]
+		},
+		{
+			"id": "7aaf7553-94a9-46cd-a3dc-769c2bafcf4c",
+			"name": "Garmin fenix 6",
+			"brand": "Garmin",
+			"category": "Wearable Technology",
+			"price": 599.99,
+			"wasPrice": 649.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 7.69,
+			"description": "esse ipsum est ipsum incididunt nostrud sint consequat",
+			"rating": {
+				"value": 2.34,
+				"votedCount": 1250
+			},
+			"createdAt": "2023-04-27T08:48:32.704Z",
+			"specialOffer": null,
+			"colors": ["wheat", "hotpink", "seagreen", "green"],
+			"soldTimes": 670,
+			"code": "94A9-46CD",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin fenix 6",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin fenix 6 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin fenix 6 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin fenix 6 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin fenix 6 4"
+			]
+		},
+		{
+			"id": "7feb8618-f0cc-4e42-90a8-7a1a3eeedadd",
+			"name": "Garmin Instinct",
+			"brand": "Garmin",
+			"category": "Wearable Technology",
+			"price": 199.99,
+			"wasPrice": 219.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "aliquip proident sint et nostrud ex ut eiusmod deserunt eiusmod enim laboris aliqua laboris irure",
+			"rating": {
+				"value": 2.55,
+				"votedCount": 12
+			},
+			"createdAt": "2023-01-10T22:29:59.540Z",
+			"specialOffer": {
+				"startDate": "2023-02-26T13:23:06.996Z",
+				"endDate": "2023-05-16T12:45:51.477Z",
+				"price": 128.99
+			},
+			"colors": ["tomato", "plum", "lime"],
+			"soldTimes": 267,
+			"code": "F0CC-4E42",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Instinct",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Instinct 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Instinct 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Instinct 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Instinct 4"
+			]
+		},
+		{
+			"id": "4b1acab7-02ab-449c-956a-0d9f99888f0e",
+			"name": "Garmin Forerunner 945",
+			"brand": "Garmin",
+			"category": "Wearable Technology",
+			"price": 599.99,
+			"wasPrice": 649.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 7.69,
+			"description": "nisi ex veniam excepteur cillum sint mollit enim nostrud nostrud aliqua dolor",
+			"rating": {
+				"value": 1.04,
+				"votedCount": 1858
+			},
+			"createdAt": "2023-01-02T06:00:15.127Z",
+			"specialOffer": {
+				"startDate": "2023-01-10T04:42:32.932Z",
+				"endDate": "2023-05-19T11:16:14.358Z",
+				"price": 526.99
+			},
+			"colors": ["papayawhip", "pink", "indigo", "gold"],
+			"soldTimes": 513,
+			"code": "02AB-449C",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 945",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 945 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 945 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 945 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 945 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin Forerunner 945 5"
+			]
+		},
+		{
+			"id": "b939c813-6be4-473b-8146-24098c2510b3",
+			"name": "Garmin vívosmart 4",
+			"brand": "Garmin",
+			"category": "Wearable Technology",
+			"price": 129.99,
+			"wasPrice": 149.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 13.33,
+			"description": "laborum aute cupidatat in eu aliquip duis esse velit id",
+			"rating": {
+				"value": 4.23,
+				"votedCount": 1952
+			},
+			"createdAt": "2023-02-10T17:28:47.685Z",
+			"specialOffer": {
+				"startDate": "2023-02-27T15:00:12.165Z",
+				"endDate": "2023-03-05T12:25:21.108Z",
+				"price": 55.99
+			},
+			"colors": ["papayawhip", "indigo", "mediumvioletred"],
+			"soldTimes": 484,
+			"code": "6BE4-473B",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívosmart 4",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívosmart 4 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívosmart 4 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívosmart 4 3"
+			]
+		},
+		{
+			"id": "f6d8d022-b68a-4684-a57e-93c2ff5a371a",
+			"name": "Garmin vívomove HR",
+			"brand": "Garmin",
+			"category": "Wearable Technology",
+			"price": 179.99,
+			"wasPrice": 199.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 10,
+			"description": "elit tempor et veniam tempor reprehenderit adipisicing ex",
+			"rating": {
+				"value": 1.79,
+				"votedCount": 1240
+			},
+			"createdAt": "2023-01-03T05:02:09.822Z",
+			"specialOffer": null,
+			"colors": ["mediumvioletred", "lemonchiffon", "fuchsia"],
+			"soldTimes": 1520,
+			"code": "B68A-4684",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívomove HR",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívomove HR 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívomove HR 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívomove HR 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Garmin vívomove HR 4"
+			]
+		},
+		{
+			"id": "0f8684fa-7f96-4d78-94b7-53ee995ba6b4",
+			"name": "Canon EOS R5",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 3799.99,
+			"wasPrice": 3999.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 5,
+			"description": "ut ipsum amet ullamco ipsum amet qui ipsum laboris quis enim pariatur do qui occaecat",
+			"rating": {
+				"value": 4.74,
+				"votedCount": 749
+			},
+			"createdAt": "2023-05-02T09:24:59.390Z",
+			"specialOffer": {
+				"startDate": "2023-01-18T08:16:55.018Z",
+				"endDate": "2023-05-02T01:16:59.871Z",
+				"price": 3712.99
+			},
+			"colors": ["palevioletred", "lemonchiffon", "greenyellow", "tomato"],
+			"soldTimes": 1670,
+			"code": "7F96-4D78",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS R5",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS R5 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS R5 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS R5 3"
+			]
+		},
+		{
+			"id": "e97d112e-30c4-462d-bb80-f6f5bce79da9",
+			"name": "Canon EOS 5D Mark IV",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 2499.99,
+			"wasPrice": 2799.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 10.71,
+			"description": "do veniam minim dolor amet minim aliqua consequat non ad sit officia proident sunt excepteur officia Lorem",
+			"rating": {
+				"value": 2.41,
+				"votedCount": 902
+			},
+			"createdAt": "2023-05-03T08:50:50.768Z",
+			"specialOffer": null,
+			"colors": ["tomato", "maroon", "gold", "mediumvioletred"],
+			"soldTimes": 93,
+			"code": "30C4-462D",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 5D Mark IV",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 5D Mark IV 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 5D Mark IV 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 5D Mark IV 3"
+			]
+		},
+		{
+			"id": "6e0472a5-43cb-411f-bcad-bd12bf0b6180",
+			"name": "Canon EOS Rebel T8i",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 899.99,
+			"wasPrice": 999.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 10,
+			"description": "duis ad sint veniam dolore exercitation laborum sit veniam",
+			"rating": {
+				"value": 3.32,
+				"votedCount": 366
+			},
+			"createdAt": "2023-03-10T16:33:24.889Z",
+			"specialOffer": null,
+			"colors": ["hotpink", "yellow", "palegreen"],
+			"soldTimes": 102,
+			"code": "43CB-411F",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel T8i",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel T8i 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel T8i 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel T8i 3"
+			]
+		},
+		{
+			"id": "d47fd692-37c4-44dd-8122-48974f713ffb",
+			"name": "Canon EOS 6D Mark II",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 1499.99,
+			"wasPrice": 1699.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 11.76,
+			"description": "veniam exercitation aliquip cupidatat ex exercitation duis pariatur deserunt nisi in ad",
+			"rating": {
+				"value": 2.19,
+				"votedCount": 1949
+			},
+			"createdAt": "2023-05-29T06:55:19.568Z",
+			"specialOffer": null,
+			"colors": ["salmon", "maroon", "red"],
+			"soldTimes": 1171,
+			"code": "37C4-44DD",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 6D Mark II",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 6D Mark II 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 6D Mark II 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS 6D Mark II 3"
+			]
+		},
+		{
+			"id": "9c24f052-6467-49ca-8b10-d7b6cc74b155",
+			"name": "Canon PowerShot G7 X Mark III",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 749.99,
+			"wasPrice": 799.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 6.25,
+			"description": "non eu fugiat consequat dolore aliqua ad nisi ut",
+			"rating": {
+				"value": 1.72,
+				"votedCount": 1663
+			},
+			"createdAt": "2023-03-10T21:36:21.703Z",
+			"specialOffer": null,
+			"colors": ["darkorange", "coral", "plum", "gold"],
+			"soldTimes": 313,
+			"code": "6467-49CA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon PowerShot G7 X Mark III",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon PowerShot G7 X Mark III 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon PowerShot G7 X Mark III 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon PowerShot G7 X Mark III 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon PowerShot G7 X Mark III 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon PowerShot G7 X Mark III 5"
+			]
+		},
+		{
+			"id": "09a01c1b-8dbc-4519-9b3d-3ec39933ff1d",
+			"name": "Canon EOS M50 Mark II",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 6.67,
+			"description": "minim nisi velit dolore sint amet do do quis mollit adipisicing labore do Lorem labore duis amet",
+			"rating": {
+				"value": 3.79,
+				"votedCount": 1786
+			},
+			"createdAt": "2023-03-21T08:23:24.038Z",
+			"specialOffer": {
+				"startDate": "2023-02-14T17:41:56.500Z",
+				"endDate": "2023-05-30T00:25:56.808Z",
+				"price": 602.99
+			},
+			"colors": ["chartreuse", "orange", "coral", "lime"],
+			"soldTimes": 775,
+			"code": "8DBC-4519",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS M50 Mark II",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS M50 Mark II 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS M50 Mark II 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS M50 Mark II 3"
+			]
+		},
+		{
+			"id": "4451b8de-3374-4184-a203-327c7707617d",
+			"name": "Canon EOS-1D X Mark III",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 6499.99,
+			"wasPrice": 6999.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 7.14,
+			"description": "laboris excepteur veniam commodo et ex ullamco adipisicing deserunt enim ex dolore ad adipisicing aliquip",
+			"rating": {
+				"value": 1.86,
+				"votedCount": 1516
+			},
+			"createdAt": "2023-02-24T09:13:20.836Z",
+			"specialOffer": null,
+			"colors": ["paleturquoise", "fuchsia", "lemonchiffon"],
+			"soldTimes": 121,
+			"code": "3374-4184",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS-1D X Mark III",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS-1D X Mark III 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS-1D X Mark III 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS-1D X Mark III 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS-1D X Mark III 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS-1D X Mark III 5"
+			]
+		},
+		{
+			"id": "dbc7c0b7-0d25-4c2c-bb29-3a1e82eacde5",
+			"name": "Canon EOS Rebel SL3",
+			"brand": "Canon",
+			"category": "Cameras and Photography Equipment",
+			"price": 599.99,
+			"wasPrice": 649.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 7.69,
+			"description": "do adipisicing excepteur excepteur enim et sunt laborum",
+			"rating": {
+				"value": 1.05,
+				"votedCount": 1383
+			},
+			"createdAt": "2023-01-30T04:33:06.807Z",
+			"specialOffer": {
+				"startDate": "2023-01-15T12:02:48.139Z",
+				"endDate": "2023-04-14T22:08:07.326Z",
+				"price": 501.99
+			},
+			"colors": ["silver", "fuchsia", "orangered", "deeppink"],
+			"soldTimes": 781,
+			"code": "0D25-4C2C",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel SL3",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel SL3 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel SL3 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel SL3 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel SL3 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Canon EOS Rebel SL3 5"
+			]
+		},
+		{
+			"id": "7cb6d4a4-2e16-4cb7-a996-ec40b4f9bafa",
+			"name": "Nikon D850",
+			"brand": "Nikon",
+			"category": "Cameras and Photography Equipment",
+			"price": 2999.99,
+			"wasPrice": 3299.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "velit cupidatat aliquip minim velit sunt magna amet culpa eiusmod",
+			"rating": {
+				"value": 1.81,
+				"votedCount": 1766
+			},
+			"createdAt": "2023-01-15T06:59:17.541Z",
+			"specialOffer": {
+				"startDate": "2023-02-11T04:55:23.538Z",
+				"endDate": "2023-03-01T04:43:09.542Z",
+				"price": 2920.99
+			},
+			"colors": ["mediumspringgreen", "lime", "paleturquoise"],
+			"soldTimes": 1667,
+			"code": "2E16-4CB7",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D850",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D850 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D850 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D850 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D850 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D850 5"
+			]
+		},
+		{
+			"id": "722383a4-117c-48d7-bb32-6d77a0336406",
+			"name": "Nikon Z7 II",
+			"brand": "Nikon",
+			"category": "Cameras and Photography Equipment",
+			"price": 2999.99,
+			"wasPrice": 3199.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 6.25,
+			"description": "cillum officia commodo proident fugiat aute pariatur incididunt in esse",
+			"rating": {
+				"value": 2.34,
+				"votedCount": 910
+			},
+			"createdAt": "2023-02-05T21:35:02.751Z",
+			"specialOffer": {
+				"startDate": "2023-02-08T08:39:51.589Z",
+				"endDate": "2023-03-18T11:54:22.632Z",
+				"price": 2911.99
+			},
+			"colors": ["green", "white", "lemonchiffon", "fuchsia"],
+			"soldTimes": 1077,
+			"code": "117C-48D7",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z7 II",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z7 II 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z7 II 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z7 II 3"
+			]
+		},
+		{
+			"id": "ab6369dc-35a6-4259-8762-b27781d9e0a2",
+			"name": "Nikon D780",
+			"brand": "Nikon",
+			"category": "Cameras and Photography Equipment",
+			"price": 2199.99,
+			"wasPrice": 2399.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 8.33,
+			"description": "minim amet ea deserunt exercitation sunt nostrud Lorem dolore veniam exercitation consectetur minim esse laboris enim pariatur",
+			"rating": {
+				"value": 2.11,
+				"votedCount": 603
+			},
+			"createdAt": "2023-01-11T12:24:20.290Z",
+			"specialOffer": {
+				"startDate": "2023-01-07T22:23:13.999Z",
+				"endDate": "2023-05-20T14:36:53.057Z",
+				"price": 2144.99
+			},
+			"colors": ["palevioletred", "chartreuse", "orangered", "seagreen"],
+			"soldTimes": 756,
+			"code": "35A6-4259",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D780",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D780 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D780 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D780 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D780 4"
+			]
+		},
+		{
+			"id": "7cf16545-cf5d-4282-8a4e-61235e1bd6fd",
+			"name": "Nikon D7500",
+			"brand": "Nikon",
+			"category": "Cameras and Photography Equipment",
+			"price": 999.99,
+			"wasPrice": 1199.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 16.67,
+			"description": "sint labore et eu ea est nulla reprehenderit do excepteur",
+			"rating": {
+				"value": 1.72,
+				"votedCount": 1701
+			},
+			"createdAt": "2023-04-28T00:32:08.073Z",
+			"specialOffer": null,
+			"colors": ["orange", "indigo"],
+			"soldTimes": 800,
+			"code": "CF5D-4282",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D7500",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D7500 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D7500 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D7500 3"
+			]
+		},
+		{
+			"id": "7a76a4d8-ef7d-49f1-ae6a-91181b782be9",
+			"name": "Nikon Z50",
+			"brand": "Nikon",
+			"category": "Cameras and Photography Equipment",
+			"price": 799.99,
+			"wasPrice": 899.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 11.11,
+			"description": "voluptate in adipisicing sint nostrud minim sit minim commodo sit",
+			"rating": {
+				"value": 4.05,
+				"votedCount": 1479
+			},
+			"createdAt": "2023-03-25T14:14:13.576Z",
+			"specialOffer": {
+				"startDate": "2023-01-05T16:13:00.280Z",
+				"endDate": "2023-04-04T21:26:08.972Z",
+				"price": 720.99
+			},
+			"colors": ["mediumvioletred", "deeppink", "red"],
+			"soldTimes": 1248,
+			"code": "EF7D-49F1",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z50",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z50 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z50 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z50 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon Z50 4"
+			]
+		},
+		{
+			"id": "f3f50f1b-912c-4915-957b-e909de5cf7ce",
+			"name": "Nikon D3500",
+			"brand": "Nikon",
+			"category": "Cameras and Photography Equipment",
+			"price": 499.99,
+			"wasPrice": 549.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "deserunt magna pariatur do et officia cillum in mollit dolor",
+			"rating": {
+				"value": 1.72,
+				"votedCount": 1852
+			},
+			"createdAt": "2023-02-25T06:52:45.146Z",
+			"specialOffer": {
+				"startDate": "2023-01-22T17:22:33.084Z",
+				"endDate": "2023-05-27T03:21:48.199Z",
+				"price": 431.99
+			},
+			"colors": ["darkorange", "greenyellow", "mediumvioletred"],
+			"soldTimes": 306,
+			"code": "912C-4915",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D3500",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D3500 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D3500 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D3500 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Nikon D3500 4"
+			]
+		},
+		{
+			"id": "7bd384a6-ffc8-412c-bce1-cfc107a6b2b2",
+			"name": "IKEA Ektorp Sofa",
+			"brand": "IKEA",
+			"category": "Living Room Furniture",
+			"price": 499.99,
+			"wasPrice": 599.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 16.67,
+			"description": "ullamco anim incididunt pariatur ea dolore pariatur reprehenderit eiusmod culpa ea officia minim commodo tempor consectetur fugiat",
+			"rating": {
+				"value": 3.28,
+				"votedCount": 1180
+			},
+			"createdAt": "2023-01-27T10:57:47.118Z",
+			"specialOffer": {
+				"startDate": "2023-01-30T15:51:46.771Z",
+				"endDate": "2023-05-17T06:42:41.817Z",
+				"price": 425.99
+			},
+			"colors": ["darkorange", "green", "chartreuse"],
+			"soldTimes": 571,
+			"code": "FFC8-412C",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Ektorp Sofa",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Ektorp Sofa 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Ektorp Sofa 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Ektorp Sofa 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Ektorp Sofa 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Ektorp Sofa 5"
+			]
+		},
+		{
+			"id": "0e6d7f7a-71c0-4332-b9b9-3cbb5d0f877d",
+			"name": "IKEA Hemnes Bed Frame",
+			"brand": "IKEA",
+			"category": "Bedroom Furniture",
+			"price": 299.99,
+			"wasPrice": 349.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 14.29,
+			"description": "sit excepteur sit in quis nisi aliquip ut do occaecat velit fugiat ad non aute",
+			"rating": {
+				"value": 1.59,
+				"votedCount": 593
+			},
+			"createdAt": "2023-05-29T21:03:27.167Z",
+			"specialOffer": {
+				"startDate": "2023-02-04T05:44:33.201Z",
+				"endDate": "2023-04-26T22:38:32.431Z",
+				"price": 243.99
+			},
+			"colors": ["paleturquoise", "yellow", "blue", "chartreuse"],
+			"soldTimes": 1747,
+			"code": "71C0-4332",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Hemnes Bed Frame",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Hemnes Bed Frame 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Hemnes Bed Frame 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Hemnes Bed Frame 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Hemnes Bed Frame 4"
+			]
+		},
+		{
+			"id": "18c08b92-e2e6-4a4d-9f18-f839b1ce85b8",
+			"name": "IKEA Kallax Shelf Unit",
+			"brand": "IKEA",
+			"category": "Storage Solutions",
+			"price": 69.99,
+			"wasPrice": 79.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 12.5,
+			"description": "ut qui amet aliqua ut veniam adipisicing laboris laborum excepteur velit occaecat",
+			"rating": {
+				"value": 1.63,
+				"votedCount": 87
+			},
+			"createdAt": "2023-03-28T10:12:15.733Z",
+			"specialOffer": null,
+			"colors": ["papayawhip", "greenyellow", "red"],
+			"soldTimes": 33,
+			"code": "E2E6-4A4D",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Kallax Shelf Unit",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Kallax Shelf Unit 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Kallax Shelf Unit 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Kallax Shelf Unit 3"
+			]
+		},
+		{
+			"id": "3bb8316b-6805-43ed-9020-7871eea5cb1c",
+			"name": "IKEA Billy Bookcase",
+			"brand": "IKEA",
+			"category": "Storage Solutions",
+			"price": 79.99,
+			"wasPrice": 89.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "Lorem sint sunt consequat pariatur eiusmod excepteur commodo",
+			"rating": {
+				"value": 1.58,
+				"votedCount": 1180
+			},
+			"createdAt": "2023-05-01T11:33:38.665Z",
+			"specialOffer": {
+				"startDate": "2023-01-12T12:10:08.437Z",
+				"endDate": "2023-04-29T00:30:54.830Z",
+				"price": 1.01
+			},
+			"colors": ["palevioletred", "coral", "dodgerblue"],
+			"soldTimes": 1631,
+			"code": "6805-43ED",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Billy Bookcase",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Billy Bookcase 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Billy Bookcase 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Billy Bookcase 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Billy Bookcase 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Billy Bookcase 5"
+			]
+		},
+		{
+			"id": "6581d63a-b461-4bd3-95ce-e6bd171dee6f",
+			"name": "IKEA Lack Coffee Table",
+			"brand": "IKEA",
+			"category": "Living Room Furniture",
+			"price": 29.99,
+			"wasPrice": 39.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 25.01,
+			"description": "fugiat dolor proident voluptate magna voluptate anim mollit ea officia",
+			"rating": {
+				"value": 2.57,
+				"votedCount": 1107
+			},
+			"createdAt": "2023-01-04T17:09:30.548Z",
+			"specialOffer": {
+				"startDate": "2023-02-14T15:13:27.178Z",
+				"endDate": "2023-04-13T15:54:11.922Z",
+				"price": 22.01
+			},
+			"colors": ["papayawhip", "greenyellow", "darkorange"],
+			"soldTimes": 474,
+			"code": "B461-4BD3",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Lack Coffee Table",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Lack Coffee Table 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Lack Coffee Table 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Lack Coffee Table 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Lack Coffee Table 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Lack Coffee Table 5"
+			]
+		},
+		{
+			"id": "b40bd284-c1c3-4af5-8985-79263aae0379",
+			"name": "IKEA Malm Dresser",
+			"brand": "IKEA",
+			"category": "Bedroom Furniture",
+			"price": 199.99,
+			"wasPrice": 229.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 13.04,
+			"description": "mollit occaecat reprehenderit sit adipisicing consectetur mollit deserunt sint aliqua amet sit",
+			"rating": {
+				"value": 4.31,
+				"votedCount": 654
+			},
+			"createdAt": "2023-02-21T00:24:05.109Z",
+			"specialOffer": {
+				"startDate": "2023-01-08T15:53:41.130Z",
+				"endDate": "2023-03-26T23:48:21.290Z",
+				"price": 108.99
+			},
+			"colors": ["darkorange", "deeppink", "black"],
+			"soldTimes": 984,
+			"code": "C1C3-4AF5",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Malm Dresser",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Malm Dresser 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Malm Dresser 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Malm Dresser 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Malm Dresser 4"
+			]
+		},
+		{
+			"id": "ee74ed18-36fe-4ee3-b800-4b0cd0ccf872",
+			"name": "IKEA Raskog Utility Cart",
+			"brand": "IKEA",
+			"category": "Storage Solutions",
+			"price": 39.99,
+			"wasPrice": 49.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 20,
+			"description": "duis exercitation do nostrud aliquip adipisicing mollit tempor deserunt",
+			"rating": {
+				"value": 1.18,
+				"votedCount": 1948
+			},
+			"createdAt": "2023-01-11T19:45:26.408Z",
+			"specialOffer": {
+				"startDate": "2023-02-01T19:48:58.583Z",
+				"endDate": "2023-04-08T19:55:08.374Z",
+				"price": 29.01
+			},
+			"colors": ["orangered", "darkorange", "deeppink"],
+			"soldTimes": 1016,
+			"code": "36FE-4EE3",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Raskog Utility Cart",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Raskog Utility Cart 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Raskog Utility Cart 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Raskog Utility Cart 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Raskog Utility Cart 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Raskog Utility Cart 5"
+			]
+		},
+		{
+			"id": "908d669c-5489-42ea-9f0c-8f9ad47683c1",
+			"name": "IKEA Poäng Armchair",
+			"brand": "IKEA",
+			"category": "Living Room Furniture",
+			"price": 79.99,
+			"wasPrice": 89.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 11.11,
+			"description": "ea exercitation ad sint amet cillum consequat cupidatat non reprehenderit nulla esse do cillum commodo esse est",
+			"rating": {
+				"value": 3.87,
+				"votedCount": 1230
+			},
+			"createdAt": "2023-03-01T07:44:12.194Z",
+			"specialOffer": null,
+			"colors": ["fuchsia", "orangered", "brown"],
+			"soldTimes": 1615,
+			"code": "5489-42EA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Poäng Armchair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Poäng Armchair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Poäng Armchair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Poäng Armchair 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Poäng Armchair 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Poäng Armchair 5"
+			]
+		},
+		{
+			"id": "290abc94-f2ee-4787-a6eb-fffad985f6ca",
+			"name": "IKEA Brimnes Wardrobe",
+			"brand": "IKEA",
+			"category": "Bedroom Furniture",
+			"price": 249.99,
+			"wasPrice": 279.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 10.71,
+			"description": "quis cupidatat incididunt ullamco ut anim consectetur voluptate labore eiusmod cillum velit",
+			"rating": {
+				"value": 3.87,
+				"votedCount": 1355
+			},
+			"createdAt": "2023-04-03T22:03:17.747Z",
+			"specialOffer": {
+				"startDate": "2023-02-11T19:00:23.119Z",
+				"endDate": "2023-05-27T22:29:56.779Z",
+				"price": 199.99
+			},
+			"colors": ["greenyellow", "fuchsia"],
+			"soldTimes": 1672,
+			"code": "F2EE-4787",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Brimnes Wardrobe",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Brimnes Wardrobe 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Brimnes Wardrobe 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Brimnes Wardrobe 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Brimnes Wardrobe 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Brimnes Wardrobe 5"
+			]
+		},
+		{
+			"id": "7cdc7687-3d7f-417b-be6d-9b3f13a563a6",
+			"name": "IKEA Stenstorp Kitchen Cart",
+			"brand": "IKEA",
+			"category": "Kitchen and Bar Furniture",
+			"price": 149.99,
+			"wasPrice": 169.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 11.77,
+			"description": "reprehenderit elit est magna anim pariatur nostrud ad laborum nisi tempor ut nulla ea ea",
+			"rating": {
+				"value": 1.61,
+				"votedCount": 231
+			},
+			"createdAt": "2023-05-04T20:50:29.429Z",
+			"specialOffer": null,
+			"colors": ["salmon", "gold", "chartreuse"],
+			"soldTimes": 417,
+			"code": "3D7F-417B",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Stenstorp Kitchen Cart",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Stenstorp Kitchen Cart 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Stenstorp Kitchen Cart 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Stenstorp Kitchen Cart 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=IKEA Stenstorp Kitchen Cart 4"
+			]
+		},
+		{
+			"id": "2f09b579-8b2e-4ce0-b4bd-0df4fc994a59",
+			"name": "West Elm Henry Sofa",
+			"brand": "West Elm",
+			"category": "Living Room Furniture",
+			"price": 999.99,
+			"wasPrice": 1099.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "exercitation non excepteur culpa eu amet proident irure quis fugiat magna et commodo sunt mollit",
+			"rating": {
+				"value": 1.33,
+				"votedCount": 781
+			},
+			"createdAt": "2023-03-24T23:31:37.373Z",
+			"specialOffer": {
+				"startDate": "2023-01-31T10:11:36.936Z",
+				"endDate": "2023-05-14T21:38:57.647Z",
+				"price": 904.99
+			},
+			"colors": ["coral", "mediumspringgreen", "pink", "green"],
+			"soldTimes": 1896,
+			"code": "8B2E-4CE0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Henry Sofa",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Henry Sofa 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Henry Sofa 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Henry Sofa 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Henry Sofa 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Henry Sofa 5"
+			]
+		},
+		{
+			"id": "44df0ff0-af38-468e-bcd1-a5a96793d055",
+			"name": "West Elm Mid-Century Bed",
+			"brand": "West Elm",
+			"category": "Bedroom Furniture",
+			"price": 1299.99,
+			"wasPrice": 1399.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 7.14,
+			"description": "excepteur nisi deserunt nostrud enim dolore labore fugiat nulla aliqua amet ex excepteur nostrud deserunt",
+			"rating": {
+				"value": 3.92,
+				"votedCount": 614
+			},
+			"createdAt": "2023-04-07T07:17:33.140Z",
+			"specialOffer": {
+				"startDate": "2023-01-04T12:14:30.201Z",
+				"endDate": "2023-03-24T02:16:26.603Z",
+				"price": 1206.99
+			},
+			"colors": ["teal", "gold", "black"],
+			"soldTimes": 808,
+			"code": "AF38-468E",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Bed",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Bed 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Bed 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Bed 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Bed 4"
+			]
+		},
+		{
+			"id": "e725279c-b881-426e-ba19-837c0478822c",
+			"name": "West Elm Portside Outdoor Lounge Chair",
+			"brand": "West Elm",
+			"category": "Outdoor Furniture",
+			"price": 299.99,
+			"wasPrice": 349.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 14.29,
+			"description": "ea id id aute ullamco mollit officia velit incididunt dolore cillum dolore",
+			"rating": {
+				"value": 4.28,
+				"votedCount": 524
+			},
+			"createdAt": "2023-05-25T16:01:03.195Z",
+			"specialOffer": null,
+			"colors": ["white", "blue", "fuchsia", "mediumvioletred"],
+			"soldTimes": 494,
+			"code": "B881-426E",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Portside Outdoor Lounge Chair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Portside Outdoor Lounge Chair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Portside Outdoor Lounge Chair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Portside Outdoor Lounge Chair 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Portside Outdoor Lounge Chair 4"
+			]
+		},
+		{
+			"id": "cf5f807d-3107-4f67-b7e5-c63500820f5e",
+			"name": "West Elm Andes Sectional",
+			"brand": "West Elm",
+			"category": "Living Room Furniture",
+			"price": 1899.99,
+			"wasPrice": 1999.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 5,
+			"description": "sint laboris est labore duis quis cupidatat veniam sunt quis fugiat culpa",
+			"rating": {
+				"value": 1.14,
+				"votedCount": 101
+			},
+			"createdAt": "2023-03-20T10:46:46.501Z",
+			"specialOffer": {
+				"startDate": "2023-02-08T11:58:24.379Z",
+				"endDate": "2023-04-28T12:12:05.160Z",
+				"price": 1805.99
+			},
+			"colors": ["paleturquoise", "darkorange", "wheat", "aqua"],
+			"soldTimes": 1455,
+			"code": "3107-4F67",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Andes Sectional",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Andes Sectional 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Andes Sectional 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Andes Sectional 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Andes Sectional 4"
+			]
+		},
+		{
+			"id": "c3b8a1bc-df9f-4c4b-bc27-dc059a42780b",
+			"name": "West Elm Mid-Century Outdoor Dining Table",
+			"brand": "West Elm",
+			"category": "Outdoor Furniture",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 6.67,
+			"description": "culpa excepteur ut velit tempor in incididunt incididunt",
+			"rating": {
+				"value": 4.99,
+				"votedCount": 512
+			},
+			"createdAt": "2023-02-18T05:11:30.705Z",
+			"specialOffer": null,
+			"colors": ["orangered", "orange", "black"],
+			"soldTimes": 664,
+			"code": "DF9F-4C4B",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Outdoor Dining Table",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Outdoor Dining Table 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Outdoor Dining Table 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Outdoor Dining Table 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=West Elm Mid-Century Outdoor Dining Table 4"
+			]
+		},
+		{
+			"id": "04e5c485-707c-48a7-b086-5e489985c628",
+			"name": "Crate & Barrel Lounge II Sofa",
+			"brand": "Crate & Barrel",
+			"category": "Living Room Furniture",
+			"price": 1999.99,
+			"wasPrice": 2199.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "cupidatat ad dolor irure quis id pariatur excepteur laboris exercitation",
+			"rating": {
+				"value": 4.73,
+				"votedCount": 171
+			},
+			"createdAt": "2023-01-25T10:57:54.958Z",
+			"specialOffer": null,
+			"colors": ["black", "paleturquoise", "plum"],
+			"soldTimes": 198,
+			"code": "707C-48A7",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sofa",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sofa 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sofa 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sofa 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sofa 4"
+			]
+		},
+		{
+			"id": "98dd6aab-a376-4bca-9534-f96d260273a6",
+			"name": "Crate & Barrel Big Sur Dining Table",
+			"brand": "Crate & Barrel",
+			"category": "Dining Room Furniture",
+			"price": 1499.99,
+			"wasPrice": 1699.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 11.76,
+			"description": "eu nostrud deserunt fugiat in ad qui enim cillum",
+			"rating": {
+				"value": 3.91,
+				"votedCount": 608
+			},
+			"createdAt": "2023-02-23T01:45:57.841Z",
+			"specialOffer": {
+				"startDate": "2023-02-08T23:46:35.171Z",
+				"endDate": "2023-05-17T14:55:20.464Z",
+				"price": 1446.99
+			},
+			"colors": ["paleturquoise", "fuchsia", "salmon"],
+			"soldTimes": 1552,
+			"code": "A376-4BCA",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Big Sur Dining Table",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Big Sur Dining Table 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Big Sur Dining Table 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Big Sur Dining Table 3"
+			]
+		},
+		{
+			"id": "487ead40-ec0e-4f45-bc53-997ab1367fee",
+			"name": "Crate & Barrel Knox Modular Desk",
+			"brand": "Crate & Barrel",
+			"category": "Home Office Furniture",
+			"price": 899.99,
+			"wasPrice": 999.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 10,
+			"description": "occaecat elit ipsum aliqua velit laborum ad dolore do anim nulla nisi cillum ea commodo anim elit",
+			"rating": {
+				"value": 2.59,
+				"votedCount": 484
+			},
+			"createdAt": "2023-05-11T05:41:05.390Z",
+			"specialOffer": {
+				"startDate": "2023-01-18T06:56:30.309Z",
+				"endDate": "2023-04-15T00:34:48.319Z",
+				"price": 818.99
+			},
+			"colors": ["hotpink", "aqua", "salmon", "silver"],
+			"soldTimes": 1649,
+			"code": "EC0E-4F45",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Knox Modular Desk",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Knox Modular Desk 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Knox Modular Desk 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Knox Modular Desk 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Knox Modular Desk 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Knox Modular Desk 5"
+			]
+		},
+		{
+			"id": "039f03ec-b1e7-47d7-8641-bcfc938ae037",
+			"name": "Crate & Barrel Tatum Accent Chair",
+			"brand": "Crate & Barrel",
+			"category": "Accent Furniture",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 6.67,
+			"description": "do consequat ea Lorem do fugiat occaecat magna consectetur eu voluptate eiusmod non sint non nostrud mollit",
+			"rating": {
+				"value": 1.33,
+				"votedCount": 1973
+			},
+			"createdAt": "2023-05-29T14:12:36.034Z",
+			"specialOffer": null,
+			"colors": ["fuchsia", "mediumspringgreen", "orange"],
+			"soldTimes": 385,
+			"code": "B1E7-47D7",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Tatum Accent Chair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Tatum Accent Chair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Tatum Accent Chair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Tatum Accent Chair 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Tatum Accent Chair 4"
+			]
+		},
+		{
+			"id": "ab004b15-113b-4ca3-b036-2bea4caed5e5",
+			"name": "Crate & Barrel Clive Bookcase",
+			"brand": "Crate & Barrel",
+			"category": "Storage Solutions",
+			"price": 499.99,
+			"wasPrice": 549.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "occaecat deserunt sunt anim sint eu tempor sint ea quis ut culpa voluptate ea commodo",
+			"rating": {
+				"value": 1.55,
+				"votedCount": 174
+			},
+			"createdAt": "2023-03-23T19:49:00.109Z",
+			"specialOffer": null,
+			"colors": ["paleturquoise", "chartreuse", "mediumorchid", "gold"],
+			"soldTimes": 1097,
+			"code": "113B-4CA3",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Clive Bookcase",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Clive Bookcase 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Clive Bookcase 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Clive Bookcase 3"
+			]
+		},
+		{
+			"id": "298d0f0b-9704-49f2-a5ff-1624e0ee1a1a",
+			"name": "Crate & Barrel Lounge II Sectional",
+			"brand": "Crate & Barrel",
+			"category": "Living Room Furniture",
+			"price": 2999.99,
+			"wasPrice": 3299.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "ex et eu dolor minim ea aliquip commodo",
+			"rating": {
+				"value": 4.53,
+				"votedCount": 78
+			},
+			"createdAt": "2023-05-24T05:30:43.341Z",
+			"specialOffer": {
+				"startDate": "2023-02-10T07:16:52.274Z",
+				"endDate": "2023-03-09T19:32:08.102Z",
+				"price": 2937.99
+			},
+			"colors": ["tomato", "mediumvioletred", "teal"],
+			"soldTimes": 1313,
+			"code": "9704-49F2",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sectional",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sectional 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sectional 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sectional 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sectional 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Lounge II Sectional 5"
+			]
+		},
+		{
+			"id": "cc27e89e-3880-422f-97e7-dc2b29831325",
+			"name": "Crate & Barrel Paloma Dining Chair",
+			"brand": "Crate & Barrel",
+			"category": "Dining Room Furniture",
+			"price": 199.99,
+			"wasPrice": 229.99,
+			"isSale": true,
+			"isFeatured": true,
+			"discountPercentage": 13.04,
+			"description": "non ullamco ex ex amet cillum occaecat labore nisi non",
+			"rating": {
+				"value": 2.81,
+				"votedCount": 1405
+			},
+			"createdAt": "2023-02-20T18:52:56.922Z",
+			"specialOffer": {
+				"startDate": "2023-01-20T10:02:25.967Z",
+				"endDate": "2023-03-14T23:37:48.222Z",
+				"price": 137.99
+			},
+			"colors": ["paleturquoise", "gold", "aqua", "mediumvioletred"],
+			"soldTimes": 1731,
+			"code": "3880-422F",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Paloma Dining Chair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Paloma Dining Chair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Paloma Dining Chair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Paloma Dining Chair 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Paloma Dining Chair 4"
+			]
+		},
+		{
+			"id": "07a1cb79-e574-48f0-a880-caeccc793b42",
+			"name": "Crate & Barrel Sloane Leaning Desk",
+			"brand": "Crate & Barrel",
+			"category": "Home Office Furniture",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "duis ex aliqua deserunt excepteur velit velit dolore magna aute",
+			"rating": {
+				"value": 1.88,
+				"votedCount": 309
+			},
+			"createdAt": "2023-01-25T15:44:14.479Z",
+			"specialOffer": null,
+			"colors": ["mediumorchid", "white"],
+			"soldTimes": 422,
+			"code": "E574-48F0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Sloane Leaning Desk",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Sloane Leaning Desk 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Sloane Leaning Desk 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Sloane Leaning Desk 3"
+			]
+		},
+		{
+			"id": "60131a70-2f62-4009-9b7a-03d61138f33a",
+			"name": "Crate & Barrel Curran Chair",
+			"brand": "Crate & Barrel",
+			"category": "Accent Furniture",
+			"price": 599.99,
+			"wasPrice": 649.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 7.69,
+			"description": "Lorem sunt voluptate ullamco amet laboris aliquip non id non sunt veniam",
+			"rating": {
+				"value": 3.53,
+				"votedCount": 946
+			},
+			"createdAt": "2023-01-10T04:13:05.054Z",
+			"specialOffer": {
+				"startDate": "2023-01-27T15:14:37.370Z",
+				"endDate": "2023-04-06T02:46:56.156Z",
+				"price": 548.99
+			},
+			"colors": ["pink", "purple", "blue"],
+			"soldTimes": 391,
+			"code": "2F62-4009",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Curran Chair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Curran Chair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Curran Chair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Crate & Barrel Curran Chair 3"
+			]
+		},
+		{
+			"id": "e5396a6b-ce3d-45e3-ae09-729ebda55916",
+			"name": "Herman Miller Eames Lounge Chair",
+			"brand": "Herman Miller",
+			"category": "Outdoor Furniture",
+			"price": 2599.99,
+			"wasPrice": 2799.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 7.14,
+			"description": "magna consectetur cupidatat nulla eiusmod tempor velit duis ea",
+			"rating": {
+				"value": 1.78,
+				"votedCount": 1491
+			},
+			"createdAt": "2023-03-09T19:58:28.774Z",
+			"specialOffer": null,
+			"colors": ["palegreen", "dodgerblue", "tomato", "pink"],
+			"soldTimes": 1722,
+			"code": "CE3D-45E3",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Lounge Chair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Lounge Chair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Lounge Chair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Lounge Chair 3"
+			]
+		},
+		{
+			"id": "3efb121b-dbd0-4b10-b450-41d268b92a3b",
+			"name": "Herman Miller Aeron Outdoor Chair",
+			"brand": "Herman Miller",
+			"category": "Outdoor Furniture",
+			"price": 1199.99,
+			"wasPrice": 1299.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 7.69,
+			"description": "voluptate ea incididunt fugiat consequat cupidatat commodo consectetur ex est",
+			"rating": {
+				"value": 4.82,
+				"votedCount": 813
+			},
+			"createdAt": "2023-05-05T15:32:16.625Z",
+			"specialOffer": null,
+			"colors": ["lemonchiffon", "silver", "gold"],
+			"soldTimes": 1558,
+			"code": "DBD0-4B10",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Aeron Outdoor Chair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Aeron Outdoor Chair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Aeron Outdoor Chair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Aeron Outdoor Chair 3"
+			]
+		},
+		{
+			"id": "abbd35d0-d083-4c90-9506-ff76164cb8d5",
+			"name": "Herman Miller Nelson Bench",
+			"brand": "Herman Miller",
+			"category": "Outdoor Furniture",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 6.67,
+			"description": "amet ullamco sunt aute ipsum ullamco labore deserunt cupidatat reprehenderit sunt nisi velit ullamco ut",
+			"rating": {
+				"value": 3.94,
+				"votedCount": 1497
+			},
+			"createdAt": "2023-04-10T16:45:49.669Z",
+			"specialOffer": null,
+			"colors": ["plum", "orangered", "maroon"],
+			"soldTimes": 790,
+			"code": "D083-4C90",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Nelson Bench",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Nelson Bench 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Nelson Bench 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Nelson Bench 3"
+			]
+		},
+		{
+			"id": "43587614-5b25-4a9e-9f40-1b6f87d0f1a9",
+			"name": "Herman Miller Eames Wire Chair",
+			"brand": "Herman Miller",
+			"category": "Outdoor Furniture",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 11.11,
+			"description": "excepteur amet dolore ullamco duis ad ad proident amet quis duis excepteur",
+			"rating": {
+				"value": 2.94,
+				"votedCount": 479
+			},
+			"createdAt": "2023-01-24T20:44:08.384Z",
+			"specialOffer": null,
+			"colors": ["orange", "chartreuse", "coral"],
+			"soldTimes": 1854,
+			"code": "5B25-4A9E",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Wire Chair",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Wire Chair 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Wire Chair 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Wire Chair 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Eames Wire Chair 4"
+			]
+		},
+		{
+			"id": "c8a2485e-ad12-4481-b26d-098a1d2b610c",
+			"name": "Herman Miller Renew Sit-to-Stand Desk",
+			"brand": "Herman Miller",
+			"category": "Outdoor Furniture",
+			"price": 1799.99,
+			"wasPrice": 1999.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 10,
+			"description": "consequat voluptate velit veniam voluptate tempor voluptate amet nostrud pariatur",
+			"rating": {
+				"value": 4.25,
+				"votedCount": 155
+			},
+			"createdAt": "2023-05-29T09:08:59.415Z",
+			"specialOffer": {
+				"startDate": "2023-01-28T01:41:31.955Z",
+				"endDate": "2023-03-15T21:40:20.482Z",
+				"price": 1726.99
+			},
+			"colors": ["deeppink", "papayawhip", "fuchsia", "yellow"],
+			"soldTimes": 88,
+			"code": "AD12-4481",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Renew Sit-to-Stand Desk",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Renew Sit-to-Stand Desk 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Renew Sit-to-Stand Desk 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Renew Sit-to-Stand Desk 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Herman Miller Renew Sit-to-Stand Desk 4"
+			]
+		},
+		{
+			"id": "797d3c19-cc33-46e6-9399-beaba03b9d00",
+			"name": "Ashley Furniture Sofa",
+			"brand": "Ashley Furniture",
+			"category": "Living Room Furniture",
+			"price": 899.99,
+			"wasPrice": 999.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 10,
+			"description": "laborum deserunt consectetur excepteur amet commodo mollit ut in nostrud deserunt excepteur ipsum deserunt cillum",
+			"rating": {
+				"value": 3.37,
+				"votedCount": 1876
+			},
+			"createdAt": "2023-04-30T09:22:29.700Z",
+			"specialOffer": {
+				"startDate": "2023-02-26T11:40:00.632Z",
+				"endDate": "2023-03-12T21:03:42.777Z",
+				"price": 828.99
+			},
+			"colors": ["seagreen", "darkorange", "fuchsia"],
+			"soldTimes": 1343,
+			"code": "CC33-46E6",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sofa",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sofa 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sofa 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sofa 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sofa 4"
+			]
+		},
+		{
+			"id": "9273504a-ed56-40d3-ad9c-1223ef8a0fbb",
+			"name": "Ashley Furniture Bed",
+			"brand": "Ashley Furniture",
+			"category": "Bedroom Furniture",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 6.67,
+			"description": "sit sit adipisicing minim laboris mollit quis consectetur anim commodo do magna adipisicing nulla qui",
+			"rating": {
+				"value": 2.31,
+				"votedCount": 1138
+			},
+			"createdAt": "2023-05-24T02:03:25.961Z",
+			"specialOffer": null,
+			"colors": ["silver", "paleturquoise", "red"],
+			"soldTimes": 1952,
+			"code": "ED56-40D3",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Bed",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Bed 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Bed 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Bed 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Bed 4"
+			]
+		},
+		{
+			"id": "a939f8c3-7568-4465-a3ea-1c5ad370a5fb",
+			"name": "Ashley Furniture Kids' Desk",
+			"brand": "Ashley Furniture",
+			"category": "Kids' Furniture",
+			"price": 299.99,
+			"wasPrice": 349.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 14.29,
+			"description": "sint sunt ipsum occaecat adipisicing aliqua dolor esse commodo tempor",
+			"rating": {
+				"value": 2.45,
+				"votedCount": 476
+			},
+			"createdAt": "2023-02-05T16:47:57.100Z",
+			"specialOffer": null,
+			"colors": ["fuchsia", "papayawhip", "palevioletred"],
+			"soldTimes": 1110,
+			"code": "7568-4465",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Desk",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Desk 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Desk 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Desk 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Desk 4"
+			]
+		},
+		{
+			"id": "dd5be083-6c8e-45e0-8132-362faed76918",
+			"name": "Ashley Furniture Loveseat",
+			"brand": "Ashley Furniture",
+			"category": "Living Room Furniture",
+			"price": 699.99,
+			"wasPrice": 749.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 6.67,
+			"description": "sunt fugiat elit id deserunt deserunt do cillum",
+			"rating": {
+				"value": 2.77,
+				"votedCount": 1635
+			},
+			"createdAt": "2023-04-07T12:46:56.234Z",
+			"specialOffer": {
+				"startDate": "2023-02-21T22:13:42.097Z",
+				"endDate": "2023-03-04T02:58:17.138Z",
+				"price": 612.99
+			},
+			"colors": ["lemonchiffon", "orangered", "hotpink"],
+			"soldTimes": 1498,
+			"code": "6C8E-45E0",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Loveseat",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Loveseat 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Loveseat 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Loveseat 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Loveseat 4"
+			]
+		},
+		{
+			"id": "ede87057-7666-4c7c-8a7b-52154d4a651c",
+			"name": "Ashley Furniture Dresser",
+			"brand": "Ashley Furniture",
+			"category": "Bedroom Furniture",
+			"price": 499.99,
+			"wasPrice": 549.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 9.09,
+			"description": "pariatur sint labore irure ad anim minim reprehenderit",
+			"rating": {
+				"value": 2.94,
+				"votedCount": 666
+			},
+			"createdAt": "2023-05-23T12:44:04.061Z",
+			"specialOffer": {
+				"startDate": "2023-01-23T11:49:24.268Z",
+				"endDate": "2023-03-18T11:13:40.863Z",
+				"price": 436.99
+			},
+			"colors": ["mediumvioletred", "indigo", "gold", "palevioletred"],
+			"soldTimes": 126,
+			"code": "7666-4C7C",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Dresser",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Dresser 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Dresser 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Dresser 3"
+			]
+		},
+		{
+			"id": "4c81e168-1997-4dd3-819d-808b6f465c72",
+			"name": "Ashley Furniture Kids' Bed",
+			"brand": "Ashley Furniture",
+			"category": "Kids' Furniture",
+			"price": 399.99,
+			"wasPrice": 449.99,
+			"isSale": false,
+			"isFeatured": false,
+			"discountPercentage": 11.11,
+			"description": "fugiat cupidatat pariatur elit dolore fugiat incididunt labore non",
+			"rating": {
+				"value": 2.22,
+				"votedCount": 1213
+			},
+			"createdAt": "2023-02-11T05:14:43.666Z",
+			"specialOffer": null,
+			"colors": ["darkorange", "greenyellow", "deeppink"],
+			"soldTimes": 1629,
+			"code": "1997-4DD3",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Bed",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Bed 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Bed 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Bed 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Kids' Bed 4"
+			]
+		},
+		{
+			"id": "cd2ad3a5-c298-4752-88e5-ad893591a48a",
+			"name": "Ashley Furniture Sectional",
+			"brand": "Ashley Furniture",
+			"category": "Living Room Furniture",
+			"price": 1299.99,
+			"wasPrice": 1399.99,
+			"isSale": false,
+			"isFeatured": true,
+			"discountPercentage": 7.14,
+			"description": "sint veniam nulla et nisi ut ipsum labore ea ipsum et laboris velit sit esse ad magna",
+			"rating": {
+				"value": 2.28,
+				"votedCount": 1904
+			},
+			"createdAt": "2023-01-27T18:14:22.545Z",
+			"specialOffer": null,
+			"colors": ["paleturquoise", "blue", "dodgerblue", "chartreuse"],
+			"soldTimes": 1078,
+			"code": "C298-4752",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sectional",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sectional 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sectional 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sectional 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sectional 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Sectional 5"
+			]
+		},
+		{
+			"id": "48dd2dd7-ea81-4b49-b305-fd9fe5a6ca83",
+			"name": "Ashley Furniture Nightstand",
+			"brand": "Ashley Furniture",
+			"category": "Bedroom Furniture",
+			"price": 199.99,
+			"wasPrice": 229.99,
+			"isSale": true,
+			"isFeatured": false,
+			"discountPercentage": 13.04,
+			"description": "Lorem quis ex aliqua voluptate laboris laborum id ipsum elit",
+			"rating": {
+				"value": 3.41,
+				"votedCount": 590
+			},
+			"createdAt": "2023-03-07T18:13:00.862Z",
+			"specialOffer": {
+				"startDate": "2023-02-13T04:38:49.489Z",
+				"endDate": "2023-05-20T05:46:48.918Z",
+				"price": 112.99
+			},
+			"colors": ["green", "darkorange", "chartreuse"],
+			"soldTimes": 61,
+			"code": "EA81-4B49",
+			"thumbnail": "https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Nightstand",
+			"imageSet": [
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Nightstand 1",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Nightstand 2",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Nightstand 3",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Nightstand 4",
+				"https://placehold.co/600x400/EEE/31343C?font=playfair-display&text=Ashley Furniture Nightstand 5"
+			]
+		}
+	]
+}
