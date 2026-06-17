@@ -1,0 +1,22 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-lg;
+
+  & > div {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: $spacing-sm;
+
+    & > div {
+      display: flex;
+      gap: $spacing-sm;
+    }
+  }
+}
