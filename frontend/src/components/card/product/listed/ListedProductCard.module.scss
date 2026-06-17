@@ -1,0 +1,118 @@
+.card {
+  display: flex;
+  border-radius: 0.4rem;
+  text-align: left;
+  border-radius: 0.4rem;
+  @include shadow-card;
+
+  &:hover {
+    transform: translateY(-$spacing-xs);
+    @include shadow-card-hover;
+  }
+
+  & > img {
+    width: 100%;
+    height: auto;
+    border-radius: 0.4rem;
+    object-fit: cover;
+  }
+
+  &--list {
+    padding: $spacing-sm;
+    flex-direction: row;
+    gap: $spacing-lg;
+
+    & > div {
+      flex: 1;
+      margin-top: $spacing-md;
+    }
+
+    & > img {
+      max-width: 28.8rem;
+    }
+  }
+
+  &--grid {
+    padding: $spacing-sm;
+    flex-direction: column;
+    gap: $spacing-sm;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $spacing-xs;
+  flex: 1;
+  min-width: 0;
+}
+
+.name {
+  display: flex;
+  width: 100%;
+
+  &--grid {
+    flex: 1;
+    flex-direction: column;
+
+    & > span {
+      height: $spacing-xl;
+      overflow-y: hidden;
+    }
+  }
+
+  &--list {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.price {
+  display: flex;
+  gap: $spacing-sm;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.actions {
+  position: static;
+  z-index: $z-index-shown;
+  opacity: 1;
+  transform: none;
+  top: 0;
+  left: 0;
+}
+
+@include respond(lg) {
+  .card {
+    & > img {
+      max-width: 22rem;
+    }
+  }
+}
+
+@include respond(sm) {
+  .card {
+    &--list {
+      flex-direction: column;
+
+      & > img {
+        max-width: 100%;
+      }
+
+      & > div {
+        margin-top: 0;
+        width: 100%;
+      }
+    }
+  }
+
+  .name--list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: $spacing-xs;
+  }
+}
