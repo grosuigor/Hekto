@@ -1,0 +1,32 @@
+.counter {
+  display: flex;
+  align-items: center;
+  height: 4rem;
+  border: 1px solid $color-grey-2;
+  border-radius: $spacing-xs;
+  overflow: hidden;
+  background-color: $color-white;
+}
+
+.input {
+  width: $spacing-xl;
+  height: 100%;
+  border: 0;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  font-size: $default-font-size;
+  color: $color-black;
+  background-color: $color-white;
+  cursor: default;
+
+  &:disabled {
+    opacity: 1;
+  }
+}
+
+.counter > button {
+  width: 3.6rem;
+  height: 100%;
+  padding: 0;
+  border-radius: 0;
+}
