@@ -1,0 +1,18 @@
+.main {
+  width: 100%;
+  display: flex;
+  gap: clamp(2rem, 4.17vw, $spacing-4xl);
+}
+
+@include respond(lg) {
+  .main {
+    gap: $spacing-xl;
+  }
+}
+
+@include respond(md) {
+  .main {
+    flex-direction: column;
+    gap: $spacing-lg;
+  }
+}

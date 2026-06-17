@@ -1,0 +1,69 @@
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-2xl;
+  flex-shrink: 0;
+  width: min(100%, 28.8rem);
+}
+
+.skeleton {
+  width: min(100%, 28.8rem);
+  height: 40rem;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+
+  & > button {
+    width: 100%;
+  }
+}
+
+.filters {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $spacing-md;
+  text-align: left;
+
+  & > button:first-child {
+    width: 100%;
+    padding: 0;
+    padding-bottom: $spacing-xs;
+    border-radius: 0;
+    border-bottom: 1px solid $color-grey-2;
+    justify-content: space-between;
+
+    & > svg {
+      transform: rotate(180deg);
+    }
+  }
+
+  &.hidden {
+    gap: 0;
+
+    & > button:first-child > svg {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+@include respond(md) {
+  .container {
+    width: 100%;
+  }
+
+  .skeleton {
+    width: 100%;
+    height: 24rem;
+  }
+}
