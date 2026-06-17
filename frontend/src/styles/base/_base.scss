@@ -1,0 +1,44 @@
+@use "../abstracts" as *;
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  font-family: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  box-sizing: border-box;
+  overflow-x: clip;
+  font-family: "Josefin Sans", "Lato", sans-serif;
+  font-optical-sizing: auto;
+  font-size: $default-font-size;
+  font-weight: $regular-font;
+  font-style: normal;
+  color: $color-black;
+
+  & * {
+    scrollbar-width: thin;
+    scrollbar-color: $color-primary $color-grey-1;
+    transition:
+      transform $duration-normal $ease-default,
+      opacity $duration-normal $ease-default,
+      box-shadow $duration-normal $ease-default,
+      color $duration-fast $ease-default,
+      gap $duration-normal $ease-default,
+      width $duration-normal $ease-default,
+      border-color $duration-fast $ease-default,
+      z-index $duration-normal $ease-default;
+  }
+}
+
+::selection {
+  background-color: $color-primary;
+  color: $color-white;
+}

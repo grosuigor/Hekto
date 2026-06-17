@@ -1,0 +1,77 @@
+@use "sass:map";
+@use "sass:meta";
+@use "variables" as *;
+
+/*
+Desktop-first breakpoints (base styles = 1920px design)
+
+  xl  ≤ 1600px
+  lg  ≤ 1280px
+  md  ≤ 1024px
+  sm  ≤ 768px
+  xs  ≤ 480px
+*/
+
+$breakpoints: (
+  xl: 100em,
+  lg: 80em,
+  md: 64em,
+  sm: 48em,
+  xs: 30em,
+);
+
+@mixin respond($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    $value: map.get($breakpoints, $breakpoint);
+
+    @media only screen and (max-width: $value) {
+      @content;
+    }
+  } @else if meta.type-of($breakpoint) == number {
+    @media only screen and (max-width: calc($breakpoint * 1em)) {
+      @content;
+    }
+  }
+}
+
+@mixin respond-up($breakpoint) {
+  @if map.has-key($breakpoints, $breakpoint) {
+    $value: map.get($breakpoints, $breakpoint);
+
+    @media only screen and (min-width: calc($value + 0.01em)) {
+      @content;
+    }
+  }
+}
+
+@mixin shadow-card {
+  box-shadow: $shadow-card;
+}
+
+@mixin shadow-card-hover {
+  box-shadow: $shadow-card-hover;
+}
+
+@mixin inline-padding {
+  padding-inline: max(30.4rem, calc(100% - 131.2rem) / 2);
+
+  @include respond(xl) {
+    padding-inline: 16.8rem;
+  }
+
+  @include respond(lg) {
+    padding-inline: 10.8rem;
+  }
+
+  @include respond(md) {
+    padding-inline: 7.2rem;
+  }
+
+  @include respond(sm) {
+    padding-inline: 4.8rem;
+  }
+
+  @include respond(xs) {
+    padding-inline: 1.6rem;
+  }
+}
