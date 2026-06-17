@@ -1,0 +1,39 @@
+
+.updates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  aspect-ratio: $aspect-updates;
+  box-sizing: border-box;
+  @include inline-padding;
+
+  &__content {
+    z-index: $z-index-shown;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: min(100%, 76.8rem);
+    gap: clamp($spacing-md, 3.13vw, 6rem);
+  }
+}
+
+@include respond(md) {
+  .updates {
+    aspect-ratio: auto;
+    min-height: 28rem;
+    padding-block: $spacing-xl;
+  }
+}
+
+@include respond(sm) {
+  .updates {
+    min-height: 24rem;
+
+    &__content {
+      gap: $spacing-lg;
+    }
+  }
+}

@@ -1,0 +1,95 @@
+.carousel {
+  aspect-ratio: $aspect-banner;
+}
+
+.slide {
+  aspect-ratio: $aspect-banner;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-inline: clamp($spacing-sm, 21.6vw, 41.5rem);
+  box-sizing: border-box;
+}
+
+.banner {
+  position: relative;
+  z-index: $z-index-shown;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: clamp($spacing-xs, 1.25vw, $spacing-md);
+  width: min(100%, 57rem);
+  max-width: 54%;
+}
+
+.controls {
+  position: absolute;
+  bottom: clamp($spacing-sm, 2.29vw, 4.4rem);
+  left: 50%;
+  transform: translateX(-50%);
+  gap: $spacing-sm;
+  z-index: $z-index-shown;
+}
+
+@include respond(xl) {
+  .banner {
+    max-width: 58%;
+  }
+}
+
+@include respond(lg) {
+  .banner {
+    max-width: 66%;
+
+    & > *:nth-child(3) {
+      display: none;
+    }
+  }
+}
+
+@include respond(md) {
+  .carousel {
+    aspect-ratio: auto;
+    min-height: 42rem;
+  }
+
+  .slide {
+    aspect-ratio: auto;
+    min-height: 42rem;
+    align-items: flex-end;
+    padding-inline: $spacing-md;
+    padding-bottom: 6rem;
+  }
+
+  .banner {
+    max-width: 100%;
+    padding: $spacing-md;
+    background-color: rgba($color-white, 0.94);
+    border-radius: $spacing-xs;
+  }
+}
+
+@include respond(sm) {
+  .carousel {
+    min-height: 36rem;
+  }
+
+  .slide {
+    min-height: 36rem;
+    padding-bottom: 5.6rem;
+  }
+
+  .banner {
+    padding: $spacing-sm;
+  }
+}
+
+@include respond(xs) {
+  .carousel {
+    min-height: 32rem;
+  }
+
+  .slide {
+    min-height: 32rem;
+  }
+}

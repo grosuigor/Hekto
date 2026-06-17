@@ -1,0 +1,49 @@
+.grid {
+  margin-top: $spacing-md;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-rows: auto auto;
+  row-gap: clamp(2rem, 2.08vw, 4rem);
+  column-gap: $spacing-lg;
+}
+
+.controls {
+  gap: clamp(2rem, 3.33vw, $spacing-2xl);
+  padding-bottom: $spacing-xl;
+}
+
+.track {
+  gap: $spacing-lg;
+}
+
+.skeleton-grid {
+  width: 100%;
+}
+
+.skeleton {
+  flex: 1;
+  height: 27.2rem;
+}
+
+@include respond(lg) {
+  .grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-rows: auto;
+  }
+}
+
+@include respond(sm) {
+  .grid {
+    grid-template-columns: 1fr;
+    row-gap: $spacing-lg;
+  }
+
+  .controls {
+    gap: $spacing-md;
+    padding-bottom: $spacing-md;
+  }
+
+  .skeleton {
+    height: 22rem;
+  }
+}
