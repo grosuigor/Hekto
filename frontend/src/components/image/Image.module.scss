@@ -1,0 +1,18 @@
+.skeleton {
+  display: block;
+
+  &--hidden {
+    display: none;
+  }
+}
+
+.image {
+  display: none;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+
+  &--visible {
+    display: block;
+  }
+}

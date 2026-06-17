@@ -1,0 +1,66 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xl;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: $spacing-3xl;
+  white-space: nowrap;
+}
+
+.tabs {
+  position: relative;
+  min-height: 36rem;
+}
+
+.tab {
+  position: absolute;
+  z-index: $z-index-hidden;
+  opacity: 0;
+  transform: translateY(-$spacing-sm);
+
+  &.active {
+    position: relative;
+    z-index: $z-index-shown;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  &__name {
+    position: relative;
+    padding: 0;
+    opacity: 1;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 100%;
+      margin-top: 0.4rem;
+      height: 1px;
+      width: 100%;
+      background-color: $color-black;
+      transform: scaleX(0);
+      transform-origin: left center;
+    }
+
+    &.active {
+      &::after {
+        transform: scale(1);
+      }
+    }
+  }
+}
+
+@include respond(md) {
+  .container {
+    flex-direction: row;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+}

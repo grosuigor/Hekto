@@ -1,0 +1,25 @@
+.rating {
+  display: flex;
+  gap: $spacing-xs;
+  flex-shrink: 0;
+
+  & > svg,
+  & .star-partial > svg {
+    color: $color-grey-2;
+  }
+
+  & > svg.filled,
+  & .star-partial > svg.filled {
+    color: $color-secondary;
+  }
+
+  & .star-partial {
+    position: relative;
+    display: inline-flex;
+
+    & > svg:last-child {
+      position: absolute;
+      inset: 0;
+    }
+  }
+}
