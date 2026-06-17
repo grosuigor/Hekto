@@ -1,0 +1,55 @@
+.container {
+  position: relative;
+  width: 100%;
+  max-width: 32.8rem;
+}
+
+.input {
+  width: 100%;
+  min-width: 0;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + #{$spacing-xs});
+  left: 0;
+  right: 0;
+  z-index: $z-index-dropdown;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding: $spacing-xs;
+  max-height: 40rem;
+  overflow-y: auto;
+  background-color: $color-white;
+  border-radius: $spacing-xs;
+  @include shadow-card;
+}
+
+.skeleton {
+  height: $spacing-2xl;
+  border-radius: 0.4rem;
+}
+
+.empty {
+  padding: $spacing-sm;
+  text-align: center;
+}
+
+.suggestion {
+  display: block;
+  padding: 1.2rem $spacing-sm;
+  border-radius: 0.4rem;
+  background-color: $color-grey-1;
+  text-decoration: none;
+
+  &:hover {
+    background-color: $color-grey-2;
+  }
+}
+
+@include respond(md) {
+  .container {
+    max-width: none;
+  }
+}
