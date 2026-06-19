@@ -1,0 +1,140 @@
+
+.clickable {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: $spacing-sm 4rem;
+  gap: $spacing-xs;
+  font-size: $default-font-size;
+  font-weight: $semi-bold-font;
+  border-width: 0;
+  border-radius: $spacing-xs;
+  cursor: pointer;
+  outline: none;
+  color: $color-white;
+  background-color: transparent;
+
+  & > span {
+    display: inline-flex;
+    align-items: center;
+    height: 2rem;
+    line-height: normal;
+  }
+
+  &--filled.clickable--primary {
+    background-color: $color-primary;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background-color: $color-primary-dark;
+    }
+  }
+
+  &--filled.clickable--success {
+    background-color: $color-success;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background-color: $color-success-dark;
+    }
+  }
+
+  &--filled.clickable--white {
+    background-color: $color-white;
+    color: $color-black;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background-color: $color-grey-1;
+    }
+  }
+
+  &--filled.clickable--black {
+    background-color: $color-black;
+    color: $color-white;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background-color: $color-grey-3;
+    }
+  }
+
+  &--text {
+    color: $color-white;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      color: $color-primary-light;
+    }
+
+    &.clickable--black {
+      color: $color-black;
+
+      &:hover,
+      &:focus,
+      &:focus-visible {
+        color: $color-grey-3;
+      }
+    }
+
+    &.clickable--primary {
+      color: $color-primary;
+
+      &:hover,
+      &:focus,
+      &:focus-visible {
+        color: $color-primary-dark;
+      }
+    }
+
+    &.clickable--grey-3 {
+      color: $color-grey-3;
+
+      &:hover,
+      &:focus,
+      &:focus-visible {
+        color: $color-black;
+      }
+    }
+  }
+
+  &--sm {
+    padding: 1.1rem $spacing-sm;
+    border-radius: 0.6rem;
+  }
+
+  &--rounded {
+    border-radius: 50%;
+    padding: $spacing-xs;
+    aspect-ratio: 1;
+
+    &.clickable--sm {
+      padding: 0.4rem;
+    }
+  }
+
+  &--rounded.clickable--grey-2 {
+    color: $color-tertiary;
+
+    &:hover,
+    &:focus,
+    &:focus-visible {
+      background-color: $color-grey-2;
+    }
+  }
+
+  &--icon-only {
+    padding: 0.6rem 1.4rem;
+  }
+
+  &--disabled {
+    cursor: default;
+    opacity: 0.4;
+  }
+}

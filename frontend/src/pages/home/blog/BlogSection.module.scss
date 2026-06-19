@@ -1,0 +1,11 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-lg;
+}
+
+@include respond(md) {
+  .grid {
+    flex-direction: column;
+  }
+}

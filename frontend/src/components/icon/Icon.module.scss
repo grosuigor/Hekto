@@ -1,0 +1,12 @@
+.icon {
+  width: $spacing-sm;
+  aspect-ratio: 1;
+
+  &.lg {
+    width: $spacing-md;
+  }
+
+  &.sm {
+    width: 1.2rem;
+  }
+}

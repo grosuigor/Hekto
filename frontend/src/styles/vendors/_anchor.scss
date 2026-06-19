@@ -1,0 +1,47 @@
+@use "../abstracts" as *;
+
+a {
+  text-decoration: none;
+  color: unset;
+  position: relative;
+  transition: all 0.2s;
+  outline: none;
+  overflow-x: clip;
+
+  &::after {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    left: 0;
+    bottom: 1rem;
+    background-color: $color-primary;
+    display: none;
+  }
+
+  &:hover:not(.active) > *,
+  &:focus:not(.active) > *,
+  &:focus-visible:not(.active) > * {
+    color: $color-primary-light;
+  }
+
+  &.active {
+    color: $color-primary;
+  }
+
+  &.pending::after,
+  &.transitioning::after {
+    display: block;
+    animation: slide 0.4s infinite;
+    will-change: transform;
+  }
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(100%);
+  }
+}

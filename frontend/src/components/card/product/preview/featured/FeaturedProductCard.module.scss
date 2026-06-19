@@ -1,0 +1,16 @@
+.card {
+  margin-bottom: 6rem;
+  padding-bottom: $spacing-md;
+  gap: $spacing-md;
+}
+
+.content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-xs;
+}
+
+.title {
+  padding-bottom: $spacing-sm;
+}

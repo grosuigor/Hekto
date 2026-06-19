@@ -1,0 +1,76 @@
+@use "sass:math";
+
+// COLORS
+$color-primary: #fb2e86;
+$color-primary-light: #fc5fa2;
+$color-primary-dark: #f0056a;
+$color-primary-pale: #febad7;
+
+$color-secondary: #f9ba00;
+$color-secondary-light: #fff3ce;
+
+$color-tertiary: #7e33e0;
+
+$color-white: #ffffff;
+$color-grey-1: #f8f8fd;
+$color-grey-2: #e5e0fc;
+$color-grey-3: #8a8fb9;
+$color-black: #101750;
+$color-black-alpha-15: #10175026;
+
+$color-danger: #fb2448;
+$color-danger-light: #feb9c4;
+$color-info: #603eff;
+$color-info-light: #ddd6ff;
+$color-success: #0cc562;
+$color-success-light: #92f2bf;
+$color-success-dark: #00994c;
+
+$color-overlay: rgba(0, 0, 0, 0.85);
+
+// SHADOWS
+$shadow-card: 0.8rem 2.4rem 3.2rem -1.6rem $color-black-alpha-15;
+$shadow-card-hover: 0.8rem 6.4rem 8rem -1.6rem $color-black-alpha-15;
+$shadow-card-light: 0.8rem 6.4rem 8rem -1.6rem $color-white;
+
+// SPACING
+$spacing-xs: 0.8rem;
+$spacing-sm: 1.6rem;
+$spacing-md: 2.4rem;
+$spacing-lg: 3.2rem;
+$spacing-xl: 4.8rem;
+$spacing-2xl: 6.4rem;
+$spacing-3xl: 7.2rem;
+$spacing-4xl: 8rem;
+
+// FONT
+$default-font-size: 1.6rem;
+
+$thin-font: 100;
+$extra-light-font: 200;
+$light-font: 300;
+$regular-font: 400;
+$medium-font: 500;
+$semi-bold-font: 600;
+$bold-font: 700;
+$extra-bold-font: 800;
+$black-font: 900;
+
+// TRANSITIONS
+$duration-fast: 0.2s;
+$duration-normal: 0.4s;
+$ease-default: ease;
+
+// Z-INDEX
+$z-index-hidden: -1;
+$z-index-shown: 100;
+$z-index-stack: 500;
+$z-index-dropdown: 1000;
+$z-index-modal: 1200;
+
+// ASPECT RATIOS
+$aspect-banner: math.div(1920, 760);
+$aspect-updates: math.div(1920, 432);
+$aspect-unique-features: math.div(1920, 576);
+$aspect-product-thumbnail: math.div(528, 438);
+$aspect-product-gallery: math.div(192, 136);

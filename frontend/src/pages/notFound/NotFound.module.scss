@@ -1,0 +1,18 @@
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $spacing-md;
+}
+
+@include respond(sm) {
+  .actions {
+    flex-direction: column;
+    width: 100%;
+
+    & > button {
+      width: 100%;
+      align-items: flex-start;
+      justify-content: center;
+    }
+  }
+}

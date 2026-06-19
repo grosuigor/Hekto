@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: $spacing-xs;
+}
+
+.button {
+  width: 3.6rem;
+}
+
+.gap {
+  display: inline-flex;
+  align-items: center;
+}
+
+@include respond(sm) {
+  .container {
+    gap: 0.4rem;
+  }
+}

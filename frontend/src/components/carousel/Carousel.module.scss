@@ -1,0 +1,114 @@
+
+.container {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &--controls-top {
+    flex-direction: column-reverse;
+  }
+
+  &--controls-bottom {
+    flex-direction: column;
+  }
+}
+
+.carousel {
+  width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.track {
+  height: 100%;
+  display: flex;
+  min-width: 0;
+
+  & > * {
+    flex: 1 0 0;
+    min-width: 0;
+  }
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+}
+
+.control {
+  transform-origin: center center;
+  padding: 0;
+  opacity: 1;
+}
+
+.control--square {
+  transform: rotate(45deg);
+  border: 1px solid $color-primary;
+  border-radius: 0;
+  outline: 0;
+  width: 1.2rem;
+  aspect-ratio: 1;
+
+  &:hover:not(.active),
+  &:focus:not(.active),
+  &:focus-visible:not(.active) {
+    transform: rotate(135deg) scale(1.25);
+  }
+
+  &.active {
+    background-color: $color-primary;
+  }
+}
+
+.control--dot {
+  border: 1px solid $color-primary;
+  border-radius: 50%;
+  outline: 0;
+  width: $spacing-xs;
+  aspect-ratio: 1;
+
+  &:hover:not(.active),
+  &:focus:not(.active),
+  &:focus-visible:not(.active) {
+    transform: scale(2);
+  }
+
+  &.active {
+    background-color: $color-primary;
+  }
+}
+
+.control--line {
+  border-radius: 1rem;
+  width: $spacing-sm;
+  height: 0.4rem;
+  background-color: $color-primary-pale;
+
+  &:hover:not(.active),
+  &:focus:not(.active),
+  &:focus-visible:not(.active) {
+    transform: scaleX(1.25);
+  }
+
+  &.active {
+    background-color: $color-primary;
+    width: $spacing-md;
+  }
+}
+
+.control--label {
+  color: $color-black;
+
+  &:hover:not(.active),
+  &:focus:not(.active),
+  &:focus-visible:not(.active) {
+    color: $color-primary-light;
+    transform: scale(1.25);
+  }
+
+  &.active {
+    color: $color-primary;
+  }
+}

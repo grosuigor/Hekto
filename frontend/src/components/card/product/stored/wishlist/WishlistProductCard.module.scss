@@ -1,0 +1,19 @@
+.card {
+  position: relative;
+  display: flex;
+
+  & > button {
+    position: absolute;
+    top: $spacing-xs;
+    right: $spacing-xs;
+    opacity: 0;
+    z-index: $z-index-hidden;
+    transform: translateY($spacing-xs);
+  }
+
+  &:hover > button {
+    opacity: 1;
+    z-index: $z-index-shown;
+    transform: translateY(0);
+  }
+}

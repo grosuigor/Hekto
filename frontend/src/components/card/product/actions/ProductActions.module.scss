@@ -1,0 +1,19 @@
+.product-actions {
+  position: absolute;
+  left: $spacing-xs;
+  display: flex;
+  gap: $spacing-xs;
+  z-index: $z-index-hidden;
+  transform: translateY($spacing-xs);
+  opacity: 0;
+
+  &--row {
+    flex-direction: row;
+    top: $spacing-xs;
+  }
+
+  &--column {
+    flex-direction: column;
+    bottom: $spacing-xs;
+  }
+}

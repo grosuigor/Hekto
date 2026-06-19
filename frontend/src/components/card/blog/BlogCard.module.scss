@@ -1,0 +1,64 @@
+.card {
+  gap: $spacing-sm;
+
+  &:hover {
+    transform: translateY(-$spacing-md);
+  }
+
+  & > img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: $spacing-xs;
+  }
+
+  &__metadata {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: $spacing-xs;
+    gap: clamp($spacing-sm, 3.33vw, $spacing-2xl);
+
+    & > div {
+      display: flex;
+      align-items: center;
+      gap: $spacing-xs;
+      color: $color-grey-3;
+    }
+  }
+
+  &__body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: $spacing-sm;
+    padding: 0 1.8rem 3.6rem 1.8rem;
+    text-align: left;
+
+    & > button {
+      padding: 0;
+      margin-top: $spacing-sm;
+    }
+  }
+
+  &__excerpt {
+    min-height: 6rem;
+  }
+}
+
+@include respond(sm) {
+  .card {
+    &:hover {
+      transform: none;
+    }
+
+    &__body {
+      padding-inline: $spacing-sm;
+      padding-bottom: $spacing-lg;
+    }
+
+    &__excerpt {
+      min-height: auto;
+    }
+  }
+}

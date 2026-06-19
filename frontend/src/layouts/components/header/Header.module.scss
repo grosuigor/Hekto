@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.top {
+  display: flex;
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  color: $color-white;
+  flex-wrap: wrap;
+  gap: $spacing-sm;
+
+  &__row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    &:first-child {
+      gap: $spacing-xl;
+    }
+
+    &:last-child {
+      gap: $spacing-lg;
+
+      & > a,
+      & > div button {
+        padding: 0;
+        gap: 0.4rem;
+
+        & > span {
+          align-items: flex-end !important;
+        }
+      }
+    }
+  }
+
+  &__contact {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+}
+
+@include respond(lg) {
+  .top {
+    &__row {
+      &:first-child {
+        gap: $spacing-md;
+      }
+
+      &:last-child {
+        gap: $spacing-md;
+      }
+    }
+  }
+}
+
+@include respond(md) {
+  .top {
+    &__row:last-child {
+      & > a > span {
+        display: none;
+      }
+    }
+  }
+}
+
+@include respond(sm) {
+  .top {
+    &__contact > span {
+      display: none;
+    }
+  }
+}

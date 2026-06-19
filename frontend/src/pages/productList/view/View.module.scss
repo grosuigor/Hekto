@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+  gap: clamp($spacing-sm, 3.33vw, $spacing-2xl);
+
+  & > div {
+    display: flex;
+    align-items: center;
+    gap: $spacing-sm;
+  }
+}
+
+@include respond(lg) {
+  .container {
+    justify-content: space-between;
+  }
+}
+
+@include respond(md) {
+  .container {
+    flex-direction: column;
+    align-items: stretch;
+
+    & > div {
+      width: 100%;
+      justify-content: space-between;
+    }
+  }
+}
+
+@include respond(sm) {
+  .container {
+    gap: $spacing-md;
+
+    & > div {
+      flex-wrap: wrap;
+    }
+  }
+}

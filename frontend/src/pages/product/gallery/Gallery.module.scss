@@ -1,0 +1,121 @@
+.gallery {
+  display: flex;
+  gap: $spacing-lg;
+}
+
+.thumbnails {
+  height: 44rem;
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+  overflow-y: auto;
+  padding-right: $spacing-sm;
+}
+
+.thumbnail {
+  flex-shrink: 0;
+  aspect-ratio: $aspect-product-gallery;
+  height: calc((100% - 2 * $spacing-sm) / 3);
+  padding: 0;
+  border: 2px solid transparent;
+
+  &--active {
+    border-color: $color-primary;
+  }
+
+  &:hover, &:focus, &:focus-visible {
+    border-color: $color-primary-light;
+  }
+
+  & > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: $spacing-xs;
+  }
+}
+
+.main {
+  height: 44rem;
+  aspect-ratio: $aspect-product-thumbnail;
+  border-radius: $spacing-xs;
+  @include shadow-card;
+
+  &:hover {
+    @include shadow-card-hover;
+  }
+
+  & > img {
+    border-radius: $spacing-xs;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+@include respond(xl) {
+  .gallery {
+    flex-direction: column-reverse;
+  }
+
+  .thumbnails {
+    flex-direction: row;
+    overflow-y: unset;
+    overflow-x: auto;
+    width: 53rem;
+    height: unset;
+    padding-right: unset;
+    padding-bottom: $spacing-sm;
+  }
+
+  .thumbnail {
+    height: unset;
+    width: calc((100% - 2 * $spacing-sm) / 3);
+  }
+
+  .main {
+    width: 53rem;
+  }
+}
+
+@include respond(lg) {
+  .thumbnails {
+    height: unset;
+    width: 35rem;
+  }
+
+  .thumbnail {
+    width: calc((100% - $spacing-sm) / 2);
+  }
+
+  .main {
+    height: unset;
+    width: 35rem;
+  }
+}
+
+
+@include respond(sm) {
+  .gallery {
+    flex-direction: column-reverse;
+  }
+
+  .thumbnails {
+    flex-direction: row;
+    overflow-y: unset;
+    overflow-x: auto;
+    width: 53rem;
+    height: unset;
+    padding-right: unset;
+    padding-bottom: $spacing-sm;
+  }
+
+  .thumbnail {
+    height: unset;
+    width: calc((100% - 2 * $spacing-sm) / 3);
+  }
+
+  .main {
+    width: 53rem;
+  }
+}

@@ -1,0 +1,33 @@
+
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+
+  &--open {
+    & > .list {
+      z-index: $z-index-dropdown;
+      opacity: 1;
+    }
+
+    & > button > svg {
+      transform: rotate(180deg);
+    }
+  }
+}
+
+.list {
+  z-index: $z-index-hidden;
+  position: absolute;
+  top: 100%;
+  padding: $spacing-xs;
+  left: -$spacing-xs;
+  width: calc(100% + $spacing-sm);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: $spacing-xs;
+  background-color: $color-tertiary;
+  border-radius: $spacing-xs;
+  opacity: 0;
+}

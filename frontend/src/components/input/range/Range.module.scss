@@ -1,0 +1,96 @@
+
+$thumb-size: 1.4rem;
+$track-height: 0.4rem;
+$track-radius: 0.2rem;
+
+@mixin track($fill, $bg) {
+  height: $track-height;
+  border-radius: $track-radius;
+  background: linear-gradient(to right, $fill var(--fill), $bg var(--fill));
+}
+
+@mixin thumb($fill) {
+  appearance: none;
+  width: $thumb-size;
+  height: $thumb-size;
+  border-radius: 50%;
+  border: 0.2rem solid $fill;
+  background: $color-white;
+  cursor: pointer;
+  margin-top: calc(($track-height - $thumb-size) / 2);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: $spacing-sm;
+  width: 100%;
+  padding-bottom: $spacing-sm;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+
+  & input[type="range"] {
+    appearance: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    outline: none;
+    background: transparent;
+  }
+}
+
+.label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container--info {
+  & input[type="range"]::-webkit-slider-runnable-track {
+    @include track($color-info, $color-info-light);
+  }
+  & input[type="range"]::-webkit-slider-thumb {
+    @include thumb($color-info);
+  }
+  & input[type="range"]::-moz-range-track {
+    @include track($color-info, $color-info-light);
+  }
+  & input[type="range"]::-moz-range-thumb {
+    @include thumb($color-info);
+  }
+}
+
+.container--secondary {
+  & input[type="range"]::-webkit-slider-runnable-track {
+    @include track($color-secondary, $color-secondary-light);
+  }
+  & input[type="range"]::-webkit-slider-thumb {
+    @include thumb($color-secondary);
+  }
+  & input[type="range"]::-moz-range-track {
+    @include track($color-secondary, $color-secondary-light);
+  }
+  & input[type="range"]::-moz-range-thumb {
+    @include thumb($color-secondary);
+  }
+}
+
+.container--danger {
+  & input[type="range"]::-webkit-slider-runnable-track {
+    @include track($color-danger, $color-danger-light);
+  }
+  & input[type="range"]::-webkit-slider-thumb {
+    @include thumb($color-danger);
+  }
+  & input[type="range"]::-moz-range-track {
+    @include track($color-danger, $color-danger-light);
+  }
+  & input[type="range"]::-moz-range-thumb {
+    @include thumb($color-danger);
+  }
+}

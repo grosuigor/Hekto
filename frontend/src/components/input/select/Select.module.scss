@@ -1,0 +1,40 @@
+
+.container {
+  position: relative;
+  width: fit-content;
+}
+
+.chevron {
+  &--open {
+    transform: rotate(180deg);
+  }
+}
+
+.options {
+  z-index: $z-index-hidden;
+  position: absolute;
+  left: 0;
+  top: calc(100% + 0.4rem);
+  width: 100%;
+  opacity: 0;
+  border: 1px solid $color-grey-2;
+  border-radius: $spacing-xs;
+  display: flex;
+  flex-direction: column;
+  padding: $spacing-sm $spacing-xs;
+  gap: $spacing-sm;
+  background-color: $color-white;
+
+  &--active {
+    z-index: $z-index-dropdown;
+    opacity: 1;
+  }
+}
+
+.option {
+  padding: $spacing-sm $spacing-xs;
+  width: 100%;
+  justify-content: flex-start;
+  text-align: left;
+  border-radius: 0.9rem;
+}

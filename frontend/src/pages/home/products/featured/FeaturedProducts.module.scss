@@ -1,0 +1,39 @@
+.controls {
+  gap: $spacing-xs;
+}
+
+.track {
+  padding-top: $spacing-md;
+  gap: $spacing-lg;
+}
+
+.skeleton {
+  flex: 1;
+  height: 31.8rem;
+  margin-bottom: 6rem;
+}
+
+@include respond(lg) {
+  .skeleton {
+    height: 28rem;
+    margin-bottom: 4rem;
+  }
+}
+
+@include respond(md) {
+  .skeleton {
+    height: 24rem;
+    margin-bottom: 3rem;
+  }
+}
+
+@include respond(sm) {
+  .track {
+    gap: $spacing-md;
+  }
+
+  .skeleton {
+    height: 22rem;
+    margin-bottom: 2rem;
+  }
+}

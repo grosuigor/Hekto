@@ -1,0 +1,49 @@
+.layout {
+  width: 100%;
+  display: flex;
+  gap: 14.4rem;
+}
+
+.skeletonGallery {
+  width: 100%;
+  min-height: 48rem;
+  border-radius: $spacing-xs;
+}
+
+.skeletonInfo {
+  width: 100%;
+  min-height: 40rem;
+  border-radius: $spacing-xs;
+}
+
+@include respond(xl) {
+  .layout {
+    gap: 10.8rem;
+  }
+}
+
+@include respond(lg) {
+  .layout {
+    gap: $spacing-3xl;
+  }
+}
+
+@include respond(md) {
+  .layout {
+    gap: $spacing-xl;
+  }
+
+  .skeletonGallery {
+    min-height: 36rem;
+  }
+
+  .skeletonInfo {
+    min-height: 32rem;
+  }
+}
+
+@include respond(sm) {
+  .layout {
+    flex-direction: column;
+  }
+}

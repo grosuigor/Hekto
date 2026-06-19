@@ -1,0 +1,41 @@
+.nav {
+  padding-top: 2.2rem;
+  padding-bottom: 2.2rem;
+  display: flex;
+  align-items: flex-end;
+  gap: clamp(2rem, 4.17vw, $spacing-4xl);
+
+  &__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp($spacing-sm, 1.67vw, $spacing-lg);
+  }
+
+  &__link {
+    height: 100%;
+    display: inline-flex;
+    align-items: center;
+
+    &--active {
+      color: $color-primary;
+    }
+  }
+}
+
+@include respond(lg) {
+  .nav {
+    gap: $spacing-lg;
+  }
+}
+
+@include respond(md) {
+  .nav {
+    flex-wrap: wrap;
+    row-gap: $spacing-md;
+    justify-content: space-between;
+
+    & > div:nth-child(3) {
+      display: none;
+    }
+  }
+}

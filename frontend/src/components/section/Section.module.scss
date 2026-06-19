@@ -1,0 +1,106 @@
+.section {
+  width: 100%;
+  position: relative;
+  @include inline-padding;
+
+  &--page {
+    padding-block: 10rem;
+
+    @include respond(xl) {
+      padding-block: 8.4rem;
+    }
+
+    @include respond(lg) {
+      padding-block: 6.8rem;
+    }
+
+    @include respond(md) {
+      padding-block: 5rem;
+    }
+
+    @include respond(sm) {
+      padding-block: 3.6rem;
+    }
+
+    @include respond(xs) {
+      padding-block: 2.4rem;
+    }
+  }
+
+  &--tertiary {
+    background-color: $color-tertiary;
+  }
+
+  &--grey-1 {
+    background-color: $color-grey-1;
+  }
+
+  &--grey-2 {
+    background-color: $color-grey-2;
+  }
+
+  &--gap-xs {
+    gap: $spacing-sm;
+  }
+
+  &--gap-sm {
+    gap: $spacing-md;
+  }
+
+  &--gap-md {
+    gap: $spacing-lg;
+  }
+
+  &--gap-lg {
+    gap: $spacing-xl;
+  }
+
+  &--gap-xl {
+    gap: $spacing-2xl;
+  }
+
+  &--gap-2xl {
+    gap: $spacing-3xl;
+  }
+
+  &--gap-3xl {
+    gap: $spacing-4xl;
+  }
+
+  &__img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &--with-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@include respond(lg) {
+  .section {
+    &--gap-xl,
+    &--gap-2xl,
+    &--gap-3xl {
+      gap: $spacing-xl;
+    }
+  }
+}
+
+@include respond(sm) {
+  .section {
+    &--gap-lg,
+    &--gap-xl,
+    &--gap-2xl,
+    &--gap-3xl {
+      gap: $spacing-lg;
+    }
+  }
+}

@@ -1,0 +1,59 @@
+.section {
+  aspect-ratio: $aspect-unique-features;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  @include inline-padding;
+}
+
+.unique-features {
+  position: relative;
+  z-index: $z-index-shown;
+  display: flex;
+  flex-direction: column;
+  gap: clamp($spacing-md, 2.5vw, $spacing-xl);
+  width: min(100%, 53.4rem);
+  max-width: 42%;
+  align-items: flex-start;
+
+  &__cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $spacing-sm;
+    align-items: center;
+  }
+}
+
+@include respond(lg) {
+  .unique-features {
+    max-width: 50%;
+  }
+}
+
+@include respond(md) {
+  .section {
+    aspect-ratio: auto;
+    min-height: 40rem;
+    justify-content: center;
+    align-items: flex-end;
+    padding-bottom: $spacing-xl;
+  }
+
+  .unique-features {
+    max-width: 100%;
+    padding: $spacing-md;
+    background-color: rgba($color-white, 0.94);
+    border-radius: $spacing-xs;
+  }
+}
+
+@include respond(sm) {
+  .section {
+    min-height: 36rem;
+  }
+
+  .unique-features {
+    padding: $spacing-sm;
+  }
+}
