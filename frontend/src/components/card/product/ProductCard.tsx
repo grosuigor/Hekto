@@ -1,6 +1,7 @@
 import type {
   CartProduct,
   ListedProduct,
+  View,
   PreviewProduct,
   PreviewProductType,
   SearchProduct,
@@ -18,7 +19,7 @@ import { CartProductCard, WishlistProductCard } from "./stored";
 type ProductCardTypes =
   | {
       type: "listed";
-      view: "grid" | "list";
+      view: View;
       product: ListedProduct;
     }
   | {

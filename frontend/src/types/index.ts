@@ -11,7 +11,7 @@ export type {
   StyleProps
 } from "./component";
 
-export type { Filter, Pagination, Query, Range, Sorting } from "./filter";
+export type { Filter, Pagination, Query, Range, Sorting, View } from "./filter";
 
 export type { CartItem, CartProduct, StoredItem, StoredProduct, WishlistItem, WishlistProduct } from "./items";
 

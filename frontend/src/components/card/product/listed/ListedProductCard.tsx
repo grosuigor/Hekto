@@ -1,7 +1,7 @@
 import { Image } from "@/components/image";
 import { Typography } from "@/components/typography";
 import { usePrice } from "@/hooks";
-import type { ListedProduct } from "@/types";
+import type { ListedProduct, View } from "@/types";
 import clsx from "clsx/lite";
 import { CardContainer } from "../../CardContainer";
 import { ProductActions } from "../actions";
@@ -10,7 +10,7 @@ import { Rating } from "@/components/rating";
 
 type ListedProductCardProps = {
   product: ListedProduct;
-  view: "grid" | "list";
+  view: View;
 };
 
 export function ListedProductCard({ product, view }: ListedProductCardProps) {

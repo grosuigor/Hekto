@@ -7,10 +7,11 @@ import { loader } from "./loader";
 import styles from "./ProductList.module.scss";
 import { Products } from "./products";
 import { View } from "./view";
+import type { View as ViewType } from "@/types";
 
 function ProductList() {
   const { pid } = useParams();
-  const [view, setView] = useState<"grid" | "list">("list");
+  const [view, setView] = useState<ViewType>("list");
 
   if (pid) {
     return <Outlet />;

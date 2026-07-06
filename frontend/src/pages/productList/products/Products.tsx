@@ -3,9 +3,10 @@ import { useLoadedListedProducts, useQuery } from "@/hooks";
 import clsx from "clsx/lite";
 import { Pagination } from "./pagination";
 import styles from "./Products.module.scss";
+import type { View as ViewType } from "@/types";
 
 type ProductsProps = {
-  view: "grid" | "list";
+  view: ViewType;
 };
 
 const FALLBACK = Array.from({ length: 6 });
