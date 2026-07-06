@@ -12,7 +12,7 @@ export const DISCOUNTS = [
         "Material expose like metals",
         "Clear lines and geomatric figures",
         "Simple neutral colours.",
-        "Material expose like metals",
+        "Material expose like skin",
       ],
     },
     thumbnail: discountImg
@@ -28,7 +28,7 @@ export const DISCOUNTS = [
         "Material expose like metals",
         "Clear lines and geomatric figures",
         "Simple neutral colours.",
-        "Material expose like metals",
+        "Material expose like skin",
       ],
     },
     thumbnail: discountImg
@@ -44,7 +44,7 @@ export const DISCOUNTS = [
         "Material expose like metals",
         "Clear lines and geomatric figures",
         "Simple neutral colours.",
-        "Material expose like metals",
+        "Material expose like skin",
       ],
     },
     thumbnail: discountImg

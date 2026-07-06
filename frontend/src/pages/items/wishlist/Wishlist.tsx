@@ -20,7 +20,7 @@ function Wishlist() {
           ? products.map((product, i) =>
               product ? (
                 <ProductCard
-                  key={i}
+                  key={product.id}
                   type="wishlist"
                   product={product}
                   onRemove={() =>

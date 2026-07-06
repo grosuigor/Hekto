@@ -49,7 +49,7 @@ export function Tabs({ names, style, className, children }: TabsProps) {
       <div className={styles.header} role="tablist">
         {names.map((name, i) => (
           <Button
-            key={i}
+            key={names[i]}
             variant="text"
             color="black"
             className={clsx(
@@ -72,7 +72,7 @@ export function Tabs({ names, style, className, children }: TabsProps) {
       <div className={styles.names}>
         {children.map((child, i) => (
           <div
-            key={i}
+            key={names[i]}
             className={clsx(styles.tab, i === activeIndex && styles.active)}
           >
             {child}

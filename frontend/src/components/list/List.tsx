@@ -1,18 +1,22 @@
 import type { ComponentWithChildrenProps } from "@/types";
 import clsx from "clsx/lite";
-import { Children, isValidElement } from "react";
 import styles from "./List.module.scss";
+
+type ListProps = ComponentWithChildrenProps & {
+  keys: string[];
+};
 
 export function List({
   style,
   className,
   children,
-}: ComponentWithChildrenProps) {
+  keys
+}: ListProps) {
   return (
     <ul className={clsx(styles.list, className)} style={style}>
-      {Children.map(children, (child, i) => (
+      {children.map((child, i) => (
         <li
-          key={isValidElement(child) && child.key != null ? child.key : i}
+          key={keys[i]}
           className={clsx(
             styles["list__item"],
             styles[`list__item--${(i % 3) + 1}`],

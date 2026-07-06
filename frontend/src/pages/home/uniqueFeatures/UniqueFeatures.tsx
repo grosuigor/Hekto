@@ -10,9 +10,9 @@ export function UniqueFeatures() {
         <Typography variant="h3">
           Unique Features Of Latest & Trending Poducts
         </Typography>
-        <List>
-          {FEATURES.map((feature, i) => (
-            <Typography key={i} variant="body" color="grey-3">
+        <List keys={FEATURES.map((feature) => feature.toString())}>
+          {FEATURES.map((feature) => (
+            <Typography key={feature} variant="body" color="grey-3">
               {feature}
             </Typography>
           ))}

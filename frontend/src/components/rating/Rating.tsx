@@ -8,12 +8,11 @@ type RatingProps = StyleProps & {
 };
 
 const MAX_RATING = 5;
-const RATING_STARS = Array.from({ length: MAX_RATING });
 
 export function Rating({ rating, style, className }: RatingProps) {
   return (
     <div style={style} className={clsx(styles.rating, className)}>
-      {RATING_STARS.map((_, i) => {
+      {Array.from({ length: MAX_RATING }).map((_, i) => {
         const fill = Math.min(Math.max(rating - i, 0), 1);
 
         if (fill >= 1) {

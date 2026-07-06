@@ -73,7 +73,7 @@ export function Select<T extends string | number>({
       >
         {options.map((option) => (
           <Button
-            key={String(option)}
+            key={option.toString()}
             variant="filled"
             size="sm"
             color="white"

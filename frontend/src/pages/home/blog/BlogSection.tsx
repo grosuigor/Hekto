@@ -6,8 +6,8 @@ export function BlogSection() {
   return (
     <Section gap="2xl" title="Latest Blog">
       <div className={styles.grid}>
-        {BLOGS.map((blog, i) => (
-          <BlogCard key={i} blog={blog} />
+        {BLOGS.map((blog) => (
+          <BlogCard key={blog.title} blog={blog} />
         ))}
       </div>
     </Section>
