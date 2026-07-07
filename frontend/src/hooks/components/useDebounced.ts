@@ -17,7 +17,9 @@ export function useDebounced<T>(
   const isDirty = useRef(false);
   const localValueRef = useRef(localValue);
 
-  localValueRef.current = localValue;
+  useEffect(() => {
+    localValueRef.current = localValue;
+  }, [localValue]);
 
   useEffect(() => {
     commitRef.current = onCommit;
