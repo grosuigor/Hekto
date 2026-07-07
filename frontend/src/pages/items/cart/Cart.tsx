@@ -6,36 +6,17 @@ import {
   Skeleton,
   Typography,
 } from "@/components";
-import { useCart, usePrice } from "@/hooks";
-import { useMemo } from "react";
+import { useCart } from "@/hooks";
 import { Empty } from "../empty";
 import styles from "./Cart.module.scss";
 import { loader } from "./loader";
+import { useTotal } from "./hooks";
 
-const SHIPPING_PRICE_USD = 100;
 const ITEMS_COUNT_FALLBACK = 3;
 
 function Cart() {
   const [products, dispatch] = useCart();
-
-  const subtotal = useMemo(() => {
-    if (products === undefined) {
-      return 0;
-    }
-
-    return products.reduce(
-      (sum, product) => sum + (product?.price ?? 0) * (product?.quantity ?? 0),
-      0,
-    );
-  }, [products]);
-
-  const total = useMemo(() => subtotal + SHIPPING_PRICE_USD, [subtotal]);
-
-  const [subtotalPrice, shippingPrice, totalPrice] = usePrice([
-    subtotal,
-    SHIPPING_PRICE_USD,
-    total,
-  ]);
+  const [subtotalPrice, shippingPrice, totalPrice] = useTotal(products);
 
   if (products?.length === 0) {
     return <Empty />;

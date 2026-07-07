@@ -6,7 +6,6 @@ import type { ComponentProps } from "@/types";
 import clsx from "clsx/lite";
 import {
   type Dispatch,
-  type MouseEvent,
   type SetStateAction,
   useCallback,
   useState,
@@ -29,10 +28,6 @@ export function Select<T extends string | number>({
   className,
 }: SelectProps<T>) {
   const [optionsShowed, showOptions] = useState(false);
-
-  const handleOptionsMouseDown = useCallback((e: MouseEvent) => {
-    e.preventDefault();
-  }, []);
 
   const selectOption = useCallback(
     (option: T) => {
@@ -69,7 +64,6 @@ export function Select<T extends string | number>({
           styles.options,
           optionsShowed && styles["options--active"],
         )}
-        onMouseDown={handleOptionsMouseDown}
       >
         {options.map((option) => (
           <Button

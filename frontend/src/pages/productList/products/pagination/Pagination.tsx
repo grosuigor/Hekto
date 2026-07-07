@@ -1,44 +1,14 @@
 import { Button, Typography } from "@/components";
 import clsx from "clsx/lite";
-import { useMemo } from "react";
 import styles from "./Pagination.module.scss";
-import { useQuery } from "@/hooks";
+import { usePagination } from "./hooks";
 
 type PaginationProps = {
   totalPages: number;
 };
 
 export function Pagination({ totalPages }: PaginationProps) {
-  const [{pagination}, dispatch] = useQuery()
-
-  const pages = useMemo(
-    () => Array.from({ length: totalPages }, (_, i) => i + 1),
-    [totalPages],
-  );
-
-  const visiblePages = useMemo(
-    () =>
-      pages.filter(
-        (page) =>
-          page === 1 ||
-          page === totalPages ||
-          Math.abs(page - pagination.page) <= 2,
-      ),
-    [pages, pagination.page, totalPages],
-  );
-
-  const withGaps = useMemo(() => {
-    const withGaps: (number | "gap")[] = [];
-
-    for (let i = 0; i < visiblePages.length; i++) {
-      if (i > 0 && visiblePages[i] - visiblePages[i - 1] > 1) {
-        withGaps.push("gap");
-      }
-      withGaps.push(visiblePages[i]);
-    }
-
-    return withGaps;
-  }, [visiblePages]);
+  const { activePage, withGaps, updatePagination } = usePagination(totalPages);
 
   return (
     <div className={styles.container}>
@@ -50,15 +20,10 @@ export function Pagination({ totalPages }: PaginationProps) {
         ) : (
           <Button
             key={item}
-            variant={item === pagination.page ? "filled" : "text"}
-            color={item === pagination.page ? "primary" : "grey-3"}
+            variant={item === activePage ? "filled" : "text"}
+            color={item === activePage ? "primary" : "grey-3"}
             className={styles.button}
-            onClick={() =>
-              dispatch({
-                type: "SET_PAGINATION",
-                payload: { ...pagination, page: item },
-              })
-            }
+            onClick={() => updatePagination(item)}
             rounded
           >
             <Typography
@@ -66,7 +31,7 @@ export function Pagination({ totalPages }: PaginationProps) {
               modifier="small"
               isLato
               className={clsx(
-                item === pagination.page && styles["label--active"],
+                item === activePage && styles["label--active"],
               )}
             >
               {item}

@@ -1,6 +1,4 @@
 export {
-  useCarousel,
-  useCarouselVisibleCount,
   useDebounced,
   useMediaQuery,
   useUpdater,

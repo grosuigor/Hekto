@@ -1,9 +1,10 @@
 import { Button } from "@/components/clickable";
 import type { ComponentWithoutChildrenProps } from "@/types";
 import clsx from "clsx/lite";
-import { type Dispatch, type SetStateAction, useCallback } from "react";
+import { type Dispatch, type SetStateAction } from "react";
 import styles from "./Counter.module.scss";
 import { Typography } from "@/components/typography";
+import { useCounter } from "./hooks";
 
 type CounterProps = ComponentWithoutChildrenProps & {
   id: string;
@@ -22,13 +23,7 @@ export function Counter({
   style,
   className,
 }: CounterProps) {
-  const decrement = useCallback(() => {
-    setValue((prev) => Math.max(min, prev - 1));
-  }, [min, setValue]);
-
-  const increment = useCallback(() => {
-    setValue((prev) => Math.min(max, prev + 1));
-  }, [max, setValue]);
+  const { decrement, increment } = useCounter(min, max, setValue);
 
   return (
     <div style={style} className={clsx(styles.counter, className)}>

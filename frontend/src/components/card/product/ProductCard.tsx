@@ -50,23 +50,18 @@ const PREVIEW_PRODUCT_MAP = {
 };
 
 export function ProductCard(props: ProductCardTypes) {
-  if (props.type === "listed") {
-    return <ListedProductCard {...props} />;
+  switch (props.type) {
+    case "listed":
+      return <ListedProductCard {...props} />;
+    case "cart":
+      return <CartProductCard {...props} />;
+    case "wishlist":
+      return <WishlistProductCard {...props} />;
+    case "search":
+      return <SearchProductCard {...props} />;
+    default: {
+      const Component = PREVIEW_PRODUCT_MAP[props.type];
+      return <Component {...props} />;
+    }
   }
-
-  if (props.type === "cart") {
-    return <CartProductCard {...props} />;
-  }
-
-  if (props.type === "wishlist") {
-    return <WishlistProductCard {...props} />;
-  }
-
-  if (props.type === "search") {
-    return <SearchProductCard {...props} />;
-  }
-
-  const Component = PREVIEW_PRODUCT_MAP[props.type];
-
-  return <Component {...props} />;
 }

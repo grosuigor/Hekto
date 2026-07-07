@@ -1,11 +1,10 @@
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Modal } from "@/components/modal";
-import { useCart, useWishlist } from "@/hooks";
 import type { ComponentWithoutChildrenProps } from "@/types";
 import clsx from "clsx/lite";
-import { type UIEvent, useCallback, useState } from "react";
 import styles from "./ProductActions.module.scss";
+import { useProductActions } from "./hooks";
 
 export type ProductActionsProps = ComponentWithoutChildrenProps & {
   id: string;
@@ -20,38 +19,7 @@ export function ProductActions({
   style,
   className,
 }: ProductActionsProps) {
-  const [, dispatchCart] = useCart();
-  const [, dispatchWishlist] = useWishlist();
-  const [modalShowed, showModal] = useState(false);
-
-  const addToCart = useCallback(
-    (e: UIEvent) => {
-      e.preventDefault();
-      e.stopPropagation();
-      dispatchCart({ type: "ADD_ITEM", payload: { productId: id } });
-    },
-    [dispatchCart, id],
-  );
-
-  const addToWishlist = useCallback(
-    (e: UIEvent) => {
-      e.preventDefault();
-      e.stopPropagation();
-      dispatchWishlist({ type: "ADD_ITEM", payload: { productId: id } });
-    },
-    [dispatchWishlist, id],
-  );
-
-  const openModal = useCallback((e: UIEvent) => {
-    e.preventDefault();
-    e.stopPropagation();
-    showModal(true);
-  }, []);
-
-  const closeModal = useCallback((e: UIEvent) => {
-    e.preventDefault();
-    showModal(false);
-  }, []);
+  const { modalShowed, addToCart, addToWishlist, openModal, closeModal } = useProductActions(id);
 
   return (
     <div

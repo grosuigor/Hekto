@@ -1,16 +1,16 @@
-import { useCarousel } from "@/hooks";
 import type {
   ComponentWithChildrenProps,
   ComponentWithoutChildrenProps,
 } from "@/types";
 import clsx from "clsx/lite";
-import { Children } from "react";
+import { Children, useMemo } from "react";
 import { Button } from "@/components/clickable";
 import { Typography } from "@/components/typography";
+import { useCarousel, useVisibleCount, type VisibleCountOptions } from "./hooks";
 import styles from "./Carousel.module.scss";
 
 type CarouselProps = ComponentWithChildrenProps & {
-  visibleCount?: number;
+  visibleCountOptions?: VisibleCountOptions;
   container?: ComponentWithoutChildrenProps;
   track?: ComponentWithoutChildrenProps;
   controls: ComponentWithoutChildrenProps & {
@@ -21,7 +21,7 @@ type CarouselProps = ComponentWithChildrenProps & {
 };
 
 export function Carousel({
-  visibleCount = 1,
+  visibleCountOptions = { desktop: 1 },
   container,
   track,
   controls,
@@ -30,6 +30,7 @@ export function Carousel({
   children,
 }: CarouselProps) {
   const itemsCount = Children.count(children);
+  const visibleCount = useVisibleCount(visibleCountOptions);
   const {
     carouselRef,
     stepsCount,
@@ -37,6 +38,10 @@ export function Carousel({
     setCurrentStep,
     syncCurrentStep,
   } = useCarousel(itemsCount, visibleCount);
+
+  const trackWidth = useMemo(() => {
+    return `${(itemsCount / visibleCount) * 100}%`;
+  }, [itemsCount, visibleCount]);
 
   return (
     <div
@@ -58,7 +63,7 @@ export function Carousel({
         <div
           style={{
             ...track?.style,
-            width: `${(itemsCount / visibleCount) * 100}%`,
+            width: trackWidth,
           }}
           className={clsx(styles.track, track?.className)}
         >

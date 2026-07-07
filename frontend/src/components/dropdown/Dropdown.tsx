@@ -3,8 +3,8 @@ import { Icon } from "@/components/icon";
 import { Typography } from "@/components/typography";
 import type { ComponentProps } from "@/types";
 import clsx from "clsx/lite";
-import { useCallback, useEffect, useRef, useState } from "react";
 import styles from "./Dropdown.module.scss";
+import { useDropdown } from "./hooks";
 
 type DropdownProps = ComponentProps & {
   options: Array<{
@@ -19,42 +19,7 @@ export function Dropdown({
   className,
   children,
 }: DropdownProps) {
-  const [open, setOpen] = useState(false);
-  const containerRef = useRef<HTMLDivElement>(null);
-
-  const toggleOpen = useCallback(() => {
-    setOpen((prev) => !prev);
-  }, []);
-
-  const close = useCallback(() => {
-    setOpen(false);
-  }, []);
-
-  useEffect(() => {
-    if (!open) {
-      return;
-    }
-
-    const onPointerDown = (e: PointerEvent) => {
-      if (!containerRef.current?.contains(e.target as Node)) {
-        close();
-      }
-    };
-
-    const onKeyDown = (e: KeyboardEvent) => {
-      if (e.key === "Escape") {
-        close();
-      }
-    };
-
-    document.addEventListener("pointerdown", onPointerDown);
-    document.addEventListener("keydown", onKeyDown);
-
-    return () => {
-      document.removeEventListener("pointerdown", onPointerDown);
-      document.removeEventListener("keydown", onKeyDown);
-    };
-  }, [close, open]);
+  const { containerRef, open, toggleOpen, close } = useDropdown();
 
   return (
     <div
