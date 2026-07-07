@@ -3,8 +3,7 @@ import { useWishlist } from "@/hooks";
 import { Empty } from "../empty";
 import styles from "./Wishlist.module.scss";
 import { loader } from "./loader";
-
-const ITEMS_COUNT_FALLBACK = 4;
+import { ITEMS_COUNT_FALLBACK } from "./data";
 
 function Wishlist() {
   const [products, dispatch] = useWishlist();

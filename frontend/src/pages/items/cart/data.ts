@@ -1,0 +1,1 @@
+export const ITEMS_COUNT_FALLBACK = 3;

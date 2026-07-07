@@ -1,0 +1,1 @@
+export const FALLBACK = Array.from({ length: 6 });

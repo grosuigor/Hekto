@@ -11,8 +11,7 @@ import { Empty } from "../empty";
 import styles from "./Cart.module.scss";
 import { loader } from "./loader";
 import { useTotal } from "./hooks";
-
-const ITEMS_COUNT_FALLBACK = 3;
+import { ITEMS_COUNT_FALLBACK } from "./data";
 
 function Cart() {
   const [products, dispatch] = useCart();

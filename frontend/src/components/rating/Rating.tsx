@@ -2,17 +2,16 @@ import clsx from "clsx/lite";
 import { StyleProps } from "@/types";
 import styles from "./Rating.module.scss";
 import { Icon } from "@/components/icon";
+import { STARS } from "./data";
 
 type RatingProps = StyleProps & {
   rating: number;
 };
 
-const MAX_RATING = 5;
-
 export function Rating({ rating, style, className }: RatingProps) {
   return (
     <div style={style} className={clsx(styles.rating, className)}>
-      {Array.from({ length: MAX_RATING }).map((_, i) => {
+      {STARS.map((_, i) => {
         const fill = Math.min(Math.max(rating - i, 0), 1);
 
         if (fill >= 1) {

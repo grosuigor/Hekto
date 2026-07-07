@@ -1,0 +1,1 @@
+export const TAB_NAMES = ["Description", "Additional Info", "Reviews", "Video"];

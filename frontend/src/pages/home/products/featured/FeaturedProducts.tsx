@@ -1,8 +1,7 @@
 import { Carousel, ProductCard, Section, Skeleton } from "@/components";
 import { useLoadedPreviewProducts } from "@/hooks";
 import styles from "./FeaturedProducts.module.scss";
-
-const FALLBACK = Array.from({ length: 16 });
+import { FALLBACK } from "./data";
 
 export function FeaturedProducts() {
   const products = useLoadedPreviewProducts("featured");

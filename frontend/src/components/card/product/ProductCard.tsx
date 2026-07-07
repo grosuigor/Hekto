@@ -8,13 +8,9 @@ import type {
   WishlistProduct,
 } from "@/types";
 import { ListedProductCard } from "./listed";
-import {
-  FeaturedProductCard,
-  LatestProductCard,
-  TrendingProductCard,
-} from "./preview";
 import { SearchProductCard } from "./search";
 import { CartProductCard, WishlistProductCard } from "./stored";
+import { PREVIEW_PRODUCT_MAP } from "./data";
 
 type ProductCardTypes =
   | {
@@ -42,12 +38,6 @@ type ProductCardTypes =
       type: PreviewProductType;
       product: PreviewProduct;
     };
-
-const PREVIEW_PRODUCT_MAP = {
-  featured: FeaturedProductCard,
-  latest: LatestProductCard,
-  trending: TrendingProductCard,
-};
 
 export function ProductCard(props: ProductCardTypes) {
   switch (props.type) {

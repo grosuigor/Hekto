@@ -1,8 +1,7 @@
 import { Icon, Tabs, Typography } from "@/components";
 import { DetailedProduct } from "@/types";
 import styles from "./Stats.module.scss";
-
-const TAB_NAMES = ["Description", "Additional Info", "Reviews", "Video"];
+import { TAB_NAMES } from "./data";
 
 type StatsProps = {
   product: DetailedProduct;

@@ -4,12 +4,11 @@ import clsx from "clsx/lite";
 import { Pagination } from "./pagination";
 import styles from "./Products.module.scss";
 import type { View as ViewType } from "@/types";
+import { FALLBACK } from "./data";
 
 type ProductsProps = {
   view: ViewType;
 };
-
-const FALLBACK = Array.from({ length: 6 });
 
 export function Products({ view }: ProductsProps) {
   const productsData = useLoadedListedProducts();
