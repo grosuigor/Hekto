@@ -1,6 +1,8 @@
 import { type Dispatch, type SetStateAction, useContext } from "react";
-import { CurrencyContext } from "./context";
+
 import type { Currency } from "@/constants";
+
+import { CurrencyContext } from "./context";
 
 export function useCurrencyContext(): [
   Currency,

@@ -1,6 +1,7 @@
 import type { Filter, Query } from "@/types";
-import { createDefaultQuery, parseSearchParams } from "./searchParams";
+
 import type { QueryStoreState } from "./context";
+import { createDefaultQuery, parseSearchParams } from "./searchParams";
 
 export function cloneFilters(
   filters: Filter[],

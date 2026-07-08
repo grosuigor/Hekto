@@ -1,10 +1,14 @@
-import { ProductCard, Skeleton, Typography } from "@/components";
-import { useLoadedListedProducts, useQuery } from "@/hooks";
 import clsx from "clsx/lite";
-import { Pagination } from "./pagination";
-import styles from "./Products.module.scss";
-import type { ProductsProps } from "./types";
+
+import { useLoadedListedProducts, useQuery } from "@/hooks";
+
+import { ProductCard, Skeleton, Typography } from "@/components";
+
 import { FALLBACK } from "./data";
+import { Pagination } from "./pagination";
+import type { ProductsProps } from "./types";
+
+import styles from "./Products.module.scss";
 
 export function Products({ view }: ProductsProps) {
   const productsData = useLoadedListedProducts();

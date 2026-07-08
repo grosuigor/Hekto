@@ -1,5 +1,5 @@
-import type { CartStoreState, CartActionType } from "./types";
 import { itemsReducer } from "../reducer";
+import type { CartActionType,CartStoreState } from "./types";
 
 export function cartReducer(
   state: CartStoreState,

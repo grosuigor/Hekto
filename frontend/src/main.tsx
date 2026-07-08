@@ -1,11 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+
 import { createBrowserRouter } from "react-router";
 import { RouterProvider } from "react-router/dom";
 
+import { PATHS, ROUTE_IDS } from "@/routing";
+
 import { RootLayout } from "@/layouts";
-import { Cart, Wishlist, Home, NotFound, Product, ProductList } from "@/pages";
-import { ROUTE_IDS, PATHS } from "@/routing";
+import { Cart, Home, NotFound, Product, ProductList, Wishlist } from "@/pages";
 
 import "@/styles/index.scss";
 

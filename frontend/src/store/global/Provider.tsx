@@ -1,4 +1,5 @@
 import { type PropsWithChildren } from "react";
+
 import { ItemsProvider } from "../items";
 import { PreferencesProvider } from "../preferences";
 

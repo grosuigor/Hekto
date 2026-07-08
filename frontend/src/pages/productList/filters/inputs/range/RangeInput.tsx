@@ -1,4 +1,5 @@
 import { Input } from "@/components";
+
 import type { RangeInputProps } from "./types";
 
 export function RangeInput({

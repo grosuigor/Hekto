@@ -1,7 +1,10 @@
-import emptyCartImg from "@/assets/cart/empty.png";
-import { Image, Section, StyledLink, Typography } from "@/components";
 import { PATHS } from "@/routing";
-import styles from "./Empty.module.scss"
+
+import { Image, Section, StyledLink, Typography } from "@/components";
+
+import emptyCartImg from "@/assets/cart/empty.png";
+
+import styles from "./Empty.module.scss";
 
 export function Empty() {
   return (

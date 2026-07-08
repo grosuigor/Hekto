@@ -1,12 +1,16 @@
-import { Image } from "@/components/image";
-import { Typography } from "@/components/typography";
-import { usePrice } from "@/hooks";
-import type { ListedProductCardProps } from "./types";
 import clsx from "clsx/lite";
+
+import { usePrice } from "@/hooks";
+
+import { Image } from "@/components/image";
+import { Rating } from "@/components/rating";
+import { Typography } from "@/components/typography";
+
 import { CardContainer } from "../../CardContainer";
 import { ProductActions } from "../actions";
+import type { ListedProductCardProps } from "./types";
+
 import styles from "./ListedProductCard.module.scss";
-import { Rating } from "@/components/rating";
 
 export function ListedProductCard({ product, view }: ListedProductCardProps) {
   const [price, wasPrice] = usePrice([product.price, product.wasPrice]);

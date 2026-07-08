@@ -1,5 +1,7 @@
-import { useEffect, useReducer, useRef, type PropsWithChildren } from "react";
+import { type PropsWithChildren,useEffect, useReducer, useRef } from "react";
+
 import { useSearchParams } from "react-router";
+
 import { QueryContext, QueryDispatchContext } from "./context";
 import { queryReducer } from "./reducer";
 import { parseSearchParams, serializeToSearchParams } from "./searchParams";

@@ -1,7 +1,10 @@
-import { Carousel, ProductCard, Section, Skeleton } from "@/components";
 import { useLoadedPreviewProducts } from "@/hooks";
-import styles from "./FeaturedProducts.module.scss";
+
+import { Carousel, ProductCard, Section, Skeleton } from "@/components";
+
 import { FALLBACK } from "./data";
+
+import styles from "./FeaturedProducts.module.scss";
 
 export function FeaturedProducts() {
   const products = useLoadedPreviewProducts("featured");

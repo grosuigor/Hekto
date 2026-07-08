@@ -1,10 +1,13 @@
+import clsx from "clsx/lite";
+
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Typography } from "@/components/typography";
-import type { DropdownProps } from "./types";
-import clsx from "clsx/lite";
-import styles from "./Dropdown.module.scss";
+
 import { useDropdown } from "./hooks";
+import type { DropdownProps } from "./types";
+
+import styles from "./Dropdown.module.scss";
 
 export function Dropdown({
   options,

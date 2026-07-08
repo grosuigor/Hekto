@@ -1,4 +1,5 @@
 import type { CSSProperties, ReactNode } from "react";
+
 import type { PreviewProduct } from "./product";
 
 export type StyleProps = {

@@ -1,4 +1,5 @@
 import { type Currency, type Locale } from "@/constants";
+
 import { BaseStorage } from "./base";
 import { STORAGE_KEYS } from "./keys";
 

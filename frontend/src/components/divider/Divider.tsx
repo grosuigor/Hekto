@@ -1,5 +1,7 @@
 import clsx from "clsx/lite";
+
 import type { DividerProps } from "./types";
+
 import styles from "./Divider.module.scss";
 
 export function Divider({

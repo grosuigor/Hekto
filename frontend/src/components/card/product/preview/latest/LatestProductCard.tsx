@@ -1,9 +1,13 @@
-import { Typography } from "@/components/typography";
-import { usePrice } from "@/hooks";
 import type { ProductCardProps } from "@/types";
+
+import { usePrice } from "@/hooks";
+
+import { Typography } from "@/components/typography";
+
 import { ProductCardContainer } from "../ProductCardContainer";
-import styles from "./LatestProductCard.module.scss";
 import { useTrimmedName } from "./hooks";
+
+import styles from "./LatestProductCard.module.scss";
 
 export function LatestProductCard({ product }: ProductCardProps) {
   const [price, wasPrice] = usePrice([product.price, product.wasPrice]);

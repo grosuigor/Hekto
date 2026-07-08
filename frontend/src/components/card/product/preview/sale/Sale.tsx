@@ -1,7 +1,11 @@
-import saleImg from "@/assets/sale.svg";
-import { Image } from "@/components/image";
-import type { SaleProps } from "./types";
 import clsx from "clsx/lite";
+
+import { Image } from "@/components/image";
+
+import type { SaleProps } from "./types";
+
+import saleImg from "@/assets/sale.svg";
+
 import styles from "./Sale.module.scss";
 
 export function Sale({ isSale, style, className }: SaleProps) {

@@ -1,9 +1,11 @@
-import { ROUTE_IDS } from "@/routing";
+import { useRouteLoaderData } from "react-router";
+
 import type {
   PreviewProducts,
   PreviewProductType,
 } from "@/types";
-import { useRouteLoaderData } from "react-router";
+
+import { ROUTE_IDS } from "@/routing";
 
 export function useLoadedPreviewProducts<T extends PreviewProductType>(
   type: T,

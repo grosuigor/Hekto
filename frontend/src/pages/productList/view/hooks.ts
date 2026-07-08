@@ -1,5 +1,7 @@
-import { useQuery, useUpdater } from "@/hooks";
 import { useMemo } from "react";
+
+import { useQuery, useUpdater } from "@/hooks";
+
 import { SORTING_MAP } from "./data";
 
 export function useView() {

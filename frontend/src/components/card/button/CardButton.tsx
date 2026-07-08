@@ -1,7 +1,10 @@
 import clsx from "clsx/lite";
+
 import { Button } from "@/components/clickable";
 import { Typography } from "@/components/typography";
+
 import type { CardButtonProps } from "./types";
+
 import styles from "./CardButton.module.scss";
 
 export function CardButton({ variant, style, className }: CardButtonProps) {

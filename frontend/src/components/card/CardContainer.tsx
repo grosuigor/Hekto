@@ -1,7 +1,9 @@
 import clsx from "clsx/lite";
-import type { CardContainerProps } from "./types";
-import styles from "./CardContainer.module.scss";
+
 import { useCard } from "./hooks";
+import type { CardContainerProps } from "./types";
+
+import styles from "./CardContainer.module.scss";
 
 export function CardContainer({
   style,

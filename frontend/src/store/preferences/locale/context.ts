@@ -1,5 +1,6 @@
-import type { Locale } from "@/constants";
 import { createContext, type Dispatch, SetStateAction } from "react";
+
+import type { Locale } from "@/constants";
 
 type LocaleContextType = {
   locale: Locale;

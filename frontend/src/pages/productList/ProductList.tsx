@@ -1,13 +1,19 @@
-import { Section } from "@/components";
-import { QueryProvider } from "@/store";
 import { useState } from "react";
+
 import { Outlet, useParams } from "react-router";
+
+import type { View as ViewType } from "@/types";
+
+import { QueryProvider } from "@/store";
+
+import { Section } from "@/components";
+
 import { Filters } from "./filters";
 import { loader } from "./loader";
-import styles from "./ProductList.module.scss";
 import { Products } from "./products";
 import { View } from "./view";
-import type { View as ViewType } from "@/types";
+
+import styles from "./ProductList.module.scss";
 
 function ProductList() {
   const { pid } = useParams();

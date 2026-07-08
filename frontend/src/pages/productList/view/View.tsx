@@ -1,8 +1,10 @@
 import { Button, Icon, Input, Typography } from "@/components";
-import styles from "./View.module.scss";
+
 import { COUNT_OPTIONS, SORTING_MAP } from "./data";
 import { useView } from "./hooks";
 import type { ViewProps } from "./types";
+
+import styles from "./View.module.scss";
 
 export function View({ view, setView }: ViewProps) {
   const { pagination, sorting } = useView();

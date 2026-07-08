@@ -1,5 +1,6 @@
-import type { ComponentProps } from "@/types";
 import type { Dispatch, SetStateAction } from "react";
+
+import type { ComponentProps } from "@/types";
 
 export type InputColor = "info" | "secondary" | "danger";
 

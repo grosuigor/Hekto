@@ -1,12 +1,16 @@
+import { Link } from "react-router";
+
+import { usePrice, useUpdater } from "@/hooks";
+import { PATHS } from "@/routing";
+
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Image } from "@/components/image";
 import { Input } from "@/components/input";
 import { Typography } from "@/components/typography";
-import { usePrice, useUpdater } from "@/hooks";
-import { PATHS } from "@/routing";
+
 import type { CartProductCardProps } from "./types";
-import { Link } from "react-router";
+
 import styles from "./CartProductCard.module.scss";
 
 export function CartProductCard({

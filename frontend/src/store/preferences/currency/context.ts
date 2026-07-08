@@ -1,5 +1,6 @@
-import type { Currency } from "@/constants";
 import { createContext, type Dispatch, SetStateAction } from "react";
+
+import type { Currency } from "@/constants";
 
 type CurrencyContextType = {
   currency: Currency;

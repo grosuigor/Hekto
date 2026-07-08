@@ -1,5 +1,6 @@
+import type { KeyboardEvent,MouseEvent } from "react";
+
 import type { ComponentWithoutChildrenProps } from "@/types";
-import type { MouseEvent, KeyboardEvent } from "react";
 
 export type ModalProps = ComponentWithoutChildrenProps & {
   open: boolean;

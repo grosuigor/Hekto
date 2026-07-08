@@ -1,6 +1,8 @@
-import { CURRENCY_COEFFICIENTS, CURRENCY_SYMBOLS } from "@/constants";
-import { useCurrencyContext } from "@/store";
 import { useMemo } from "react";
+
+import { CURRENCY_COEFFICIENTS, CURRENCY_SYMBOLS } from "@/constants";
+
+import { useCurrencyContext } from "@/store";
 
 function formatPrice(price: number, currency: keyof typeof CURRENCY_COEFFICIENTS) {
   const transformed = (price * CURRENCY_COEFFICIENTS[currency]).toFixed(2);

@@ -1,16 +1,20 @@
+import { type MouseEvent, useMemo, useRef, useState } from "react";
+
+import { Link } from "react-router";
+
+import { useProductSearch } from "@/hooks";
+import { PATHS } from "@/routing";
+
 import {
   Button,
   Icon,
   Input,
+  ProductCard,
   Skeleton,
   Typography,
-  ProductCard,
 } from "@/components";
-import { useProductSearch } from "@/hooks";
-import { type MouseEvent, useMemo, useRef, useState } from "react";
-import { Link } from "react-router";
+
 import styles from "./Search.module.scss";
-import { PATHS } from "@/routing";
 
 export function NavSearch() {
   const [searchQuery, setSearchQuery] = useState("");

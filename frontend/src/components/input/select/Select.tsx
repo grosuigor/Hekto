@@ -1,14 +1,18 @@
-import { Button } from "@/components/clickable";
-import { Icon } from "@/components/icon";
-import { Typography } from "@/components/typography";
-import { Input } from "@/components/input";
-import type { SelectProps } from "./types";
-import type { ValueType } from "../types";
-import clsx from "clsx/lite";
 import {
   useCallback,
   useState,
 } from "react";
+
+import clsx from "clsx/lite";
+
+import { Button } from "@/components/clickable";
+import { Icon } from "@/components/icon";
+import { Input } from "@/components/input";
+import { Typography } from "@/components/typography";
+
+import type { ValueType } from "../types";
+import type { SelectProps } from "./types";
+
 import styles from "./Select.module.scss";
 
 export function Select<T extends ValueType>({

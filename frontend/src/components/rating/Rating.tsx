@@ -1,8 +1,11 @@
 import clsx from "clsx/lite";
-import type { RatingProps } from "./types";
-import styles from "./Rating.module.scss";
+
 import { Icon } from "@/components/icon";
+
 import { STARS } from "./data";
+import type { RatingProps } from "./types";
+
+import styles from "./Rating.module.scss";
 
 export function Rating({ rating, style, className }: RatingProps) {
   return (

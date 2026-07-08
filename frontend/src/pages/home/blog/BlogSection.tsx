@@ -1,5 +1,7 @@
 import { BlogCard, Section } from "@/components";
+
 import { BLOGS } from "./data";
+
 import styles from "./BlogSection.module.scss";
 
 export function BlogSection() {

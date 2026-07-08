@@ -1,5 +1,6 @@
-import type { ItemsStoreState, ItemsActionType } from "../types";
 import type { CartItem } from "@/types";
+
+import type { ItemsActionType,ItemsStoreState } from "../types";
 
 export type CartStoreState = ItemsStoreState<CartItem>;
 

@@ -1,6 +1,8 @@
 import { Input, Typography } from "@/components";
-import styles from "./Checkboxes.module.scss";
+
 import type { CheckboxesProps } from "./types";
+
+import styles from "./Checkboxes.module.scss";
 
 export function Checkboxes({
   filterName,

@@ -1,7 +1,11 @@
-import { Typography } from "@/components/typography";
-import { usePrice } from "@/hooks";
 import type { ProductCardProps } from "@/types";
+
+import { usePrice } from "@/hooks";
+
+import { Typography } from "@/components/typography";
+
 import { ProductCardContainer } from "../ProductCardContainer";
+
 import styles from "./TrendingProductCard.module.scss";
 
 export function TrendingProductCard({ product }: ProductCardProps) {

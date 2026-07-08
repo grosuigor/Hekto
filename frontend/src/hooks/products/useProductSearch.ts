@@ -1,6 +1,8 @@
-import { searchProducts } from "@/services/api";
-import type { SearchResult } from "@/types";
 import { useEffect, useMemo, useState, useTransition } from "react";
+
+import type { SearchResult } from "@/types";
+
+import { searchProducts } from "@/services/api";
 
 const MIN_QUERY_LENGTH = 3;
 

@@ -2,8 +2,10 @@ import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Image } from "@/components/image";
 import { Typography } from "@/components/typography";
-import type { BlogCardProps } from "./types";
+
 import { CardContainer } from "../CardContainer";
+import type { BlogCardProps } from "./types";
+
 import styles from "./BlogCard.module.scss";
 
 export function BlogCard({ blog }: BlogCardProps) {

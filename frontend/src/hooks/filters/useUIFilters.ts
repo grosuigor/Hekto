@@ -1,6 +1,9 @@
-import { useLoadedFilters } from "@/hooks/loader";
-import type { Filter } from "@/types";
 import { useCallback, useState } from "react";
+
+import type { Filter } from "@/types";
+
+import { useLoadedFilters } from "@/hooks/loader";
+
 import { FILTER_COLORS, RANGE_FILTER_STEPS } from "./data";
 
 type UIFilter = Filter & {

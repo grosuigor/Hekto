@@ -1,4 +1,5 @@
-import { useCallback, useState, type UIEvent } from "react";
+import { type UIEvent,useCallback, useState } from "react";
+
 import { useCart, useWishlist } from "@/hooks";
 
 export function useProductActions(id: string) {

@@ -1,11 +1,14 @@
-import { Image } from "@/components/image";
-import type { ProductCardContainerProps } from "./types";
 import clsx from "clsx/lite";
+
+import { Image } from "@/components/image";
+
 import { CardButton } from "../../button";
 import { CardContainer } from "../../CardContainer";
 import { ProductActions } from "../actions";
-import styles from "./ProductCardContainer.module.scss";
 import { Sale } from "./sale";
+import type { ProductCardContainerProps } from "./types";
+
+import styles from "./ProductCardContainer.module.scss";
 
 export function ProductCardContainer({
   product,

@@ -1,5 +1,7 @@
-import { MEDIA_QUERIES } from "@/constants";
 import { useMemo } from "react";
+
+import { MEDIA_QUERIES } from "@/constants";
+
 import { useMediaQuery } from "@/hooks";
 
 export type VisibleCountOptions = {

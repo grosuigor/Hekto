@@ -1,5 +1,7 @@
 import { ProductCard, Section } from "@/components";
+
 import type { RelatedProps } from "./types";
+
 import styles from "./Related.module.scss";
 
 export function Related({ products }: RelatedProps) {

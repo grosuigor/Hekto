@@ -1,5 +1,6 @@
-import type { ComponentProps } from "@/types";
 import type { ButtonHTMLAttributes, MouseEvent } from "react";
+
+import type { ComponentProps } from "@/types";
 
 type ClickableVariant = "text" | "filled";
 type ClickableColor = "primary" | "success" | "grey-3" | "grey-2" | "white" | "black";

@@ -4,6 +4,7 @@ import type {
   Query,
   Sorting,
 } from "@/types";
+
 import { createDefaultQuery } from "./defaults";
 
 const VALID_SORT_KEYS = new Set<Sorting['key']>(["price", "rating"]);

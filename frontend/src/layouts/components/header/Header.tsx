@@ -1,13 +1,17 @@
-import { Dropdown, Icon, Section, StyledLink, Typography } from "@/components";
 import { LOCALES_LABELS, MEDIA_QUERIES } from "@/constants";
+
 import {
   useAvailableCurrencies,
   useAvailableLocales,
   useMediaQuery,
 } from "@/hooks";
 import { PATHS } from "@/routing";
-import styles from "./Header.module.scss";
+
+import { Dropdown, Icon, Section, StyledLink, Typography } from "@/components";
+
 import { Nav } from "./nav";
+
+import styles from "./Header.module.scss";
 
 export function Header() {
   const [currency, availableCurrencies, setCurrency] = useAvailableCurrencies();

@@ -1,6 +1,8 @@
+import { WishlistProduct } from "@/types";
+
 import { useLoadedWishlistProduct } from "@/hooks/loader";
 import { useWishlistContext, useWishlistDispatchContext } from "@/store";
-import { WishlistProduct } from "@/types";
+
 import { useMappedItems } from "./useMappedItems";
 
 type UseWishlistFn = () => [

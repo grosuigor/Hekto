@@ -1,6 +1,9 @@
-import { Button, Icon, Rating, Typography } from "@/components";
 import { useCart, usePrice } from "@/hooks";
+
+import { Button, Icon, Rating, Typography } from "@/components";
+
 import type { InfoProps } from "./types";
+
 import styles from "./Info.module.scss";
 
 

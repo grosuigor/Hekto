@@ -1,10 +1,10 @@
 import type {
   CartProduct,
   ListedProduct,
-  View,
   PreviewProduct,
   PreviewProductType,
   SearchProduct,
+  View,
   WishlistProduct,
 } from "@/types";
 

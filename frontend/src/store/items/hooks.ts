@@ -1,5 +1,3 @@
-import { itemsStorage } from "@/services/storage";
-import { StoredItem } from "@/types";
 import {
   ActionDispatch,
   Context,
@@ -9,6 +7,11 @@ import {
   useRef,
   useTransition,
 } from "react";
+
+import { StoredItem } from "@/types";
+
+import { itemsStorage } from "@/services/storage";
+
 import type { ItemsActionType, ItemsStoreState } from "./types";
 
 export function useItemsContext<

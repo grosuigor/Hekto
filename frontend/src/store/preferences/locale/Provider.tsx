@@ -1,5 +1,3 @@
-import type { Locale } from "@/constants";
-import { preferencesStorage } from "@/services/storage";
 import {
   type Dispatch,
   type PropsWithChildren,
@@ -8,6 +6,11 @@ import {
   useEffect,
   useState,
 } from "react";
+
+import type { Locale } from "@/constants";
+
+import { preferencesStorage } from "@/services/storage";
+
 import { LocaleContext } from "./context";
 import { DEFAULT_LOCALE } from "./defaults";
 

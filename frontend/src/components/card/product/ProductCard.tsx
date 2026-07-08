@@ -1,7 +1,7 @@
+import { PREVIEW_PRODUCT_MAP } from "./data";
 import { ListedProductCard } from "./listed";
 import { SearchProductCard } from "./search";
 import { CartProductCard, WishlistProductCard } from "./stored";
-import { PREVIEW_PRODUCT_MAP } from "./data";
 import type { ProductCardTypes } from "./types";
 
 export function ProductCard(props: ProductCardTypes) {

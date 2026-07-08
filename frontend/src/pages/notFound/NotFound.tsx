@@ -1,5 +1,7 @@
 import { Button, Icon, Section, Typography } from "@/components";
+
 import { useNotFound } from "./hooks";
+
 import styles from "./NotFound.module.scss";
 
 export function NotFound() {

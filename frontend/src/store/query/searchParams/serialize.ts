@@ -1,4 +1,5 @@
 import type { Query } from "@/types";
+
 import { DEFAULT_QUERY } from "./defaults";
 
 export function serializeToSearchParams(

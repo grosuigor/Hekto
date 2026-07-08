@@ -1,5 +1,6 @@
-import { StoredItem, StoredProduct } from "@/types";
 import { useMemo } from "react";
+
+import { StoredItem, StoredProduct } from "@/types";
 
 export function useMappedItems<Item extends StoredItem>(
   isPending: boolean,

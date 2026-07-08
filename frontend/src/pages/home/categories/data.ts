@@ -1,3 +1,5 @@
+import type { Category } from "@/types";
+
 import img11 from "@/assets/home/categories/1_1.png";
 import img12 from "@/assets/home/categories/1_2.png";
 import img13 from "@/assets/home/categories/1_3.png";
@@ -8,7 +10,6 @@ import img23 from "@/assets/home/categories/2_3.png";
 import img24 from "@/assets/home/categories/2_4.jpg";
 import img31 from "@/assets/home/categories/3_1.jpg";
 import img32 from "@/assets/home/categories/3_2.png";
-import type { Category } from "@/types";
 
 export const CATEGORIES: Category[] = [
   {

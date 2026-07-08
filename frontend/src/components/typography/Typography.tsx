@@ -1,6 +1,9 @@
-import type { TypographyProps } from "./types";
-import clsx from "clsx/lite";
 import { useMemo } from "react";
+
+import clsx from "clsx/lite";
+
+import type { TypographyProps } from "./types";
+
 import styles from "./Typography.module.scss";
 
 export function Typography({

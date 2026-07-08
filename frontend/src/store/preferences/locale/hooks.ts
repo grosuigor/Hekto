@@ -1,6 +1,8 @@
 import { type Dispatch, type SetStateAction, useContext } from "react";
-import { LocaleContext } from "./context";
+
 import type { Locale } from "@/constants";
+
+import { LocaleContext } from "./context";
 
 export function useLocaleContext(): [Locale, Dispatch<SetStateAction<Locale>>] {
   const context = useContext(LocaleContext);

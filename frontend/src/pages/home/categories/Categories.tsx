@@ -1,4 +1,5 @@
 import { Carousel, CategoryCard, Section } from "@/components";
+
 import { CATEGORIES } from "./data";
 
 export function Categories() {

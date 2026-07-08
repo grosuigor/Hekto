@@ -1,4 +1,5 @@
 import type { ComponentProps, PreviewProduct } from "@/types";
+
 import type { ProductActionsProps } from "../actions";
 
 export type ProductCardContainerProps = ComponentProps & {
