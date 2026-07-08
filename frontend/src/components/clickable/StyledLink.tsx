@@ -1,4 +1,5 @@
-import { Clickable, ClickableProps } from "./Clickable";
+import { Clickable } from "./Clickable";
+import type { ClickableProps } from "./types";
 
 type StyledLinkProps = Omit<ClickableProps & { type: "link" }, "type">;
 

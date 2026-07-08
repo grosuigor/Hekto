@@ -1,19 +1,9 @@
 import { Typography } from "@/components/typography";
-import type { ComponentWithoutChildrenProps, Range } from "@/types";
 import { useDebounced } from "@/hooks";
 import clsx from "clsx/lite";
-import { type Dispatch, type SetStateAction, useCallback } from "react";
+import { useCallback } from "react";
+import type { RangeProps } from "./types";
 import styles from "./Range.module.scss";
-
-type RangeProps = ComponentWithoutChildrenProps & {
-  min: number;
-  max: number;
-  step?: number;
-  value: Range;
-  setValue?: Dispatch<SetStateAction<Range>>;
-  color?: "info" | "secondary" | "danger";
-  "data-name"?: string;
-};
 
 function toPercent(value: number, min: number, max: number) {
   if (max === min) return 0;

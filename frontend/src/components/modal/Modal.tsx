@@ -1,16 +1,10 @@
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Image } from "@/components/image";
-import { type KeyboardEvent, type MouseEvent } from "react";
+import type { ModalProps } from "./types";
 import { createPortal } from "react-dom";
 import styles from "./Modal.module.scss";
 import { useModal } from "./hooks";
-
-type ModalProps = {
-  open: boolean;
-  image: string;
-  onClose: (e: MouseEvent | KeyboardEvent) => void;
-};
 
 export function Modal({ open, image, onClose }: ModalProps) {
   useModal(open, onClose);

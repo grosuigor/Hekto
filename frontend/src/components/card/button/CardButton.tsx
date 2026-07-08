@@ -1,12 +1,8 @@
 import clsx from "clsx/lite";
 import { Button } from "@/components/clickable";
 import { Typography } from "@/components/typography";
-import type { ComponentWithoutChildrenProps } from "@/types";
+import type { CardButtonProps } from "./types";
 import styles from "./CardButton.module.scss";
-
-type CardButtonProps = ComponentWithoutChildrenProps & {
-  variant: "Category" | "Details";
-};
 
 export function CardButton({ variant, style, className }: CardButtonProps) {
   return (

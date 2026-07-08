@@ -1,26 +1,7 @@
-import type { ComponentProps } from "@/types";
+import type { TypographyProps } from "./types";
 import clsx from "clsx/lite";
 import { useMemo } from "react";
 import styles from "./Typography.module.scss";
-
-type TypographyProps = ComponentProps & {
-  variant:
-    | "h1"
-    | "h2"
-    | "h3"
-    | "h4"
-    | "h5"
-    | "h6"
-    | "subtitle"
-    | "label"
-    | "body";
-  component?: React.ElementType;
-  isLato?: boolean;
-  modifier?: "big" | "small" | "bold" | "extra-small";
-  color?: "primary" | "grey-3" | "black" | "white";
-  decoration?: "line-through";
-  htmlFor?: string;
-};
 
 export function Typography({
   variant,

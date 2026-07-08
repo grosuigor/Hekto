@@ -3,11 +3,7 @@ import { Image } from "@/components/image";
 import clsx from "clsx/lite";
 import { useMemo, useState } from "react";
 import styles from "./Gallery.module.scss";
-
-type GalleryProps = {
-  images: string[];
-  alt: string;
-};
+import type { GalleryProps } from "./types";
 
 export function Gallery({ images, alt }: GalleryProps) {
   const [activeIndex, setActiveIndex] = useState(0);

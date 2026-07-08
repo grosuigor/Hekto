@@ -1,14 +1,8 @@
 import { Button, Icon, Input, Typography } from "@/components";
-import { type Dispatch, type SetStateAction } from "react";
 import styles from "./View.module.scss";
 import { COUNT_OPTIONS, SORTING_MAP } from "./data";
 import { useView } from "./hooks";
-import type { View as ViewType } from "@/types";
-
-type ViewProps = {
-  view: ViewType;
-  setView: Dispatch<SetStateAction<ViewType>>;
-};
+import type { ViewProps } from "./types";
 
 export function View({ view, setView }: ViewProps) {
   const { pagination, sorting } = useView();

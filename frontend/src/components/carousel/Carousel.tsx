@@ -1,24 +1,10 @@
-import type {
-  ComponentWithChildrenProps,
-  ComponentWithoutChildrenProps,
-} from "@/types";
 import clsx from "clsx/lite";
 import { Children, useMemo } from "react";
 import { Button } from "@/components/clickable";
 import { Typography } from "@/components/typography";
-import { useCarousel, useVisibleCount, type VisibleCountOptions } from "./hooks";
+import { useCarousel, useVisibleCount } from "./hooks";
 import styles from "./Carousel.module.scss";
-
-type CarouselProps = ComponentWithChildrenProps & {
-  visibleCountOptions?: VisibleCountOptions;
-  container?: ComponentWithoutChildrenProps;
-  track?: ComponentWithoutChildrenProps;
-  controls: ComponentWithoutChildrenProps & {
-    position?: "top" | "bottom";
-    variant: "square" | "line" | "dot" | "label";
-    labels?: string[];
-  };
-};
+import type { CarouselProps } from "./types";
 
 export function Carousel({
   visibleCountOptions = { desktop: 1 },

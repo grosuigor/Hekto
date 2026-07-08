@@ -1,17 +1,10 @@
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Typography } from "@/components/typography";
-import type { ComponentProps } from "@/types";
+import type { DropdownProps } from "./types";
 import clsx from "clsx/lite";
 import styles from "./Dropdown.module.scss";
 import { useDropdown } from "./hooks";
-
-type DropdownProps = ComponentProps & {
-  options: Array<{
-    text: string;
-    onClick: () => void;
-  }>;
-};
 
 export function Dropdown({
   options,

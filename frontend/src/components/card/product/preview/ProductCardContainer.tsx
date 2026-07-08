@@ -1,19 +1,11 @@
 import { Image } from "@/components/image";
-import type { ComponentProps, PreviewProduct } from "@/types";
+import type { ProductCardContainerProps } from "./types";
 import clsx from "clsx/lite";
 import { CardButton } from "../../button";
 import { CardContainer } from "../../CardContainer";
-import { ProductActions, type ProductActionsProps } from "../actions";
+import { ProductActions } from "../actions";
 import styles from "./ProductCardContainer.module.scss";
 import { Sale } from "./sale";
-
-type ProductCardContainerProps = ComponentProps & {
-  product: PreviewProduct;
-  showSale?: boolean;
-  showActions?: boolean;
-  showButton?: boolean;
-  actionProps: Omit<ProductActionsProps, "id" | "image">;
-};
 
 export function ProductCardContainer({
   product,

@@ -1,15 +1,8 @@
 import { Skeleton } from "@/components/skeleton";
-import type { ComponentWithoutChildrenProps } from "@/types";
+import type { ImageProps } from "./types";
 import clsx from "clsx/lite";
 import { useState } from "react";
 import styles from "./Image.module.scss";
-
-type ImageProps = ComponentWithoutChildrenProps & {
-  src: string;
-  alt: string;
-  isLocal?: boolean;
-  skeletonProps?: ComponentWithoutChildrenProps;
-};
 
 export function Image({
   src,

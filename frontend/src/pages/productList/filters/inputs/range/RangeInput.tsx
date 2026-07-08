@@ -1,13 +1,5 @@
 import { Input } from "@/components";
-import type { Range } from "@/types";
-
-type RangeInputProps = {
-  filterName: string;
-  allValues: Range;
-  filterValues: Range;
-  step?: number;
-  color?: "info" | "secondary" | "danger";
-};
+import type { RangeInputProps } from "./types";
 
 export function RangeInput({
   filterName,

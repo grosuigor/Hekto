@@ -1,12 +1,7 @@
 import { useDebounced } from "@/hooks";
-import type { ComponentProps } from "@/types";
+import type { InputProps, ValueType } from "./types";
 import clsx from "clsx/lite";
-import {
-  type ChangeEvent,
-  type Dispatch,
-  type SetStateAction,
-  useCallback,
-} from "react";
+import { type ChangeEvent, useCallback } from "react";
 import { Checkbox } from "./checkbox";
 import { Counter } from "./counter";
 import styles from "./Input.module.scss";
@@ -14,21 +9,7 @@ import { Range } from "./range";
 import { Select } from "./select";
 import { useEndAdornmentWidth } from "./hooks";
 
-type InputProps<T extends string | number> = ComponentProps & {
-  id: string;
-  value: T;
-  setValue?: Dispatch<SetStateAction<T>>;
-  endAdornment?: React.ReactNode;
-  placeholder: string;
-  onFocus?: () => void;
-  onBlur?: () => void;
-  type?: string;
-  debounceMs?: number;
-  readOnly?: boolean;
-  "data-name"?: string;
-};
-
-function Input<T extends string | number>({
+function Input<T extends ValueType>({
   value,
   setValue,
   endAdornment,

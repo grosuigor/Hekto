@@ -1,13 +1,9 @@
 import { Typography } from "@/components/typography";
-import { ComponentWithChildrenProps } from "@/types";
+import type { TabsProps } from "./types";
 import clsx from "clsx/lite";
 import { Button } from "../clickable";
 import styles from "./Tabs.module.scss";
 import { useTabs } from "./hooks";
-
-type TabsProps = ComponentWithChildrenProps & {
-  names: string[];
-};
 
 export function Tabs({ names, style, className, children }: TabsProps) {
   const [activeIndex, setActiveIndex] = useTabs(names.length);

@@ -5,16 +5,9 @@ import { Input } from "@/components/input";
 import { Typography } from "@/components/typography";
 import { usePrice, useUpdater } from "@/hooks";
 import { PATHS } from "@/routing";
-import { CartProduct } from "@/types";
+import type { CartProductCardProps } from "./types";
 import { Link } from "react-router";
 import styles from "./CartProductCard.module.scss";
-
-type CartProductCardProps = {
-  product: CartProduct;
-  quantity: number;
-  onQuantityChange: (quantity: number) => void;
-  onRemove: () => void;
-};
 
 export function CartProductCard({
   product,

@@ -1,12 +1,6 @@
 import { Input, Typography } from "@/components";
 import styles from "./Checkboxes.module.scss";
-
-type CheckboxesProps = {
-  filterName: string;
-  allValues: string[];
-  filterValues: string[];
-  color?: "info" | "secondary" | "danger";
-};
+import type { CheckboxesProps } from "./types";
 
 export function Checkboxes({
   filterName,

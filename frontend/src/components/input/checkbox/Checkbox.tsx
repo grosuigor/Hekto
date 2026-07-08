@@ -1,16 +1,7 @@
-import type { ComponentWithoutChildrenProps } from "@/types";
 import clsx from "clsx/lite";
-import { type Dispatch, type SetStateAction, useCallback } from "react";
+import { useCallback } from "react";
+import type { CheckboxProps } from "./types";
 import styles from "./Checkbox.module.scss";
-
-type CheckboxProps = ComponentWithoutChildrenProps & {
-  checked: boolean;
-  setChecked?: Dispatch<SetStateAction<boolean>>;
-  color?: "info" | "secondary" | "danger";
-  id: string;
-  "data-name"?: string;
-  "data-value"?: string;
-};
 
 export function Checkbox({
   checked,

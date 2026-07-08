@@ -1,4 +1,5 @@
-import { Clickable, ClickableProps } from "./Clickable";
+import { Clickable } from "./Clickable";
+import type { ClickableProps } from "./types";
 
 type ButtonProps = Omit<ClickableProps & { type: "button" }, "type">;
 

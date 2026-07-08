@@ -1,17 +1,12 @@
 import { Image } from "@/components/image";
 import { Typography } from "@/components/typography";
 import { usePrice } from "@/hooks";
-import type { ListedProduct, View } from "@/types";
+import type { ListedProductCardProps } from "./types";
 import clsx from "clsx/lite";
 import { CardContainer } from "../../CardContainer";
 import { ProductActions } from "../actions";
 import styles from "./ListedProductCard.module.scss";
 import { Rating } from "@/components/rating";
-
-type ListedProductCardProps = {
-  product: ListedProduct;
-  view: View;
-};
 
 export function ListedProductCard({ product, view }: ListedProductCardProps) {
   const [price, wasPrice] = usePrice([product.price, product.wasPrice]);

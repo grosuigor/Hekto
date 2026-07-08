@@ -3,12 +3,8 @@ import { useLoadedListedProducts, useQuery } from "@/hooks";
 import clsx from "clsx/lite";
 import { Pagination } from "./pagination";
 import styles from "./Products.module.scss";
-import type { View as ViewType } from "@/types";
+import type { ProductsProps } from "./types";
 import { FALLBACK } from "./data";
-
-type ProductsProps = {
-  view: ViewType;
-};
 
 export function Products({ view }: ProductsProps) {
   const productsData = useLoadedListedProducts();

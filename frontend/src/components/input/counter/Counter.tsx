@@ -1,18 +1,9 @@
 import { Button } from "@/components/clickable";
-import type { ComponentWithoutChildrenProps } from "@/types";
+import type { CounterProps } from "./types";
 import clsx from "clsx/lite";
-import { type Dispatch, type SetStateAction } from "react";
 import styles from "./Counter.module.scss";
 import { Typography } from "@/components/typography";
 import { useCounter } from "./hooks";
-
-type CounterProps = ComponentWithoutChildrenProps & {
-  id: string;
-  value: number;
-  setValue: Dispatch<SetStateAction<number>>;
-  min?: number;
-  max?: number;
-};
 
 export function Counter({
   id,

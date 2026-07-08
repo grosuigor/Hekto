@@ -1,17 +1,7 @@
 import clsx from "clsx/lite";
-import type { ComponentWithChildProps } from "@/types";
+import type { CardContainerProps } from "./types";
 import styles from "./CardContainer.module.scss";
 import { useCard } from "./hooks";
-
-type CardContainerProps = ComponentWithChildProps &
-  (
-    | {
-        path: string;
-      }
-    | {
-        id: string;
-      }
-  );
 
 export function CardContainer({
   style,

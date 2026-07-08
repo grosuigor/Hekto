@@ -1,16 +1,10 @@
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Modal } from "@/components/modal";
-import type { ComponentWithoutChildrenProps } from "@/types";
+import type { ProductActionsProps } from "./types";
 import clsx from "clsx/lite";
 import styles from "./ProductActions.module.scss";
 import { useProductActions } from "./hooks";
-
-export type ProductActionsProps = ComponentWithoutChildrenProps & {
-  id: string;
-  image: string;
-  direction: "row" | "column";
-};
 
 export function ProductActions({
   id,
