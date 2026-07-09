@@ -3,7 +3,7 @@ import { useCallback, useMemo } from "react";
 import { useQuery } from "@/hooks";
 
 export function usePagination(totalPages: number) {
-  const [{pagination}, dispatch] = useQuery()
+  const [{ pagination }, dispatch] = useQuery();
 
   const pages = useMemo(
     () => Array.from({ length: totalPages }, (_, i) => i + 1),
@@ -34,16 +34,22 @@ export function usePagination(totalPages: number) {
     return withGaps;
   }, [visiblePages]);
 
-  const updatePagination = useCallback((item: number) => {
-    dispatch({
-      type: "SET_PAGINATION",
-      payload: { ...pagination, page: item },
-    })
-  }, [pagination, dispatch]);
+  const updatePagination = useCallback(
+    (item: number) => {
+      dispatch({
+        type: "SET_PAGINATION",
+        payload: { ...pagination, page: item },
+      });
+      setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }, 200);
+    },
+    [pagination, dispatch],
+  );
 
   return {
     activePage: pagination.page,
     withGaps,
     updatePagination,
-  }
+  };
 }

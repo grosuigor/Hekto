@@ -1,4 +1,3 @@
-
 .clickable {
   display: inline-flex;
   flex-direction: row;
@@ -39,6 +38,10 @@
     &:focus,
     &:focus-visible {
       background-color: $color-success-dark;
+
+      & > * {
+        color: $color-white;
+      }
     }
   }
 

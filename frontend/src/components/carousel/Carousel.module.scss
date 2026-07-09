@@ -1,4 +1,3 @@
-
 .container {
   position: relative;
   width: 100%;
@@ -106,9 +105,5 @@
   &:focus-visible:not(.active) {
     color: $color-primary-light;
     transform: scale(1.25);
-  }
-
-  &.active {
-    color: $color-primary;
   }
 }

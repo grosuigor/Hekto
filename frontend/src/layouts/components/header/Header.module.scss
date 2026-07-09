@@ -43,6 +43,24 @@
   }
 }
 
+.cart {
+  position: relative;
+  display: inline-flex;
+
+  &__badge {
+    position: absolute;
+    top: -0.4rem;
+    right: -0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    background-color: $color-primary;
+  }
+}
+
 @include respond(lg) {
   .top {
     &__row {

@@ -1,28 +1,49 @@
-import { type UIEvent,useCallback, useState } from "react";
+import { type UIEvent, useCallback, useMemo, useState } from "react";
 
 import { useCart, useWishlist } from "@/hooks";
+import { useCartContext, useWishlistContext } from "@/store";
 
 export function useProductActions(id: string) {
   const [, dispatchCart] = useCart();
   const [, dispatchWishlist] = useWishlist();
+  const { items: cartItems } = useCartContext();
+  const { items: wishlistItems } = useWishlistContext();
   const [modalShowed, showModal] = useState(false);
 
-  const addToCart = useCallback(
-    (e: UIEvent) => {
-      e.preventDefault();
-      e.stopPropagation();
-      dispatchCart({ type: "ADD_ITEM", payload: { productId: id } });
-    },
-    [dispatchCart, id],
+  const isInCart = useMemo(
+    () => cartItems.find((item) => item.productId === id) !== undefined,
+    [cartItems, id],
   );
 
-  const addToWishlist = useCallback(
+  const isInWishlist = useMemo(
+    () => wishlistItems.find((item) => item.productId === id) !== undefined,
+    [wishlistItems, id],
+  );
+
+  const toggleInCart = useCallback(
     (e: UIEvent) => {
       e.preventDefault();
       e.stopPropagation();
-      dispatchWishlist({ type: "ADD_ITEM", payload: { productId: id } });
+      if (isInCart) {
+        dispatchCart({ type: "REMOVE_ITEM", payload: { productId: id } });
+      } else {
+        dispatchCart({ type: "ADD_ITEM", payload: { productId: id } });
+      }
     },
-    [dispatchWishlist, id],
+    [dispatchCart, id, isInCart],
+  );
+
+  const toggleInWishlist = useCallback(
+    (e: UIEvent) => {
+      e.preventDefault();
+      e.stopPropagation();
+      if (isInWishlist) {
+        dispatchWishlist({ type: "REMOVE_ITEM", payload: { productId: id } });
+      } else {
+        dispatchWishlist({ type: "ADD_ITEM", payload: { productId: id } });
+      }
+    },
+    [dispatchWishlist, id, isInWishlist],
   );
 
   const openModal = useCallback((e: UIEvent) => {
@@ -38,9 +59,11 @@ export function useProductActions(id: string) {
 
   return {
     modalShowed,
-    addToCart,
-    addToWishlist,
+    isInCart,
+    isInWishlist,
+    toggleInCart,
+    toggleInWishlist,
     openModal,
     closeModal,
-  }
+  };
 }

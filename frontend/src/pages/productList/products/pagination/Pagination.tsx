@@ -12,9 +12,14 @@ export function Pagination({ totalPages }: PaginationProps) {
 
   return (
     <div className={styles.container}>
-      {withGaps.map((item) =>
+      {withGaps.map((item, i) =>
         item === "gap" ? (
-          <Typography className={styles.gap} key="gap" variant="body" color="grey-3">
+          <Typography
+            className={styles.gap}
+            key={"gap-" + i}
+            variant="body"
+            color="grey-3"
+          >
             ...
           </Typography>
         ) : (
@@ -30,9 +35,7 @@ export function Pagination({ totalPages }: PaginationProps) {
               variant="body"
               modifier="small"
               isLato
-              className={clsx(
-                item === activePage && styles["label--active"],
-              )}
+              className={clsx(item === activePage && styles["label--active"])}
             >
               {item}
             </Typography>

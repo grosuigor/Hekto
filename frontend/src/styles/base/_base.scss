@@ -27,6 +27,7 @@ body {
     scrollbar-width: thin;
     scrollbar-color: $color-primary $color-grey-1;
     transition:
+      background-color $duration-normal $ease-default,
       transform $duration-normal $ease-default,
       opacity $duration-normal $ease-default,
       box-shadow $duration-normal $ease-default,

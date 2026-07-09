@@ -67,6 +67,7 @@ export function Carousel({
         {Array.from({ length: stepsCount }).map((_, i) => (
           <Button
             variant="text"
+            color={i === currentStep ? "primary" : "black"}
             key={i}
             className={clsx(
               styles.control,

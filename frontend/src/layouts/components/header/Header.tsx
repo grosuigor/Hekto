@@ -6,6 +6,7 @@ import {
   useMediaQuery,
 } from "@/hooks";
 import { PATHS } from "@/routing";
+import { useCartContext } from "@/store";
 
 import { Dropdown, Icon, Section, StyledLink, Typography } from "@/components";
 
@@ -17,6 +18,8 @@ export function Header() {
   const [currency, availableCurrencies, setCurrency] = useAvailableCurrencies();
   const [locale, availableLocales, setLocale] = useAvailableLocales();
   const isMd = useMediaQuery(MEDIA_QUERIES.md);
+  const { items: cartItems } = useCartContext();
+  const cartItemCount = cartItems.length;
 
   return (
     <header className={styles.header}>
@@ -93,9 +96,23 @@ export function Header() {
             variant="text"
             color="white"
             size="sm"
+            style={{ overflow: "visible" }}
             rounded
           >
-            <Icon name="cart" />
+            <span className={styles.cart}>
+              <Icon name="cart" />
+              {cartItemCount > 0 && (
+                <Typography
+                  variant="body"
+                  modifier="extra-small"
+                  color="white"
+                  isLato
+                  className={styles.cart__badge}
+                >
+                  {cartItemCount}
+                </Typography>
+              )}
+            </span>
           </StyledLink>
         </div>
       </Section>

@@ -2,7 +2,7 @@ import clsx from "clsx/lite";
 
 import { Image } from "@/components/image";
 
-import { CardButton } from "../../button";
+import { CardAction } from "../../action";
 import { CardContainer } from "../../CardContainer";
 import { ProductActions } from "../actions";
 import { Sale } from "./sale";
@@ -40,7 +40,9 @@ export function ProductCardContainer({
             {...actionProps}
           />
         )}
-        {showButton && <CardButton variant="Details" />}
+        {showButton && (
+          <CardAction variant="Details" to={`/products/${product.id}`} />
+        )}
       </div>
       {children}
     </CardContainer>
