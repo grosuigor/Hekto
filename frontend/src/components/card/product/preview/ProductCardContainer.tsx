@@ -40,7 +40,9 @@ export function ProductCardContainer({
             {...actionProps}
           />
         )}
-        {showButton && <CardButton variant="Details" />}
+        {showButton && (
+          <CardButton variant="Details" to={`/products/${product.id}`} />
+        )}
       </div>
       {children}
     </CardContainer>

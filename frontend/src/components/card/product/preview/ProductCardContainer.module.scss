@@ -10,7 +10,7 @@
       transform: translateY(0);
     }
 
-    & > .img-container > button {
+    & > .img-container > a {
       z-index: $z-index-shown;
       opacity: 1;
       transform: translate(-50%, 0);

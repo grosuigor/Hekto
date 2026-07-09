@@ -12,7 +12,7 @@ export function CategoryCard({ category }: CategoryCardProps) {
     <CardContainer path={category.path} className={styles.card}>
       <div className={styles["img-container"]}>
         <Image src={category.thumbnail} alt={category.label} isLocal />
-        <CardButton variant="Category" />
+        <CardButton variant="Category" to={category.path} />
       </div>
       <Typography variant="subtitle" modifier="small">
         {category.label}
