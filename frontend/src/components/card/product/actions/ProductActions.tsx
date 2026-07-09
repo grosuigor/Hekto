@@ -20,8 +20,8 @@ export function ProductActions({
     modalShowed,
     isInCart,
     isInWishlist,
-    addToCart,
-    addToWishlist,
+    toggleInCart,
+    toggleInWishlist,
     openModal,
     closeModal,
   } = useProductActions(id);
@@ -35,10 +35,10 @@ export function ProductActions({
         styles[`product-actions--${direction}`],
       )}
     >
-      <Button variant="text" color="grey-2" rounded onClick={addToCart}>
+      <Button variant="text" color="grey-2" rounded onClick={toggleInCart}>
         <Icon name={isInCart ? "cart-filled" : "cart"} />
       </Button>
-      <Button variant="text" color="grey-2" rounded onClick={addToWishlist}>
+      <Button variant="text" color="grey-2" rounded onClick={toggleInWishlist}>
         <Icon name={isInWishlist ? "heart-filled" : "heart"} />
       </Button>
       <Button variant="text" color="grey-2" rounded onClick={openModal}>

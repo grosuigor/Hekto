@@ -20,22 +20,30 @@ export function useProductActions(id: string) {
     [wishlistItems, id],
   );
 
-  const addToCart = useCallback(
+  const toggleInCart = useCallback(
     (e: UIEvent) => {
       e.preventDefault();
       e.stopPropagation();
-      dispatchCart({ type: "ADD_ITEM", payload: { productId: id } });
+      if (isInCart) {
+        dispatchCart({ type: "REMOVE_ITEM", payload: { productId: id } });
+      } else {
+        dispatchCart({ type: "ADD_ITEM", payload: { productId: id } });
+      }
     },
-    [dispatchCart, id],
+    [dispatchCart, id, isInCart],
   );
 
-  const addToWishlist = useCallback(
+  const toggleInWishlist = useCallback(
     (e: UIEvent) => {
       e.preventDefault();
       e.stopPropagation();
-      dispatchWishlist({ type: "ADD_ITEM", payload: { productId: id } });
+      if (isInWishlist) {
+        dispatchWishlist({ type: "REMOVE_ITEM", payload: { productId: id } });
+      } else {
+        dispatchWishlist({ type: "ADD_ITEM", payload: { productId: id } });
+      }
     },
-    [dispatchWishlist, id],
+    [dispatchWishlist, id, isInWishlist],
   );
 
   const openModal = useCallback((e: UIEvent) => {
@@ -53,8 +61,8 @@ export function useProductActions(id: string) {
     modalShowed,
     isInCart,
     isInWishlist,
-    addToCart,
-    addToWishlist,
+    toggleInCart,
+    toggleInWishlist,
     openModal,
     closeModal,
   };
