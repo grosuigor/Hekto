@@ -14,8 +14,8 @@ export function Checkboxes({
   filterValues,
   color,
 }: CheckboxesProps) {
-  return allValues.map((value, i) => (
-    <div key={i} className={styles.checkbox}>
+  return allValues.map((value) => (
+    <div key={value} className={styles.checkbox}>
       <Input.Checkbox
         id={`${filterName}_${value}`}
         checked={filterValues.includes(value)}

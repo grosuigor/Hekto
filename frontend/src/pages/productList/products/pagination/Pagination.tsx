@@ -42,9 +42,9 @@ export function Pagination({ totalPages }: PaginationProps) {
 
   return (
     <div className={styles.container}>
-      {withGaps.map((item, i) =>
+      {withGaps.map((item) =>
         item === "gap" ? (
-          <Typography className={styles.gap} key={`gap-${i}`} variant="body" color="grey-3">
+          <Typography className={styles.gap} key="gap" variant="body" color="grey-3">
             ...
           </Typography>
         ) : (

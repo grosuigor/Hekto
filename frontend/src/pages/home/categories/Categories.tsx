@@ -12,8 +12,8 @@ export function Categories() {
         track={{ style: { gap: "6.4rem", padding: "0 4.8rem" } }}
         controls={{ style: { gap: "1.8rem" }, variant: "dot" }}
       >
-        {CATEGORIES.map((category, j) => (
-          <CategoryCard key={j} category={category} />
+        {CATEGORIES.map((category) => (
+          <CategoryCard key={category.label} category={category} />
         ))}
       </Carousel>
     </Section>

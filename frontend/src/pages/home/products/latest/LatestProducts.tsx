@@ -22,7 +22,7 @@ export function LatestProducts() {
       >
         {productLists
           ? productLists.map((productList, i) => (
-              <div key={i} className={styles.grid}>
+              <div key={LABELS[i]} className={styles.grid}>
                 {productList.map((product) => (
                   <ProductCard
                     key={product.id}
@@ -33,7 +33,7 @@ export function LatestProducts() {
               </div>
             ))
           : FALLBACKS.map((fallback, i) => (
-              <div key={i} className={clsx(styles.grid, styles["skeleton-grid"])}>
+              <div key={LABELS[i]} className={clsx(styles.grid, styles["skeleton-grid"])}>
                 {fallback.map((_, j) => (
                   <Skeleton key={j} className={styles.skeleton} />
                 ))}

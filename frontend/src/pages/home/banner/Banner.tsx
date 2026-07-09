@@ -3,15 +3,13 @@ import { StyledLink, Carousel, Section, Typography } from "@/components";
 import { PATHS } from "@/routing";
 import styles from "./Banner.module.scss";
 
-const BANNERS = Array.from({ length: 3 }).map(() => banner);
-
 export function Banner() {
   return (
     <Carousel
       controls={{ className: styles.controls, variant: "square" }}
       className={styles.carousel}
     >
-      {BANNERS.map((banner, i) => (
+      {Array.from({ length: 3 }).map((_, i) => (
         <Section key={i} bgImage={banner} className={styles.slide}>
           <div className={styles.banner}>
             <Typography variant="body" color="primary" modifier="bold">

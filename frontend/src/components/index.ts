@@ -6,7 +6,6 @@ export { Dropdown } from "./dropdown";
 export { Icon } from "./icon";
 export { Image } from "./image";
 export { Input } from "./input";
-export { List } from "./list";
 export { Modal } from "./modal";
 export { Rating } from "./rating";
 export { Section } from "./section";

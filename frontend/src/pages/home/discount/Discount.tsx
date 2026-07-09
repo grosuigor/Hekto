@@ -32,8 +32,8 @@ export function Discount() {
                 {discount.product.desc}
               </Typography>
               <div className={styles["content-features"]}>
-                {discount.product.features.map((feature, i) => (
-                  <div key={i}>
+                {discount.product.features.map((feature) => (
+                  <div key={feature}>
                     <Icon name="checkmark" size="lg" />
                     <Typography variant="body" color="grey-3" isLato>
                       {feature}
