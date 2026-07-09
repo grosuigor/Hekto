@@ -1,4 +1,3 @@
-
 .container {
   position: relative;
   width: 100%;
@@ -99,16 +98,16 @@
 }
 
 .control--label {
-  color: $color-black;
+  color: $color-black !important;
 
   &:hover:not(.active),
   &:focus:not(.active),
   &:focus-visible:not(.active) {
-    color: $color-primary-light;
+    color: $color-primary-light !important;
     transform: scale(1.25);
   }
 
   &.active {
-    color: $color-primary;
+    color: $color-primary !important;
   }
 }
