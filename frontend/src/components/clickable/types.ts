@@ -3,7 +3,13 @@ import type { ButtonHTMLAttributes, MouseEvent } from "react";
 import type { ComponentProps } from "@/types";
 
 type ClickableVariant = "text" | "filled";
-type ClickableColor = "primary" | "success" | "grey-3" | "grey-2" | "white" | "black";
+type ClickableColor =
+  | "primary"
+  | "success"
+  | "grey-3"
+  | "grey-2"
+  | "white"
+  | "black";
 type ClickableSize = "md" | "sm";
 
 type ButtonAttributes = Pick<
@@ -35,6 +41,8 @@ export type ClickableProps = ComponentProps & {
     | {
         type?: "link";
         onClick?: never;
+        target?: string;
+        rel?: string;
         to: string;
       }
   );

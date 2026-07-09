@@ -52,7 +52,7 @@ export function Clickable({
   }
 
   return (
-    <Link to={rest.to ?? ""} className={classes} style={style}>
+    <Link to={rest.to ?? ""} className={classes} style={style} {...rest}>
       {children}
     </Link>
   );

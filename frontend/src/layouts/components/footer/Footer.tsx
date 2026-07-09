@@ -9,7 +9,15 @@ import {
   PATHS,
 } from "@/routing";
 
-import { Button, Icon, Image, Input, Section, Typography } from "@/components";
+import {
+  Button,
+  Icon,
+  Image,
+  Input,
+  Section,
+  StyledLink,
+  Typography,
+} from "@/components";
 
 import logo from "@/assets/logo.svg";
 
@@ -79,11 +87,18 @@ export function Footer() {
         </Typography>
         <div className={styles.socials}>
           {Object.entries(EXTERNAL_LINKS).map(([name, url]) => (
-            <a key={name} href={url} target="_blank" rel="noopener noreferrer">
-              <Button variant="filled" color="black" size="sm" rounded>
-                <Icon name={name} />
-              </Button>
-            </a>
+            <StyledLink
+              variant="filled"
+              color="black"
+              size="sm"
+              rounded
+              key={name}
+              to={url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Icon name={name} />
+            </StyledLink>
           ))}
         </div>
       </Section>
