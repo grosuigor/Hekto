@@ -3,11 +3,11 @@ import clsx from "clsx/lite";
 import { StyledLink } from "@/components/clickable";
 import { Typography } from "@/components/typography";
 
-import type { CardButtonProps } from "./types";
+import type { CardActionProps } from "./types";
 
-import styles from "./CardButton.module.scss";
+import styles from "./CardAction.module.scss";
 
-export function CardButton({ variant, to, style, className }: CardButtonProps) {
+export function CardAction({ variant, to, style, className }: CardActionProps) {
   return (
     <StyledLink
       to={to}
@@ -15,7 +15,7 @@ export function CardButton({ variant, to, style, className }: CardButtonProps) {
       color="success"
       size="sm"
       style={style}
-      className={clsx(className, styles.button)}
+      className={clsx(className, styles.action)}
     >
       <Typography variant="body" modifier="extra-small">
         View {variant}
