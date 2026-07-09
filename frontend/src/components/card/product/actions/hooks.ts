@@ -1,11 +1,24 @@
-import { type UIEvent,useCallback, useState } from "react";
+import { type UIEvent, useCallback, useMemo, useState } from "react";
 
 import { useCart, useWishlist } from "@/hooks";
+import { useCartContext, useWishlistContext } from "@/store";
 
 export function useProductActions(id: string) {
   const [, dispatchCart] = useCart();
   const [, dispatchWishlist] = useWishlist();
+  const { items: cartItems } = useCartContext();
+  const { items: wishlistItems } = useWishlistContext();
   const [modalShowed, showModal] = useState(false);
+
+  const isInCart = useMemo(
+    () => cartItems.find((item) => item.productId === id) !== undefined,
+    [cartItems, id],
+  );
+
+  const isInWishlist = useMemo(
+    () => wishlistItems.find((item) => item.productId === id) !== undefined,
+    [wishlistItems, id],
+  );
 
   const addToCart = useCallback(
     (e: UIEvent) => {
@@ -38,9 +51,11 @@ export function useProductActions(id: string) {
 
   return {
     modalShowed,
+    isInCart,
+    isInWishlist,
     addToCart,
     addToWishlist,
     openModal,
     closeModal,
-  }
+  };
 }

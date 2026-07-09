@@ -16,7 +16,15 @@ export function ProductActions({
   style,
   className,
 }: ProductActionsProps) {
-  const { modalShowed, addToCart, addToWishlist, openModal, closeModal } = useProductActions(id);
+  const {
+    modalShowed,
+    isInCart,
+    isInWishlist,
+    addToCart,
+    addToWishlist,
+    openModal,
+    closeModal,
+  } = useProductActions(id);
 
   return (
     <div
@@ -28,10 +36,10 @@ export function ProductActions({
       )}
     >
       <Button variant="text" color="grey-2" rounded onClick={addToCart}>
-        <Icon name="cart" />
+        <Icon name={isInCart ? "cart-filled" : "cart"} />
       </Button>
       <Button variant="text" color="grey-2" rounded onClick={addToWishlist}>
-        <Icon name="heart" />
+        <Icon name={isInWishlist ? "heart-filled" : "heart"} />
       </Button>
       <Button variant="text" color="grey-2" rounded onClick={openModal}>
         <Icon name="magnifier" />
