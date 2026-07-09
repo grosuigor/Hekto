@@ -49,7 +49,7 @@ export function Tabs({ names, style, className, children }: TabsProps) {
       <div className={styles.header} role="tablist">
         {names.map((name, i) => (
           <Button
-            key={names[i]}
+            key={name}
             variant="text"
             color="black"
             className={clsx(

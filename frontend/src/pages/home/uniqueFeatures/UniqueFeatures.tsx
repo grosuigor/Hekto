@@ -1,7 +1,8 @@
 import uniqueFeaturesImg from "@/assets/home/unique_features.png";
-import { Button, List, Section, Typography } from "@/components";
+import { Button, Section, Typography } from "@/components";
 import styles from "./UniqueFeatures.module.scss";
 import { FEATURES } from "./data";
+import clsx from "clsx/lite";
 
 export function UniqueFeatures() {
   return (
@@ -10,13 +11,21 @@ export function UniqueFeatures() {
         <Typography variant="h3">
           Unique Features Of Latest & Trending Poducts
         </Typography>
-        <List keys={FEATURES.map((feature) => feature.toString())}>
-          {FEATURES.map((feature) => (
-            <Typography key={feature} variant="body" color="grey-3">
+        <ul className={styles.list}>
+          {FEATURES.map((feature, i) => (
+            <li
+              key={feature}
+              className={clsx(
+                styles["list__item"],
+                styles[`list__item--${(i % 3) + 1}`],
+              )}
+            >
+              <Typography variant="body" color="grey-3">
               {feature}
             </Typography>
+            </li>
           ))}
-        </List>
+        </ul>
         <div className={styles["unique-features__cta"]}>
           <Button variant="filled">
             <Typography variant="subtitle" modifier="extra-small">
