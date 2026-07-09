@@ -1,5 +1,3 @@
-import type { Currency } from "@/constants";
-import { preferencesStorage } from "@/services/storage";
 import {
   type Dispatch,
   type PropsWithChildren,
@@ -8,6 +6,11 @@ import {
   useEffect,
   useState,
 } from "react";
+
+import type { Currency } from "@/constants";
+
+import { preferencesStorage } from "@/services/storage";
+
 import { CurrencyContext } from "./context";
 import { DEFAULT_CURRENCY } from "./defaults";
 

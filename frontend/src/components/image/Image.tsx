@@ -1,7 +1,11 @@
-import { Skeleton } from "@/components/skeleton";
-import type { ImageProps } from "./types";
-import clsx from "clsx/lite";
 import { useState } from "react";
+
+import clsx from "clsx/lite";
+
+import { Skeleton } from "@/components/skeleton";
+
+import type { ImageProps } from "./types";
+
 import styles from "./Image.module.scss";
 
 export function Image({

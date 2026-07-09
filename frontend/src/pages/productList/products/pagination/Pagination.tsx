@@ -1,8 +1,11 @@
-import { Button, Typography } from "@/components";
 import clsx from "clsx/lite";
-import styles from "./Pagination.module.scss";
+
+import { Button, Typography } from "@/components";
+
 import { usePagination } from "./hooks";
 import type { PaginationProps } from "./types";
+
+import styles from "./Pagination.module.scss";
 
 export function Pagination({ totalPages }: PaginationProps) {
   const { activePage, withGaps, updatePagination } = usePagination(totalPages);

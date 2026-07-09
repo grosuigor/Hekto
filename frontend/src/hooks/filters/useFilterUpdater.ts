@@ -1,6 +1,8 @@
-import { useQueryDispatchContext } from "@/store";
-import type { Filter, ListedProduct, Range } from "@/types";
 import { type ChangeEvent, useCallback } from "react";
+
+import type { Filter, ListedProduct, Range } from "@/types";
+
+import { useQueryDispatchContext } from "@/store";
 
 export function useFilterUpdater(
   allFilters: Filter[] | undefined,

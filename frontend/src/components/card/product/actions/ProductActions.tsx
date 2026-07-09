@@ -1,10 +1,13 @@
+import clsx from "clsx/lite";
+
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Modal } from "@/components/modal";
-import type { ProductActionsProps } from "./types";
-import clsx from "clsx/lite";
-import styles from "./ProductActions.module.scss";
+
 import { useProductActions } from "./hooks";
+import type { ProductActionsProps } from "./types";
+
+import styles from "./ProductActions.module.scss";
 
 export function ProductActions({
   id,

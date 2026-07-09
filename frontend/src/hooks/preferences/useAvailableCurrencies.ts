@@ -1,6 +1,8 @@
-import { CURRENCY_COEFFICIENTS, type Currency } from "@/constants";
-import { useCurrencyContext } from "@/store";
 import { type Dispatch, type SetStateAction, useMemo } from "react";
+
+import { type Currency,CURRENCY_COEFFICIENTS } from "@/constants";
+
+import { useCurrencyContext } from "@/store";
 
 type useAvailableCurrenciesFn = () => [
   Currency,

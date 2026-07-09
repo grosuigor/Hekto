@@ -1,4 +1,5 @@
 import { type PropsWithChildren } from "react";
+
 import { CurrencyProvider } from "./currency";
 import { LocaleProvider } from "./locale";
 

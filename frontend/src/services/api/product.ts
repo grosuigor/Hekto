@@ -4,6 +4,7 @@ import type {
   PreviewProduct,
   SearchResult,
 } from "@/types";
+
 import { request } from "./request";
 
 export function listProducts(query: URLSearchParams) {

@@ -1,8 +1,12 @@
-import uniqueFeaturesImg from "@/assets/home/unique_features.png";
-import { Button, Section, Typography } from "@/components";
-import styles from "./UniqueFeatures.module.scss";
-import { FEATURES } from "./data";
 import clsx from "clsx/lite";
+
+import { Button, Section, Typography } from "@/components";
+
+import { FEATURES } from "./data";
+
+import uniqueFeaturesImg from "@/assets/home/unique_features.png";
+
+import styles from "./UniqueFeatures.module.scss";
 
 export function UniqueFeatures() {
   return (
@@ -21,8 +25,8 @@ export function UniqueFeatures() {
               )}
             >
               <Typography variant="body" color="grey-3">
-              {feature}
-            </Typography>
+                {feature}
+              </Typography>
             </li>
           ))}
         </ul>

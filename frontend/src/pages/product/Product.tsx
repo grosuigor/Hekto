@@ -1,11 +1,14 @@
-import { Section, Skeleton } from "@/components";
 import { useLoadedDetailedProduct } from "@/hooks";
+
+import { Section, Skeleton } from "@/components";
+
 import { Gallery } from "./gallery";
 import { Info } from "./info";
 import { loader } from "./loader";
-import styles from "./Product.module.scss";
 import { Related } from "./related";
 import { Stats } from "./stats";
+
+import styles from "./Product.module.scss";
 
 function Product() {
   const product = useLoadedDetailedProduct();

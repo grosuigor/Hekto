@@ -1,5 +1,7 @@
 import { Button, Section, Typography } from "@/components";
+
 import updatesImg from "@/assets/home/updates.png";
+
 import styles from "./Updates.module.scss";
 
 export function Updates() {

@@ -1,7 +1,11 @@
-import type { ClickableProps } from "./types";
-import clsx from "clsx/lite";
 import { useMemo } from "react";
+
 import { Link } from "react-router";
+
+import clsx from "clsx/lite";
+
+import type { ClickableProps } from "./types";
+
 import styles from "./Clickable.module.scss";
 
 export function Clickable({

@@ -1,5 +1,5 @@
-import type { WishlistStoreState, WishlistActionType } from "./types";
 import { itemsReducer } from "../reducer";
+import type { WishlistActionType,WishlistStoreState } from "./types";
 
 export function wishlistReducer(
   state: WishlistStoreState,

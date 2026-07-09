@@ -1,6 +1,9 @@
-import banner from "@/assets/home/banner.png";
-import { StyledLink, Carousel, Section, Typography } from "@/components";
 import { PATHS } from "@/routing";
+
+import { Carousel, Section, StyledLink, Typography } from "@/components";
+
+import banner from "@/assets/home/banner.png";
+
 import styles from "./Banner.module.scss";
 
 export function Banner() {

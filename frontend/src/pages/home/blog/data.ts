@@ -1,7 +1,8 @@
+import type { Blog } from "@/types";
+
 import card1Img from "@/assets/home/blog/1.png";
 import card2Img from "@/assets/home/blog/2.png";
 import card3Img from "@/assets/home/blog/3.png";
-import type { Blog } from "@/types";
 
 export const BLOGS: Blog[] = [
   {

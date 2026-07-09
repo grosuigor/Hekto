@@ -1,8 +1,12 @@
 import clsx from "clsx/lite";
-import { Carousel, ProductCard, Section, Skeleton } from "@/components";
+
 import { useLoadedPreviewProducts } from "@/hooks";
+
+import { Carousel, ProductCard, Section, Skeleton } from "@/components";
+
+import { FALLBACKS,LABELS } from "./data";
+
 import styles from "./LatestProducts.module.scss";
-import { LABELS, FALLBACKS } from "./data";
 
 export function LatestProducts() {
   const productLists = useLoadedPreviewProducts("latest");

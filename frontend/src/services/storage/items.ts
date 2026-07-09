@@ -1,4 +1,5 @@
 import type { CartItem, WishlistItem } from "@/types";
+
 import { BaseStorage } from "./base";
 import { STORAGE_KEYS } from "./keys";
 

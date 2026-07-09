@@ -1,6 +1,8 @@
+import { CartProduct } from "@/types";
+
 import { useLoadedCartProduct } from "@/hooks/loader";
 import { useCartContext, useCartDispatchContext } from "@/store";
-import { CartProduct } from "@/types";
+
 import { useMappedItems } from "./useMappedItems";
 
 type UseCartFn = () => [

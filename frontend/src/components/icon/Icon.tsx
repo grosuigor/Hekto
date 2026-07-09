@@ -1,5 +1,7 @@
-import type { IconProps } from "./types";
 import clsx from "clsx/lite";
+
+import type { IconProps } from "./types";
+
 import styles from "./Icon.module.scss";
 
 export function Icon({

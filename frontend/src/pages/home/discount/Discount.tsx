@@ -1,3 +1,5 @@
+import { PATHS } from "@/routing";
+
 import {
   Carousel,
   Icon,
@@ -6,8 +8,9 @@ import {
   StyledLink,
   Typography,
 } from "@/components";
-import { PATHS } from "@/routing";
+
 import { DISCOUNTS } from "./data";
+
 import styles from "./Discount.module.scss";
 
 export function Discount() {

@@ -1,10 +1,9 @@
 export { listFilters } from "./filter";
-
 export {
-  listProductsByIds,
   listFeaturedProducts,
   listLatestProducts,
   listProducts,
+  listProductsByIds,
   listTrendingProducts,
   retrieveProduct,
   searchProducts,

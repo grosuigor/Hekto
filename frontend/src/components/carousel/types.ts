@@ -2,6 +2,7 @@ import type {
   ComponentWithChildrenProps,
   ComponentWithoutChildrenProps,
 } from "@/types";
+
 import type { VisibleCountOptions } from "./hooks";
 
 type CarouselControlsPosition = "top" | "bottom";

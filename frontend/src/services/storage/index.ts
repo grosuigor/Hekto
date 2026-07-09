@@ -1,6 +1,6 @@
 import { LocalStorageAdapter } from "./adapters";
-import { PreferencesStorage } from "./preferences";
 import { ItemsStorage } from "./items";
+import { PreferencesStorage } from "./preferences";
 
 const adapter = new LocalStorageAdapter();
 

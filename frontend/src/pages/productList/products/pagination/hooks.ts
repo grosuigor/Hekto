@@ -1,4 +1,5 @@
 import { useCallback, useMemo } from "react";
+
 import { useQuery } from "@/hooks";
 
 export function usePagination(totalPages: number) {

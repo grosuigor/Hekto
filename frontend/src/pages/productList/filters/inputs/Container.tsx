@@ -1,6 +1,8 @@
 import clsx from "clsx/lite";
-import styles from "./Container.module.scss";
+
 import type { InputsContainerProps } from "./types";
+
+import styles from "./Container.module.scss";
 
 export function InputsContainer({ children, isOpened }: InputsContainerProps) {
   return (

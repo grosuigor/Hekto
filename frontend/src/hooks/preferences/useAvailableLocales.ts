@@ -1,7 +1,9 @@
-import { LOCALES_LABELS, type Locale, MEDIA_QUERIES } from "@/constants";
+import { type Dispatch, type SetStateAction, useMemo } from "react";
+
+import { type Locale, LOCALES_LABELS, MEDIA_QUERIES } from "@/constants";
+
 import { useMediaQuery } from "@/hooks/components";
 import { useLocaleContext } from "@/store";
-import { type Dispatch, type SetStateAction, useMemo } from "react";
 
 type useAvailableLocalesFn = () => [
   Locale,

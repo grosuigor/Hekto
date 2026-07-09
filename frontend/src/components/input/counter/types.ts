@@ -1,5 +1,6 @@
-import type { ComponentWithoutChildrenProps } from "@/types";
 import type { Dispatch, SetStateAction } from "react";
+
+import type { ComponentWithoutChildrenProps } from "@/types";
 
 export type CounterProps = ComponentWithoutChildrenProps & {
   id: string;

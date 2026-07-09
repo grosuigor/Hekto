@@ -1,9 +1,14 @@
-import { Button, Icon, Skeleton, Typography } from "@/components";
-import { useFilterUpdater, useLoadedFilters, useQuery, useUIFilters } from "@/hooks";
-import type { Range } from "@/types";
 import clsx from "clsx/lite";
-import styles from "./Filters.module.scss";
+
+import type { Range } from "@/types";
+
+import { useFilterUpdater, useLoadedFilters, useQuery, useUIFilters } from "@/hooks";
+
+import { Button, Icon, Skeleton, Typography } from "@/components";
+
 import { Checkboxes, InputsContainer, RangeInput } from "./inputs";
+
+import styles from "./Filters.module.scss";
 
 export function Filters() {
   const allFilters = useLoadedFilters();

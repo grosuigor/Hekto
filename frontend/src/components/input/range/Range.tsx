@@ -1,8 +1,13 @@
-import { Typography } from "@/components/typography";
-import { useDebounced } from "@/hooks";
-import clsx from "clsx/lite";
 import { useCallback } from "react";
+
+import clsx from "clsx/lite";
+
+import { useDebounced } from "@/hooks";
+
+import { Typography } from "@/components/typography";
+
 import type { RangeProps } from "./types";
+
 import styles from "./Range.module.scss";
 
 function toPercent(value: number, min: number, max: number) {

@@ -1,3 +1,5 @@
+import { useCart } from "@/hooks";
+
 import {
   Button,
   Divider,
@@ -6,12 +8,13 @@ import {
   Skeleton,
   Typography,
 } from "@/components";
-import { useCart } from "@/hooks";
+
 import { Empty } from "../empty";
-import styles from "./Cart.module.scss";
-import { loader } from "./loader";
-import { useTotal } from "./hooks";
 import { ITEMS_COUNT_FALLBACK } from "./data";
+import { useTotal } from "./hooks";
+import { loader } from "./loader";
+
+import styles from "./Cart.module.scss";
 
 function Cart() {
   const [products, dispatch] = useCart();

@@ -1,5 +1,7 @@
-import type { ComponentWithoutChildrenProps } from "@/types";
 import type { Dispatch, SetStateAction } from "react";
+
+import type { ComponentWithoutChildrenProps } from "@/types";
+
 import type { InputColor } from "../types";
 
 export type CheckboxProps = ComponentWithoutChildrenProps & {

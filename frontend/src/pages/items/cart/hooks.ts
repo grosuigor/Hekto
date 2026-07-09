@@ -1,6 +1,8 @@
-import { usePrice } from "@/hooks";
-import { CartProduct } from "@/types";
 import { useMemo } from "react";
+
+import { CartProduct } from "@/types";
+
+import { usePrice } from "@/hooks";
 
 const SHIPPING_PRICE_USD = 100;
 

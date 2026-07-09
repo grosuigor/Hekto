@@ -1,9 +1,13 @@
+import { useMemo, useState } from "react";
+
+import clsx from "clsx/lite";
+
 import { Button } from "@/components";
 import { Image } from "@/components/image";
-import clsx from "clsx/lite";
-import { useMemo, useState } from "react";
-import styles from "./Gallery.module.scss";
+
 import type { GalleryProps } from "./types";
+
+import styles from "./Gallery.module.scss";
 
 export function Gallery({ images, alt }: GalleryProps) {
   const [activeIndex, setActiveIndex] = useState(0);

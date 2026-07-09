@@ -1,5 +1,5 @@
-import type { Route } from "./type";
 import { PATHS } from "./paths";
+import type { Route } from "./type";
 
 export const NAV_ROUTES: Route[] = [
   {

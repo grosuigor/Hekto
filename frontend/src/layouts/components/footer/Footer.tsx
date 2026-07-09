@@ -1,8 +1,18 @@
-import logo from "@/assets/logo.svg";
-import { Button, Icon, Image, Input, Section, Typography } from "@/components";
-import { ADDRESS_LINK, EXTERNAL_LINKS, FOOTER_ROUTE_GRID, PATHS } from "@/routing";
 import { useCallback, useState } from "react";
+
 import { Link } from "react-router";
+
+import {
+  ADDRESS_LINK,
+  EXTERNAL_LINKS,
+  FOOTER_ROUTE_GRID,
+  PATHS,
+} from "@/routing";
+
+import { Button, Icon, Image, Input, Section, Typography } from "@/components";
+
+import logo from "@/assets/logo.svg";
+
 import styles from "./Footer.module.scss";
 
 export function Footer() {

@@ -1,9 +1,14 @@
-import { Typography } from "@/components/typography";
-import { usePrice } from "@/hooks";
-import type { ProductCardProps, ComponentProps } from "@/types";
-import { ProductCardContainer } from "../ProductCardContainer";
-import styles from "./FeaturedProductCard.module.scss";
 import clsx from "clsx";
+
+import type { ComponentProps,ProductCardProps } from "@/types";
+
+import { usePrice } from "@/hooks";
+
+import { Typography } from "@/components/typography";
+
+import { ProductCardContainer } from "../ProductCardContainer";
+
+import styles from "./FeaturedProductCard.module.scss";
 
 export function FeaturedProductCard({
   product,

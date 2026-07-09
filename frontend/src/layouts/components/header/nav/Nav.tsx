@@ -1,10 +1,16 @@
-import logo from "@/assets/logo.svg";
-import { Image, Section, Typography } from "@/components";
-import { NAV_ROUTES, PATHS } from "@/routing";
-import clsx from "clsx/lite";
 import { Link, NavLink } from "react-router";
-import styles from "./Nav.module.scss";
+
+import clsx from "clsx/lite";
+
+import { NAV_ROUTES, PATHS } from "@/routing";
+
+import { Image, Section, Typography } from "@/components";
+
 import { NavSearch } from "./search";
+
+import logo from "@/assets/logo.svg";
+
+import styles from "./Nav.module.scss";
 
 export function Nav() {
   return (

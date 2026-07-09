@@ -1,9 +1,10 @@
 import { type Dispatch, useContext } from "react";
+
 import {
+  type QueryActionType,
   QueryContext,
   QueryDispatchContext,
   type QueryStoreState,
-  type QueryActionType,
 } from "./context";
 
 export function useQueryContext(): QueryStoreState {

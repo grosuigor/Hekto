@@ -1,7 +1,7 @@
 export { MEDIA_QUERIES } from "./breakpoints";
 export {
+  type Currency,
   CURRENCY_COEFFICIENTS,
   CURRENCY_SYMBOLS,
-  type Currency,
 } from "./currencies";
-export { LOCALES_LABELS, type Locale } from "./locales";
+export { type Locale,LOCALES_LABELS } from "./locales";

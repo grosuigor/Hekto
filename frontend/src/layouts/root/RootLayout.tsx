@@ -1,7 +1,11 @@
-import { GlobalProvider } from "@/store";
-import clsx from "clsx/lite";
 import { Outlet } from "react-router";
+
+import clsx from "clsx/lite";
+
+import { GlobalProvider } from "@/store";
+
 import { Footer, Header } from "../components";
+
 import styles from "./RootLayout.module.scss";
 
 export function RootLayout() {

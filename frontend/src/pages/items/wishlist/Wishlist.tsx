@@ -1,9 +1,12 @@
-import { ProductCard, Section, Skeleton } from "@/components";
 import { useWishlist } from "@/hooks";
+
+import { ProductCard, Section, Skeleton } from "@/components";
+
 import { Empty } from "../empty";
-import styles from "./Wishlist.module.scss";
-import { loader } from "./loader";
 import { ITEMS_COUNT_FALLBACK } from "./data";
+import { loader } from "./loader";
+
+import styles from "./Wishlist.module.scss";
 
 function Wishlist() {
   const [products, dispatch] = useWishlist();

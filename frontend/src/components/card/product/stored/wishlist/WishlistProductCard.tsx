@@ -1,7 +1,9 @@
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
-import type { WishlistProductCardProps } from "./types";
+
 import { FeaturedProductCard } from "../../preview";
+import type { WishlistProductCardProps } from "./types";
+
 import styles from "./WishlistProductCard.module.scss";
 
 export function WishlistProductCard({

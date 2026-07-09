@@ -1,7 +1,10 @@
+import { clsx } from "clsx/lite";
+
 import { Image } from "@/components/image";
 import { Typography } from "@/components/typography";
+
 import type { SectionProps } from "./types";
-import { clsx } from "clsx/lite";
+
 import styles from "./Section.module.scss";
 
 export function Section({

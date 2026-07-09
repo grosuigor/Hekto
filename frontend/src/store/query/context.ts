@@ -1,5 +1,6 @@
 import { createContext, type Dispatch } from "react";
-import type { Query, Filter, Sorting, Pagination } from "@/types";
+
+import type { Filter, Pagination,Query, Sorting } from "@/types";
 
 export type QueryStoreState = Query & {
   draftFilters: Filter[];

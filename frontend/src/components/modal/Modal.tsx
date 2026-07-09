@@ -1,10 +1,13 @@
+import { createPortal } from "react-dom";
+
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Image } from "@/components/image";
-import type { ModalProps } from "./types";
-import { createPortal } from "react-dom";
-import styles from "./Modal.module.scss";
+
 import { useModal } from "./hooks";
+import type { ModalProps } from "./types";
+
+import styles from "./Modal.module.scss";
 
 export function Modal({ open, image, onClose }: ModalProps) {
   useModal(open, onClose);

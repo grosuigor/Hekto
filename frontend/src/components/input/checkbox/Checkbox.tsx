@@ -1,6 +1,9 @@
-import clsx from "clsx/lite";
 import { useCallback } from "react";
+
+import clsx from "clsx/lite";
+
 import type { CheckboxProps } from "./types";
+
 import styles from "./Checkbox.module.scss";
 
 export function Checkbox({

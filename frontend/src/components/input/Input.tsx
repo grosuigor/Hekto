@@ -1,13 +1,17 @@
-import { useDebounced } from "@/hooks";
-import type { InputProps, ValueType } from "./types";
-import clsx from "clsx/lite";
 import { type ChangeEvent, useCallback } from "react";
+
+import clsx from "clsx/lite";
+
+import { useDebounced } from "@/hooks";
+
 import { Checkbox } from "./checkbox";
 import { Counter } from "./counter";
-import styles from "./Input.module.scss";
+import { useEndAdornmentWidth } from "./hooks";
 import { Range } from "./range";
 import { Select } from "./select";
-import { useEndAdornmentWidth } from "./hooks";
+import type { InputProps, ValueType } from "./types";
+
+import styles from "./Input.module.scss";
 
 function Input<T extends ValueType>({
   value,

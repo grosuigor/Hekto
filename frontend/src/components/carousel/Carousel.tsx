@@ -1,10 +1,14 @@
-import clsx from "clsx/lite";
 import { Children, useMemo } from "react";
+
+import clsx from "clsx/lite";
+
 import { Button } from "@/components/clickable";
 import { Typography } from "@/components/typography";
+
 import { useCarousel, useVisibleCount } from "./hooks";
-import styles from "./Carousel.module.scss";
 import type { CarouselProps } from "./types";
+
+import styles from "./Carousel.module.scss";
 
 export function Carousel({
   visibleCountOptions = { desktop: 1 },

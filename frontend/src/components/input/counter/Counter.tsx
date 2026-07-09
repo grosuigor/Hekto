@@ -1,9 +1,12 @@
-import { Button } from "@/components/clickable";
-import type { CounterProps } from "./types";
 import clsx from "clsx/lite";
-import styles from "./Counter.module.scss";
+
+import { Button } from "@/components/clickable";
 import { Typography } from "@/components/typography";
+
 import { useCounter } from "./hooks";
+import type { CounterProps } from "./types";
+
+import styles from "./Counter.module.scss";
 
 export function Counter({
   id,

@@ -1,8 +1,11 @@
+import { usePrice } from "@/hooks";
+
 import { Image } from "@/components/image";
 import { Typography } from "@/components/typography";
-import { usePrice } from "@/hooks";
-import type { SearchProductCardProps } from "./types";
+
 import { CardContainer } from "../../CardContainer";
+import type { SearchProductCardProps } from "./types";
+
 import styles from "./SearchProductCard.module.scss";
 
 export function SearchProductCard({ product }: SearchProductCardProps) {
