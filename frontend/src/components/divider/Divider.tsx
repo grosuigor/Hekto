@@ -1,10 +1,6 @@
 import clsx from "clsx/lite";
-import type { StyleProps } from "@/types";
+import type { DividerProps } from "./types";
 import styles from "./Divider.module.scss";
-
-type DividerProps = StyleProps & {
-  orientation?: "horizontal" | "vertical";
-};
 
 export function Divider({
   orientation = "horizontal",

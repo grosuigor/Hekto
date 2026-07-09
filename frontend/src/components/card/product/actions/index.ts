@@ -1,1 +1,2 @@
-export { ProductActions, type ProductActionsProps } from "./ProductActions";
+export { ProductActions } from "./ProductActions";
+export type { ProductActionsProps } from "./types";

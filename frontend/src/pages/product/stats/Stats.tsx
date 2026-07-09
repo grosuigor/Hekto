@@ -1,12 +1,7 @@
 import { Icon, Tabs, Typography } from "@/components";
-import { DetailedProduct } from "@/types";
+import type { StatsProps } from "./types";
 import styles from "./Stats.module.scss";
-
-const TAB_NAMES = ["Description", "Additional Info", "Reviews", "Video"];
-
-type StatsProps = {
-  product: DetailedProduct;
-};
+import { TAB_NAMES } from "./data";
 
 export function Stats({ product }: StatsProps) {
   return (

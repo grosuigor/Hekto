@@ -1,48 +1,12 @@
 import { Typography } from "@/components/typography";
-import { ComponentWithChildrenProps } from "@/types";
+import type { TabsProps } from "./types";
 import clsx from "clsx/lite";
-import { useEffect, useState } from "react";
 import { Button } from "../clickable";
 import styles from "./Tabs.module.scss";
-
-type TabsProps = ComponentWithChildrenProps & {
-  names: string[];
-};
+import { useTabs } from "./hooks";
 
 export function Tabs({ names, style, className, children }: TabsProps) {
-  const [activeIndex, setActiveIndex] = useState(0);
-
-  useEffect(() => {
-    if (!open) {
-      return;
-    }
-
-    const onKeyDown = (e: globalThis.KeyboardEvent) => {
-      switch (e.key) {
-        case "ArrowRight":
-          setActiveIndex((prev) => (prev + 1) % names.length);
-          break;
-
-        case "ArrowLeft":
-          setActiveIndex((prev) => (prev - 1 + names.length) % names.length);
-          break;
-
-        case "Home":
-          setActiveIndex(0);
-          break;
-
-        case "End":
-          setActiveIndex(names.length - 1);
-          break;
-      }
-    };
-
-    window.addEventListener("keydown", onKeyDown);
-
-    return () => {
-      window.removeEventListener("keydown", onKeyDown);
-    };
-  }, [names.length]);
+  const [activeIndex, setActiveIndex] = useTabs(names.length);
 
   return (
     <div style={style} className={clsx(className, styles.container)}>

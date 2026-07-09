@@ -1,17 +1,15 @@
 import { Carousel, ProductCard, Section, Skeleton } from "@/components";
-import { useCarouselVisibleCount, useLoadedPreviewProducts } from "@/hooks";
+import { useLoadedPreviewProducts } from "@/hooks";
 import styles from "./FeaturedProducts.module.scss";
-
-const FALLBACK = Array.from({ length: 16 });
+import { FALLBACK } from "./data";
 
 export function FeaturedProducts() {
   const products = useLoadedPreviewProducts("featured");
-  const visibleCount = useCarouselVisibleCount(4, { lg: 3, md: 2, sm: 1 });
 
   return (
     <Section gap="lg" title="Featured Products">
       <Carousel
-        visibleCount={visibleCount}
+        visibleCountOptions={{ desktop: 4, options: { lg: 3, md: 2, sm: 1 } }}
         controls={{
           variant: "line",
           className: styles.controls,

@@ -34,3 +34,5 @@ export type Query = {
   pagination: Pagination;
   filters: Filter[];
 };
+
+export type View = "grid" | "list";

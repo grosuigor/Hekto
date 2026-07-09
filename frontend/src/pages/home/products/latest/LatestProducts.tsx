@@ -2,9 +2,7 @@ import clsx from "clsx/lite";
 import { Carousel, ProductCard, Section, Skeleton } from "@/components";
 import { useLoadedPreviewProducts } from "@/hooks";
 import styles from "./LatestProducts.module.scss";
-
-const LABELS = ["New Arrival", "Best Seller", "Featured", "Special Offer"];
-const FALLBACKS = LABELS.map(() => Array.from({ length: 6 }));
+import { LABELS, FALLBACKS } from "./data";
 
 export function LatestProducts() {
   const productLists = useLoadedPreviewProducts("latest");

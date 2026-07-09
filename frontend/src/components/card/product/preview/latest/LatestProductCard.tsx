@@ -3,20 +3,11 @@ import { usePrice } from "@/hooks";
 import type { ProductCardProps } from "@/types";
 import { ProductCardContainer } from "../ProductCardContainer";
 import styles from "./LatestProductCard.module.scss";
-import { useMemo } from "react";
-
-const MAX_WORD_LEN = 30
+import { useTrimmedName } from "./hooks";
 
 export function LatestProductCard({ product }: ProductCardProps) {
   const [price, wasPrice] = usePrice([product.price, product.wasPrice]);
-
-  const trimmedName = useMemo(() => {
-    if (product.name.length > MAX_WORD_LEN) {
-      return product.name.slice(0, MAX_WORD_LEN - 3) + "...";
-    }
-
-    return product.name;
-  }, [product.name]);
+  const trimmedName = useTrimmedName(product.name);
 
   return (
     <ProductCardContainer

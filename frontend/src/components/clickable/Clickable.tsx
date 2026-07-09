@@ -1,39 +1,8 @@
-import type { ComponentProps } from "@/types";
+import type { ClickableProps } from "./types";
 import clsx from "clsx/lite";
-import { useMemo, type ButtonHTMLAttributes, type MouseEvent } from "react";
+import { useMemo } from "react";
 import { Link } from "react-router";
 import styles from "./Clickable.module.scss";
-
-export type ClickableProps = ComponentProps & {
-  variant: "text" | "filled";
-  color?: "primary" | "success" | "grey-3" | "grey-2" | "white" | "black";
-  size?: "md" | "sm";
-  rounded?: boolean;
-  disabled?: boolean;
-  iconOnly?: boolean;
-} & (
-    | ({
-        type?: "button";
-        onClick?: (
-          e: MouseEvent<HTMLButtonElement | HTMLAnchorElement>,
-        ) => void;
-        to?: never;
-      } & Pick<
-        ButtonHTMLAttributes<HTMLButtonElement>,
-        | "id"
-        | "type"
-        | "aria-expanded"
-        | "aria-haspopup"
-        | "tabIndex"
-        | "role"
-        | "hidden"
-      >)
-    | {
-        type?: "link";
-        onClick?: never;
-        to: string;
-      }
-  );
 
 export function Clickable({
   variant,

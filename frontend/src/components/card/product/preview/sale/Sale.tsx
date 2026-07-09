@@ -1,12 +1,8 @@
 import saleImg from "@/assets/sale.svg";
 import { Image } from "@/components/image";
-import type { ComponentWithoutChildrenProps } from "@/types";
+import type { SaleProps } from "./types";
 import clsx from "clsx/lite";
 import styles from "./Sale.module.scss";
-
-type SaleProps = ComponentWithoutChildrenProps & {
-  isSale: boolean;
-};
 
 export function Sale({ isSale, style, className }: SaleProps) {
   if (isSale) {

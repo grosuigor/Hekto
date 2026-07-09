@@ -1,13 +1,9 @@
 import { Image } from "@/components/image";
 import { Typography } from "@/components/typography";
 import { usePrice } from "@/hooks";
-import type { SearchProduct } from "@/types";
+import type { SearchProductCardProps } from "./types";
 import { CardContainer } from "../../CardContainer";
 import styles from "./SearchProductCard.module.scss";
-
-type SearchProductCardProps = {
-  product: SearchProduct;
-};
 
 export function SearchProductCard({ product }: SearchProductCardProps) {
   const [price, wasPrice] = usePrice([product.price, product.wasPrice]);

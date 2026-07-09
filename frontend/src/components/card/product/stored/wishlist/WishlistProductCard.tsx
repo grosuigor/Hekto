@@ -1,13 +1,8 @@
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
-import { WishlistProduct } from "@/types";
+import type { WishlistProductCardProps } from "./types";
 import { FeaturedProductCard } from "../../preview";
 import styles from "./WishlistProductCard.module.scss";
-
-type WishlistProductCardProps = {
-  product: WishlistProduct;
-  onRemove: () => void;
-};
 
 export function WishlistProductCard({
   product,

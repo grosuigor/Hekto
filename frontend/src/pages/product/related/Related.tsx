@@ -1,10 +1,6 @@
 import { ProductCard, Section } from "@/components";
-import type { PreviewProduct } from "@/types";
+import type { RelatedProps } from "./types";
 import styles from "./Related.module.scss";
-
-type RelatedProps = {
-  products: PreviewProduct[];
-};
 
 export function Related({ products }: RelatedProps) {
   if (products.length === 0) {

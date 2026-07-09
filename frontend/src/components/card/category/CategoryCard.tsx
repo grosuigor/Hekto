@@ -1,13 +1,9 @@
 import { Image } from "@/components/image";
 import { Typography } from "@/components/typography";
-import type { Category } from "@/types";
+import type { CategoryCardProps } from "./types";
 import { CardContainer } from "../CardContainer";
 import { CardButton } from "../button";
 import styles from "./CategoryCard.module.scss";
-
-type CategoryCardProps = {
-  category: Category;
-};
 
 export function CategoryCard({ category }: CategoryCardProps) {
   return (

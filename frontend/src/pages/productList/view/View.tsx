@@ -1,35 +1,11 @@
 import { Button, Icon, Input, Typography } from "@/components";
-import { useQuery, useUpdater } from "@/hooks";
-import { useMemo, type Dispatch, type SetStateAction } from "react";
 import styles from "./View.module.scss";
 import { COUNT_OPTIONS, SORTING_MAP } from "./data";
-
-type ViewProps = {
-  view: "grid" | "list";
-  setView: Dispatch<SetStateAction<"grid" | "list">>;
-};
+import { useView } from "./hooks";
+import type { ViewProps } from "./types";
 
 export function View({ view, setView }: ViewProps) {
-  const [{sorting, pagination}, dispatch] = useQuery()
-
-  const sortingName = useMemo(() => {
-    return Object.keys(SORTING_MAP).find(
-      (key) =>
-        SORTING_MAP[key].key === sorting.key &&
-        SORTING_MAP[key].order === sorting.order,
-    )!;
-  }, [sorting]);
-
-  const paginationUpdater = useUpdater(pagination.count, (newCount: number) => {
-    dispatch({
-      type: "SET_PAGINATION",
-      payload: { ...pagination, count: newCount },
-    });
-  });
-
-  const sortingUpdater = useUpdater(sortingName, (newSortingName: string) => {
-    dispatch({ type: "SET_SORTING", payload: SORTING_MAP[newSortingName] });
-  });
+  const { pagination, sorting } = useView();
 
   return (
     <div className={styles.container}>
@@ -40,7 +16,7 @@ export function View({ view, setView }: ViewProps) {
         <Input.Select
           id="pagination"
           value={pagination.count}
-          setValue={paginationUpdater}
+          setValue={pagination.updater}
           options={COUNT_OPTIONS}
         />
       </div>
@@ -50,8 +26,8 @@ export function View({ view, setView }: ViewProps) {
         </Typography>
         <Input.Select
           id="sorting"
-          value={sortingName}
-          setValue={sortingUpdater}
+          value={sorting.name}
+          setValue={sorting.updater}
           options={Object.keys(SORTING_MAP)}
         />
       </div>

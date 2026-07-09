@@ -9,8 +9,7 @@ import {
   useState,
 } from "react";
 import { LocaleContext } from "./context";
-
-const DEFAULT_LOCALE: Locale = "en";
+import { DEFAULT_LOCALE } from "./defaults";
 
 export function LocaleProvider({ children }: PropsWithChildren) {
   const [locale, setLocaleState] = useState<Locale>(DEFAULT_LOCALE);

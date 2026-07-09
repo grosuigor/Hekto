@@ -2,25 +2,16 @@ import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Typography } from "@/components/typography";
 import { Input } from "@/components/input";
-import type { ComponentProps } from "@/types";
+import type { SelectProps } from "./types";
+import type { ValueType } from "../types";
 import clsx from "clsx/lite";
 import {
-  type Dispatch,
-  type MouseEvent,
-  type SetStateAction,
   useCallback,
   useState,
 } from "react";
 import styles from "./Select.module.scss";
 
-type SelectProps<T extends string | number> = ComponentProps & {
-  value: T;
-  setValue: Dispatch<SetStateAction<T>>;
-  options: T[];
-  id: string;
-};
-
-export function Select<T extends string | number>({
+export function Select<T extends ValueType>({
   value,
   setValue,
   options,
@@ -29,10 +20,6 @@ export function Select<T extends string | number>({
   className,
 }: SelectProps<T>) {
   const [optionsShowed, showOptions] = useState(false);
-
-  const handleOptionsMouseDown = useCallback((e: MouseEvent) => {
-    e.preventDefault();
-  }, []);
 
   const selectOption = useCallback(
     (option: T) => {
@@ -69,7 +56,6 @@ export function Select<T extends string | number>({
           styles.options,
           optionsShowed && styles["options--active"],
         )}
-        onMouseDown={handleOptionsMouseDown}
       >
         {options.map((option) => (
           <Button

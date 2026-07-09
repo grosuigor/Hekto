@@ -3,17 +3,13 @@ import { Image } from "@/components/image";
 import clsx from "clsx/lite";
 import { useMemo, useState } from "react";
 import styles from "./Gallery.module.scss";
-
-type GalleryProps = {
-  images: string[];
-  alt: string;
-};
+import type { GalleryProps } from "./types";
 
 export function Gallery({ images, alt }: GalleryProps) {
-  const [activei, setActivei] = useState(0);
+  const [activeIndex, setActiveIndex] = useState(0);
   const activeImage = useMemo(
-    () => images[activei] ?? images[0],
-    [activei, images],
+    () => images[activeIndex] ?? images[0],
+    [activeIndex, images],
   );
 
   return (
@@ -25,11 +21,11 @@ export function Gallery({ images, alt }: GalleryProps) {
             key={`${src}-${i}`}
             className={clsx(
               styles.thumbnail,
-              i === activei && styles["thumbnail--active"],
+              i === activeIndex && styles["thumbnail--active"],
             )}
-            onClick={() => setActivei(i)}
+            onClick={() => setActiveIndex(i)}
             aria-label={`Show image ${i + 1}`}
-            aria-current={i === activei}
+            aria-current={i === activeIndex}
           >
             <Image
               src={src}

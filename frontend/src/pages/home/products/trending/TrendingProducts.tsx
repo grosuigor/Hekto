@@ -1,8 +1,7 @@
 import { ProductCard, Section, Skeleton } from "@/components";
 import { useLoadedPreviewProducts } from "@/hooks";
 import styles from "./TrendingProducts.module.scss";
-
-const FALLBACK = Array.from({ length: 4 });
+import { FALLBACK } from "./data";
 
 export function TrendingProducts() {
   const products = useLoadedPreviewProducts("trending");

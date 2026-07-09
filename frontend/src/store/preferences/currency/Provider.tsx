@@ -9,8 +9,7 @@ import {
   useState,
 } from "react";
 import { CurrencyContext } from "./context";
-
-const DEFAULT_CURRENCY: Currency = "USD";
+import { DEFAULT_CURRENCY } from "./defaults";
 
 export function CurrencyProvider({ children }: PropsWithChildren) {
   const [currency, setCurrencyState] = useState<Currency>(DEFAULT_CURRENCY);

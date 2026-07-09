@@ -1,11 +1,8 @@
 import { Button, Icon, Rating, Typography } from "@/components";
 import { useCart, usePrice } from "@/hooks";
-import type { DetailedProduct } from "@/types";
+import type { InfoProps } from "./types";
 import styles from "./Info.module.scss";
 
-type InfoProps = {
-  product: DetailedProduct;
-};
 
 export function Info({ product }: InfoProps) {
   const [price, wasPrice] = usePrice([product.price, product.wasPrice]);

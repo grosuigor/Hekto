@@ -1,34 +1,13 @@
 import { Button } from "@/components/clickable";
 import { Icon } from "@/components/icon";
 import { Image } from "@/components/image";
-import { type KeyboardEvent, type MouseEvent, useEffect } from "react";
+import type { ModalProps } from "./types";
 import { createPortal } from "react-dom";
 import styles from "./Modal.module.scss";
-
-type ModalProps = {
-  open: boolean;
-  image: string;
-  onClose: (e: MouseEvent | KeyboardEvent) => void;
-};
+import { useModal } from "./hooks";
 
 export function Modal({ open, image, onClose }: ModalProps) {
-  useEffect(() => {
-    if (!open) {
-      return;
-    }
-
-    const onKeyDown = (e: globalThis.KeyboardEvent) => {
-      if (e.key === "Escape") {
-        onClose(e as unknown as KeyboardEvent);
-      }
-    };
-
-    window.addEventListener("keydown", onKeyDown);
-
-    return () => {
-      window.removeEventListener("keydown", onKeyDown);
-    };
-  }, [open, onClose]);
+  useModal(open, onClose);
 
   if (!open) {
     return null;
