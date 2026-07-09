@@ -12,7 +12,7 @@ function Wishlist() {
   const [products, dispatch] = useWishlist();
 
   if (products?.length === 0) {
-    return <Empty />;
+    return <Empty title="Your wishlist is empty" cta="Start Browsing" />;
   }
 
   return (

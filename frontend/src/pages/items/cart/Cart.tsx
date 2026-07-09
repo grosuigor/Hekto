@@ -21,7 +21,7 @@ function Cart() {
   const [subtotalPrice, shippingPrice, totalPrice] = useTotal(products);
 
   if (products?.length === 0) {
-    return <Empty />;
+    return <Empty title="Your cart is empty" cta="Start Shopping" />;
   }
 
   return (
