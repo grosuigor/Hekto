@@ -54,10 +54,6 @@
 .socials {
   display: flex;
   gap: $spacing-sm;
-
-  & > a > * {
-    color: $color-white !important;
-  }
 }
 
 @include respond(xl) {

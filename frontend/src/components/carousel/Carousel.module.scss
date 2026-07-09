@@ -98,16 +98,12 @@
 }
 
 .control--label {
-  color: $color-black !important;
+  color: $color-black;
 
   &:hover:not(.active),
   &:focus:not(.active),
   &:focus-visible:not(.active) {
-    color: $color-primary-light !important;
+    color: $color-primary-light;
     transform: scale(1.25);
-  }
-
-  &.active {
-    color: $color-primary !important;
   }
 }

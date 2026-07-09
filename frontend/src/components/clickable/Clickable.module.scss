@@ -38,6 +38,10 @@
     &:focus,
     &:focus-visible {
       background-color: $color-success-dark;
+
+      & > * {
+        color: $color-white;
+      }
     }
   }
 
