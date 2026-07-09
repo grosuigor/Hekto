@@ -46,7 +46,7 @@ export function View({ view, setView }: ViewProps) {
             variant="text"
             onClick={() => setView(option)}
           >
-            <Icon name={`${option}-view`} />
+            <Icon name={`${option}-view`} size="lg" />
           </Button>
         ))}
       </div>
